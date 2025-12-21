@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-以下列出了 **谭寅亮教授** 担任的学术期刊编辑职务、会议组织工作以及在各大学的行政服务经历。
 
 <br>
 
