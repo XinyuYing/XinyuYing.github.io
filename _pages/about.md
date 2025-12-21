@@ -22,7 +22,7 @@ redirect_from:
 
 <div style="margin-top: 15px;">
   <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <source src="/files/talk.mp4" type="video/mp4">
+    <source src="/files/视频.mp4" type="video/mp4">
     您的浏览器不支持 HTML5 视频播放，请下载观看。
   </video>
   
@@ -32,5 +32,3 @@ redirect_from:
     <a href="/files/视频.mp4" download>点击下载视频文件</a>
   </p>
 </div>
-
-**视频简介**：
