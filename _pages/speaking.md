@@ -39,8 +39,9 @@ author_profile: true
 
 <div class="speech-list">
 
-  <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank">
+<div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank"
+       title="核心观点：企业在引入智能体（AI Agents）前，必须建立完善的数据治理框架，否则将面临‘垃圾进垃圾出’的风险。">
       “引入智能体需要这些基础，企业准备好了么” 经济观察报. 谭寅亮. 2025年11月.
     </a>
   </div>
