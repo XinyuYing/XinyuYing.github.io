@@ -178,12 +178,12 @@ author_profile: true
 <div class="service-section">
   <div class="section-title">University Service (学校与行政服务)</div>
 
-  <div class="sub-title">📍 China Europe International Business School (CEIBS)</div>
+  <div class="sub-title">China Europe International Business School (CEIBS)</div>
   <ul class="service-list">
     <li class="service-item">• AI Task Force <span class="year-tag">2024</span></li>
   </ul>
 
-  <div class="sub-title">📍 University of Houston (UH)</div>
+  <div class="sub-title">University of Houston (UH)</div>
   <ul class="service-list">
     <li class="service-item">• Faculty Senate <span class="year-tag">2023 - 2025</span></li>
     <li class="service-item">• Graduate and Professional Studies Committee (GPSC) <span class="year-tag">2023 - 2025</span></li>
@@ -193,7 +193,7 @@ author_profile: true
     <li class="service-item">• Committee on Presidential Faculty Search <span class="year-tag">2021 - 2022</span></li>
   </ul>
 
-  <div class="sub-title">📍 Tulane University (Freeman School of Business)</div>
+  <div class="sub-title">Tulane University (Freeman School of Business)</div>
   <ul class="service-list">
     <li class="service-item">• Faculty Recruitment Committee <span class="year-tag">2017 - 2021</span></li>
     <li class="service-item">• Dean Search Committee <span class="year-tag">2020 - 2021</span></li>
