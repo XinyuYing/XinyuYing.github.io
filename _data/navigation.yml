@@ -20,12 +20,16 @@ main:
     
   - title: "Cases"
     url: /cases/
+
+  - title: "Speaking"
+    url: /speaking/
     
   - title: "Services"
     url: /services/
     
   - title: "Contact"
     url: /contact/
+
     
   - title: "CV"
     url: /files/CV___CEIBS_2025 简历.pdf
