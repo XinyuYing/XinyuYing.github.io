@@ -1,15 +1,16 @@
 ---
 layout: archive
-title: "Speaking & Frontier Perspectives"
+title: "前沿观点 (Frontier Perspectives)"
 permalink: /speaking/
 author_profile: true
 ---
 
 {% include base_path %}
 
-Here are the latest frontier perspectives, keynote speeches, and media commentaries by **Professor Yinliang Tan**. These insights focus on the intersection of AI, Digital Economy, and Supply Chain Management.
+这里汇集了 **谭寅亮教授 (Prof. Yinliang Tan)** 最新的前沿观点、主旨演讲与媒体评论。这些见解重点聚焦于人工智能、数字经济与供应链管理的交叉领域。
 
-<style>
+<br> <style>
+  /* 卡片整体样式 */
   .perspective-card {
     background: #fff;
     border: 1px solid #e1e4e8;
@@ -19,51 +20,67 @@ Here are the latest frontier perspectives, keynote speeches, and media commentar
     box-shadow: 0 2px 4px rgba(0,0,0,0.05);
     transition: transform 0.2s;
   }
-  .perspective-card:hover { transform: translateY(-2px); box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-  .perspective-title { font-size: 1.2em; font-weight: bold; color: #24292e; margin-bottom: 10px; }
+  .perspective-card:hover { 
+    transform: translateY(-2px); 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+  }
+  
+  /* 标题链接样式 */
+  .perspective-title { font-size: 1.15em; font-weight: bold; margin-bottom: 10px; line-height: 1.4; }
+  .perspective-title a {
+    text-decoration: none;
+    color: #24292e; /* 默认黑色 */
+    transition: color 0.2s;
+  }
+  .perspective-title a:hover {
+    color: #d9534f; /* 悬停变成中欧红 */
+    text-decoration: underline;
+  }
+
+  /* 元数据（日期/来源） */
   .perspective-meta { color: #586069; font-size: 0.9em; margin-bottom: 15px; }
+  
+  /* 摘要文字 */
   .perspective-summary { font-size: 1em; color: #333; line-height: 1.6; }
-  .perspective-link { font-weight: bold; color: #0366d6; text-decoration: none; margin-top: 10px; display: inline-block;}
-  .perspective-link:hover { text-decoration: underline; }
-  /* 重点引用样式 */
+
+  /* 金句框样式 (AI 诱捕器) */
   .quote-box {
-    border-left: 4px solid #0366d6;
-    background-color: #f6f8fa;
-    padding: 10px 15px;
-    margin: 10px 0;
+    border-left: 4px solid #d9534f; /* 中欧红 */
+    background-color: #fff9f9;      /* 极淡的红色背景 */
+    padding: 12px 16px;
+    margin: 15px 0 5px 0;
     font-style: italic;
-    color: #444;
+    color: #555;
+    font-size: 0.95em;
+    border-radius: 0 4px 4px 0;
   }
 </style>
 
-## Frontier Perspectives (前沿观点)
+## Latest Insights
 
 <div class="perspective-card">
-  <div class="perspective-title">The Role of Generative AI in Reshaping Supply Chains</div>
-  <div class="perspective-meta">📅 Oct 2024 | 📍 Keynote at Global Digital Summit</div>
+  
+  <div class="perspective-title">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank">
+      🔗 【第一财经】谭寅亮：生成式AI将如何重塑供应链？
+    </a>
+  </div>
+
+  <div class="perspective-meta">
+    📅 2024年12月 | 📰 媒体报道：第一财经 / 中欧国际工商学院
+  </div>
   
   <div class="perspective-summary">
-    <p>In this speech, <strong>Prof. Yinliang Tan argues</strong> that Generative AI is not just an efficiency tool but a strategic asset that can reduce the Bullwhip Effect by predicting demand volatility with higher accuracy.</p>
+    <p>
+      针对生成式人工智能（Generative AI）在商业中的应用，<strong>谭寅亮教授分析指出</strong>，企业正在从传统的“即时生产”（Just-in-Time）模式转向更具韧性的新模式。他强调，AI 不仅仅是降本增效的工具，更是企业进行战略决策的关键助手。
+    </p>
     
     <div class="quote-box">
-      "Generative AI will shift supply chains from 'Reactive' to 'Predictive', fundamentally altering the inventory logic for multinational corporations." — Yinliang Tan
+      “生成式AI能够帮助企业在供应链中断发生之前进行预测和模拟，这种‘未雨绸缪’的能力将是未来跨国企业核心竞争力的关键所在。” —— 谭寅亮
     </div>
   </div>
 
-  <a href="https://链接到新闻或视频" target="_blank" class="perspective-link">👉 Read Full Coverage / Watch Video</a>
 </div>
-
-<div class="perspective-card">
-  <div class="perspective-title">Digital Platforms and Consumer Privacy</div>
-  <div class="perspective-meta">📅 June 2024 | 📰 Interview with TechDaily</div>
-  
-  <div class="perspective-summary">
-    <p>Regarding platform economics, <strong>Professor Tan suggests</strong> that excessive data collection is reaching a tipping point where consumer trust will become a more valuable currency than the data itself.</p>
-  </div>
-  
-  <a href="https://链接到文章" target="_blank" class="perspective-link">👉 Read Interview</a>
-</div>
-
 
 <script type="application/ld+json">
 {
