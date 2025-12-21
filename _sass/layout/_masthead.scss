@@ -66,27 +66,47 @@
   }
 }
 
-/* --- START: 强制将导航栏移到右边 --- */
-@include breakpoint($large) {
+/* --- START: 终极右对齐 + 强制展开修复 --- */
+@media (min-width: 1024px) {
+  /* 1. 开启 Flexbox 布局：让容器变成弹簧，一边一个 */
   .masthead__inner-wrap {
-    /* 确保容器允许左右分布 */
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important; /* 左边一个，右边一个，中间撑开 */
+    align-items: center !important;
+    width: 100% !important;
+    max-width: 100% !important; /* 确保占满整行 */
   }
 
+  /* 2. 名字区域：固定在左边 */
+  .masthead__inner-wrap > div:first-child {
+    flex-shrink: 0; /* 禁止压缩名字区域 */
+  }
+
+  /* 3. 菜单区域：强制推到右边 */
   .masthead__menu {
-    /* 把菜单区域挤到右边去 */
-    margin-left: auto; 
-    margin-right: 0;
-    width: auto;
-    float: right; 
-    display: block;
+    flex-grow: 1;
+    text-align: right !important;
+    margin-left: auto !important; /* 把自己推到最右边 */
+    margin-right: 0 !important;
+    width: auto !important;
+    display: block !important; /* 强制显示！ */
+    float: none !important; /* 禁用浮动，改用 Flex */
   }
 
+  /* 4. 关键：强制把“汉堡菜单”隐藏，把“文字链接”显示出来 */
+  .greedy-nav__toggle {
+    display: none !important; /* 隐藏那个三条杠按钮 */
+  }
+  .visible-links {
+    display: inline-block !important; /* 强制把 Research, About 等文字显示出来 */
+    opacity: 1 !important;
+    visibility: visible !important;
+  }
+  
+  /* 5. 确保链接列表也是右对齐 */
   .masthead__menu ul {
-    /* 确保菜单项本身也是靠右对齐 */
-    float: right;
+    display: inline-block !important;
+    float: right !important;
   }
 }
-/* --- END: 强制将导航栏移到右边 --- */
+/* --- END: 终极右对齐 + 强制展开修复 --- */
