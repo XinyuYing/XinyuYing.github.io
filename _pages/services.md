@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+以下列出了 **谭寅亮教授** 担任的学术期刊编辑职务、会议组织工作以及在各大学的行政服务经历。
+
 <br>
 
 <style>
@@ -25,12 +27,12 @@ author_profile: true
   }
 
   /* 子标题 */
-  .sub-title { font-size: 1.1em; font-weight: bold; color: #444; margin-top: 15px; margin-bottom: 10px; }
+  .sub-title { font-size: 1.1em; font-weight: bold; color: #444; margin-top: 25px; margin-bottom: 10px; }
 
-  /* 列表样式 */
+  /* 通用列表样式 */
   .service-list { list-style: none; padding-left: 5px; }
   .service-item {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     font-size: 1rem;
     color: #333;
     line-height: 1.5;
@@ -38,7 +40,6 @@ author_profile: true
 
   /* 角色/职务 (加粗) */
   .role-name { font-weight: bold; color: #000; margin-right: 5px; }
-  
   /* 期刊/机构名称 (斜体) */
   .org-name { font-style: italic; color: #555; }
   
@@ -55,15 +56,15 @@ author_profile: true
     vertical-align: middle;
   }
 
-  /* Reviewer 长列表专用样式 */
-  .reviewer-block {
-    background-color: #f9f9f9;
-    padding: 15px;
-    border-radius: 6px;
-    font-size: 0.95em;
-    color: #555;
-    line-height: 1.8;
-    text-align: justify;
+  /* 专门给 Reviewer 用的双栏布局样式 */
+  .reviewer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* 电脑上显示两列 */
+    gap: 10px 30px; /* 行间距10px，列间距30px */
+  }
+  /* 手机屏幕变回单列，防止挤压 */
+  @media (max-width: 768px) {
+    .reviewer-grid { grid-template-columns: 1fr; }
   }
 </style>
 
@@ -109,17 +110,17 @@ author_profile: true
   <ul class="service-list">
     <li class="service-item">
       <span class="role-name">Guest Co-Editor:</span>
-      <span class="org-name">Production and Operations Management (Special Issue on New Business Models and Operations Innovations)</span>
+      <span class="org-name">Production and Operations Management</span>
       <span class="year-tag">2021 - 2024</span>
     </li>
     <li class="service-item">
       <span class="role-name">Guest Associate Editor:</span>
-      <span class="org-name">MIS Quarterly (Special Issue on Digital Technologies and Social Justice)</span>
+      <span class="org-name">MIS Quarterly</span>
       <span class="year-tag">2021 - 2024</span>
     </li>
     <li class="service-item">
       <span class="role-name">Guest Associate Editor:</span>
-      <span class="org-name">Decision Support Systems (Special Issue on Blockchain Technology and Applications)</span>
+      <span class="org-name">Decision Support Systems</span>
       <span class="year-tag">2022 - 2024</span>
     </li>
   </ul>
@@ -135,9 +136,27 @@ author_profile: true
   </ul>
 
   <div class="sub-title">Ad-hoc Reviewer</div>
-  <div class="reviewer-block">
-    Management Science, Information System Research, Production and Operations Management, MIS Quarterly, Journal of Operations Management, Manufacturing & Service Operations Management, Decision Science, European Journal of Operations Research, International Journal of Production Economics, Annals of Operations Research, Journal of the Association for Information Systems, Omega, ICIS, Journal of the Operational Research Society, Business & Information Systems Engineering, and others.
-  </div>
+  <ul class="service-list reviewer-grid">
+    <li class="service-item">Management Science</li>
+    <li class="service-item">Information Systems Research</li>
+    <li class="service-item">Production and Operations Management</li>
+    <li class="service-item">MIS Quarterly</li>
+    <li class="service-item">Journal of Operations Management</li>
+    <li class="service-item">Manufacturing & Service Operations Management</li>
+    <li class="service-item">Decision Science</li>
+    <li class="service-item">European Journal of Operations Research</li>
+    <li class="service-item">International Journal of Production Economics</li>
+    <li class="service-item">Annals of Operations Research</li>
+    <li class="service-item">Journal of the Association for Information Systems</li>
+    <li class="service-item">Omega: The Int. Journal of Management Science</li>
+    <li class="service-item">International Conference on Information Systems (ICIS)</li>
+    <li class="service-item">Journal of the Operational Research Society</li>
+    <li class="service-item">Business & Information Systems Engineering</li>
+    <li class="service-item">Int. Journal of Environmental Research and Public Health</li>
+    <li class="service-item">Research Grants Council (RGC) of Hong Kong</li>
+    <li class="service-item">Ocean and Coastal Management</li>
+    <li class="service-item">Transportation Research Part E</li>
+  </ul>
 </div>
 
 <div class="service-section">
@@ -145,16 +164,8 @@ author_profile: true
   
   <ul class="service-list">
     <li class="service-item">
-      <span class="role-name">Track Chair:</span> Production and Operations Management Annual Conference (New Business Models and Emerging Topics)
-      <span class="year-tag">2023, 2024, 2025</span>
-    </li>
-    <li class="service-item">
-      <span class="role-name">Track Chair:</span> Production and Operations Management Annual Conference (Social Media and Internet of Things)
-      <span class="year-tag">2022</span>
-    </li>
-    <li class="service-item">
-      <span class="role-name">Track Chair:</span> Production and Operations Management Annual Conference (Economic Models in OM)
-      <span class="year-tag">2018</span>
+      <span class="role-name">Track Chair:</span> POMS Annual Conference
+      <span class="year-tag">2018, 2022, 2023, 2024, 2025</span>
     </li>
     <li class="service-item">
       <span class="role-name">Program Committee:</span> CIST
@@ -186,8 +197,8 @@ author_profile: true
   <div class="sub-title">University of Houston (UH)</div>
   <ul class="service-list">
     <li class="service-item">• Faculty Senate <span class="year-tag">2023 - 2025</span></li>
-    <li class="service-item">• Graduate and Professional Studies Committee (GPSC) <span class="year-tag">2023 - 2025</span></li>
-    <li class="service-item">• Promotion and Tenure Committee (DISC Dept) <span class="year-tag">2023 - 2024</span></li>
+    <li class="service-item">• Graduate and Professional Studies Committee <span class="year-tag">2023 - 2025</span></li>
+    <li class="service-item">• Promotion and Tenure Committee <span class="year-tag">2023 - 2024</span></li>
     <li class="service-item">• International Students Advisory Committee <span class="year-tag">2022 - 2024</span></li>
     <li class="service-item">• Department Faculty Recruiting Committee <span class="year-tag">2022 - 2023</span></li>
     <li class="service-item">• Committee on Presidential Faculty Search <span class="year-tag">2021 - 2022</span></li>
