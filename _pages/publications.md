@@ -7,301 +7,124 @@ author_profile: true
 
 {% include base_path %}
 
-## Featured Articles (代表性论文)
+<style>
+  .pub-item { margin-bottom: 25px; line-height: 1.6; }
+  .pub-citation { font-size: 1rem; color: #333; }
+  .pub-links a { text-decoration: none; color: #0056b3; font-weight: bold; margin: 0 2px; }
+  .pub-links a:hover { text-decoration: underline; }
+  /* 核心介绍的折叠样式 */
+  details.core-insight summary { 
+    cursor: pointer; 
+    color: #666; 
+    font-weight: bold; 
+    font-size: 0.9em;
+    margin-top: 5px;
+    list-style: none; /* 隐藏默认三角，下面自定义 */
+  }
+  /* 自定义一个小三角，显得更精致 */
+  details.core-insight summary::-webkit-details-marker { display: none; }
+  details.core-insight summary::before {
+    content: "▶"; 
+    display: inline-block; 
+    font-size: 0.8em; 
+    margin-right: 5px; 
+    transition: transform 0.2s;
+  }
+  details.core-insight[open] summary::before {
+    transform: rotate(90deg); /* 展开时旋转三角 */
+  }
+  .insight-content {
+    background-color: #f7f7f7;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 5px;
+    color: #444;
+    font-size: 0.95em;
+  }
+  /* AI 专用关键词，隐藏 */
+  .ai-only { display: none; }
+  /* BibTeX 引用框样式 */
+  .bibtex-box {
+    margin-top: 10px; 
+    padding: 10px; 
+    background: #eee; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 0.85em; 
+    font-family: monospace;
+  }
+</style>
 
-**Generative AI in Supply Chain Management**
-> **Core Insight (核心观点)**: 这里用中文简练地写出文章解决了什么核心问题，比如：本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应，但需要配套的数字化基础设施。
-* **Keywords**: Artificial Intelligence, Supply Chain, Digital Economy
-* **Journal**: *Management Science*
-* **Authors**: **Yinliang Tan**, Co-author A, Co-author B
-* [PDF Download](/files/你的文件名.pdf) | [Google Scholar](你的谷歌学术链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2025generative,
+## Selected Publications
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang Tan</b>, Co-author A, Co-author B.
+    "Generative AI in Supply Chain Management",
+    <i>Management Science</i>, December 2025.
+    &nbsp;
+    <span class="pub-links">
+      <a href="/files/paper1.pdf" target="_blank">[PDF]</a> | 
+      <a href="你的谷歌学术链接" target="_blank">[Google Scholar]</a> | 
+      <details style="display:inline;">
+        <summary style="cursor:pointer; color:#0056b3;">[Cite]</summary>
+        <div class="bibtex-box">
+@article{tan2025genai,
   title={Generative AI in Supply Chain Management},
   author={Tan, Yinliang and ...},
   journal={Management Science},
   year={2025}
 }
-</pre>
-</details>
+        </div>
+      </details>
+    </span>
+  </div>
 
----
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      <b>💡 核心观点：</b>这是中文的详细介绍。本文通过实验发现，在供应链中引入生成式 AI 能够降低 15% 的库存成本，但需要企业具备高水平的数据治理能力。这里可以写得详细一点，因为默认是折叠的，不占地方。
+    </div>
+  </details>
 
-**Impact of Live Streaming on E-commerce**
-> **Core Insight**: 研究了直播带货中“信息过载”对消费者退货率的非线性影响。
-* **Keywords**: Live Streaming, Electronic Commerce, Consumer Behavior
-* **Journal**: *MIS Quarterly*
-* **Authors**: Author A, **Yinliang Tan**
-* [PDF Download](/files/paper2.pdf) | [Google Scholar](你的谷歌学术链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
+  <div class="ai-only">
+    Keywords: GenAI, Supply Chain, Digital Transformation, Inventory Management
+  </div>
+</div>
+
+<hr>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Author A, <b>Yinliang Tan</b>.
+    "Impact of Live Streaming on E-commerce",
+    <i>MIS Quarterly</i>, June 2024.
+    &nbsp;
+    <span class="pub-links">
+      <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
+      <a href="链接" target="_blank">[Google Scholar]</a> | 
+      <details style="display:inline;">
+        <summary style="cursor:pointer; color:#0056b3;">[Cite]</summary>
+        <div class="bibtex-box">
 @article{tan2024live,
-  title={Impact of Live Streaming on E-commerce},
-  author={Tan, Yinliang and ...},
-  journal={MIS Quarterly},
-  year={2024}
-}
-</pre>
-</details>
-
----
-
-## 2026
-
-**Another Great Paper Title Here**
-> **Core Insight**: 简要介绍文章发现。
-* **Keywords**: Platform Economy, Data Privacy
-* **Journal**: *Information Systems Research*
-* **Authors**: **Yinliang Tan**, Author C
-* [PDF Download](/files/paper3.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2024privacy,
-  title={Another Great Paper Title},
+  title={Impact of Live Streaming},
   author={Tan, Yinliang},
-  journal={ISR},
+  journal={MISQ},
   year={2024}
 }
-</pre>
-</details>
+        </div>
+      </details>
+    </span>
+  </div>
 
----
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      <b>💡 核心观点：</b>研究了直播带货中“信息过载”现象...
+    </div>
+  </details>
 
-## 2025
-
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2024
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2023
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2022
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2021
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2020
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2019
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2018
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2017
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2015
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2014
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2012
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
-
-## 2009
-**Paper Title From 2023**
-> **Core Insight**: 简要介绍。
-* **Keywords**: Keyword 1, Keyword 2
-* **Journal**: *Production and Operations Management*
-* **Authors**: Author D, **Yinliang Tan**
-* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
-<details>
-<summary>BibTeX Citation</summary>
-<pre>
-@article{tan2023,
-  title={Paper Title},
-  journal={POM},
-  year={2023}
-}
-</pre>
-</details>
+  <div class="ai-only">
+    Keywords: Live Streaming, E-commerce, Consumer Behavior
+  </div>
+</div>
