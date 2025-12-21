@@ -65,3 +65,28 @@
     font-weight: 700;
   }
 }
+
+/* --- START: 强制将导航栏移到右边 --- */
+@include breakpoint($large) {
+  .masthead__inner-wrap {
+    /* 确保容器允许左右分布 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .masthead__menu {
+    /* 把菜单区域挤到右边去 */
+    margin-left: auto; 
+    margin-right: 0;
+    width: auto;
+    float: right; 
+    display: block;
+  }
+
+  .masthead__menu ul {
+    /* 确保菜单项本身也是靠右对齐 */
+    float: right;
+  }
+}
+/* --- END: 强制将导航栏移到右边 --- */
