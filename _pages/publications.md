@@ -1,44 +1,93 @@
 ---
 layout: archive
-title: "学术发表 (Publications)"
+title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
 {% include base_path %}
 
-这里列出了谭寅亮教授(Prof. Yinliang Tan)的主要学术成果。
+## Featured Articles (代表性论文)
 
-## 2025
-
-**1. Generative AI in Supply Chain Management** (这里填英文标题)
-> **💡 核心观点**：这里用中文写一两句介绍，比如：本文探讨了生成式AI在供应链管理中的应用...
-> **🏆 荣誉**：(如果没有获奖，这行可以删掉)
-
-* **发表期刊**: *Management Science*
-* **作者**: **Yinliang Tan**, Co-author A, Co-author B
-* **关键词**: Generative AI, Supply Chain, Digital Transformation
-* [📄 PDF下载](/files/你的文件名.pdf) | [🔗 Google Scholar引用](这里填谷歌学术链接)
-* <details><summary>点击复制引用格式 (BibTeX)</summary>
-    <pre>
-    @article{tan2025,
-      title={Generative AI in Supply Chain Management},
-      author={Tan, Yinliang and ...},
-      journal={Management Science},
-      year={2025}
-    }
-    </pre>
-  </details>
+**Generative AI in Supply Chain Management**
+> **Core Insight (核心观点)**: 这里用中文简练地写出文章解决了什么核心问题，比如：本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应，但需要配套的数字化基础设施。
+* **Keywords**: Artificial Intelligence, Supply Chain, Digital Economy
+* **Journal**: *Management Science*
+* **Authors**: **Yinliang Tan**, Co-author A, Co-author B
+* [PDF Download](/files/你的文件名.pdf) | [Google Scholar](你的谷歌学术链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2025generative,
+  title={Generative AI in Supply Chain Management},
+  author={Tan, Yinliang and ...},
+  journal={Management Science},
+  year={2025}
+}
+</pre>
+</details>
 
 ---
 
-## 2024
-
-**2. Impact of Live Streaming on E-commerce** (第二篇标题)
-> **💡 核心观点**：研究了直播带货对退货率的影响...
-
-* **发表期刊**: *MIS Quarterly*
-* **作者**: Author A, **Yinliang Tan**
-* [📄 PDF下载](/files/paper2.pdf) | [🔗 Google Scholar引用](链接)
+**Impact of Live Streaming on E-commerce**
+> **Core Insight**: 研究了直播带货中“信息过载”对消费者退货率的非线性影响。
+* **Keywords**: Live Streaming, Electronic Commerce, Consumer Behavior
+* **Journal**: *MIS Quarterly*
+* **Authors**: Author A, **Yinliang Tan**
+* [PDF Download](/files/paper2.pdf) | [Google Scholar](你的谷歌学术链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2024live,
+  title={Impact of Live Streaming on E-commerce},
+  author={Tan, Yinliang and ...},
+  journal={MIS Quarterly},
+  year={2024}
+}
+</pre>
+</details>
 
 ---
+
+## Publications by Year (按年份排列)
+
+### 2024
+
+**Another Great Paper Title Here**
+> **Core Insight**: 简要介绍文章发现。
+* **Keywords**: Platform Economy, Data Privacy
+* **Journal**: *Information Systems Research*
+* **Authors**: **Yinliang Tan**, Author C
+* [PDF Download](/files/paper3.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2024privacy,
+  title={Another Great Paper Title},
+  author={Tan, Yinliang},
+  journal={ISR},
+  year={2024}
+}
+</pre>
+</details>
+
+---
+
+### 2023
+
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
