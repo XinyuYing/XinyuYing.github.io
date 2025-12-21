@@ -8,67 +8,64 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .pub-item { margin-bottom: 25px; line-height: 1.6; }
+  .pub-item { margin-bottom: 30px; line-height: 1.6; }
   .pub-citation { font-size: 1rem; color: #333; }
-  .pub-links a { text-decoration: none; color: #0056b3; font-weight: bold; margin: 0 2px; }
-  .pub-links a:hover { text-decoration: underline; }
-  /* 核心介绍的折叠样式 */
-  details.core-insight summary { 
-    cursor: pointer; 
-    color: #666; 
+  
+  /* 链接通用样式 */
+  .pub-links a, .cite-toggle { 
+    text-decoration: none; 
+    color: #0056b3; 
     font-weight: bold; 
-    font-size: 0.9em;
-    margin-top: 5px;
-    list-style: none; /* 隐藏默认三角，下面自定义 */
+    cursor: pointer;
   }
-  /* 自定义一个小三角，显得更精致 */
+  .pub-links a:hover, .cite-toggle:hover { text-decoration: underline; }
+
+  /* 关键修改：强制 Cite 折叠框显示为行内元素 */
+  details.cite-box { display: inline; }
+  summary.cite-toggle { display: inline; list-style: none; }
+  summary.cite-toggle::-webkit-details-marker { display: none; } /* 隐藏默认小三角 */
+
+  /* 核心介绍样式 */
+  details.core-insight { margin-top: 5px; }
+  details.core-insight summary { 
+    cursor: pointer; color: #666; font-weight: bold; font-size: 0.9em; list-style: none; 
+  }
   details.core-insight summary::-webkit-details-marker { display: none; }
+  /* 自定义核心介绍的小三角 */
   details.core-insight summary::before {
-    content: "▶"; 
-    display: inline-block; 
-    font-size: 0.8em; 
-    margin-right: 5px; 
-    transition: transform 0.2s;
+    content: "▶"; display: inline-block; font-size: 0.8em; margin-right: 5px; transition: transform 0.2s;
   }
-  details.core-insight[open] summary::before {
-    transform: rotate(90deg); /* 展开时旋转三角 */
-  }
+  details.core-insight[open] summary::before { transform: rotate(90deg); }
+  
   .insight-content {
-    background-color: #f7f7f7;
-    padding: 10px 15px;
-    border-radius: 4px;
-    margin-top: 5px;
-    color: #444;
-    font-size: 0.95em;
+    background-color: #f7f7f7; padding: 10px 15px; border-radius: 4px; margin-top: 5px; color: #444; font-size: 0.95em;
   }
-  /* AI 专用关键词，隐藏 */
-  .ai-only { display: none; }
-  /* BibTeX 引用框样式 */
-  .bibtex-box {
-    margin-top: 10px; 
-    padding: 10px; 
-    background: #eee; 
-    border: 1px solid #ccc; 
-    border-radius: 5px; 
-    font-size: 0.85em; 
-    font-family: monospace;
+
+  /* BibTeX 代码框样式 */
+  .bibtex-code {
+    display: block; /* 代码框展开后必须占一行 */
+    margin-top: 10px; padding: 10px; background: #eee; border: 1px solid #ccc; border-radius: 5px; font-size: 0.85em; font-family: monospace;
   }
+
+  /* 彻底隐藏 AI 关键词 */
+  .ai-only { display: none !important; }
 </style>
 
 ## Selected Publications
 
 <div class="pub-item">
   <div class="pub-citation">
-    <b>Yinliang Tan</b>, Co-author A, Co-author B.
-    "Generative AI in Supply Chain Management",
+    <b>Yinliang Tan</b>, Co-author A, Co-author B, 
+    "Generative AI in Supply Chain Management", 
     <i>Management Science</i>, December 2025.
-    &nbsp;
+    
     <span class="pub-links">
+      &nbsp;
       <a href="/files/paper1.pdf" target="_blank">[PDF]</a> | 
       <a href="你的谷歌学术链接" target="_blank">[Google Scholar]</a> | 
-      <details style="display:inline;">
-        <summary style="cursor:pointer; color:#0056b3;">[Cite]</summary>
-        <div class="bibtex-box">
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
 @article{tan2025genai,
   title={Generative AI in Supply Chain Management},
   author={Tan, Yinliang and ...},
@@ -83,7 +80,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      <b>💡 核心观点：</b>这是中文的详细介绍。本文通过实验发现，在供应链中引入生成式 AI 能够降低 15% 的库存成本，但需要企业具备高水平的数据治理能力。这里可以写得详细一点，因为默认是折叠的，不占地方。
+      <b>💡 核心观点：</b>本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应。
     </div>
   </details>
 
@@ -96,16 +93,17 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Author A, <b>Yinliang Tan</b>.
-    "Impact of Live Streaming on E-commerce",
+    Author A, <b>Yinliang Tan</b>, 
+    "Impact of Live Streaming on E-commerce", 
     <i>MIS Quarterly</i>, June 2024.
-    &nbsp;
+    
     <span class="pub-links">
+      &nbsp;
       <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
       <a href="链接" target="_blank">[Google Scholar]</a> | 
-      <details style="display:inline;">
-        <summary style="cursor:pointer; color:#0056b3;">[Cite]</summary>
-        <div class="bibtex-box">
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
 @article{tan2024live,
   title={Impact of Live Streaming},
   author={Tan, Yinliang},
@@ -120,11 +118,11 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      <b>💡 核心观点：</b>研究了直播带货中“信息过载”现象...
+      <b>💡 核心观点：</b>研究了直播带货的信息过载问题...
     </div>
   </details>
 
   <div class="ai-only">
-    Keywords: Live Streaming, E-commerce, Consumer Behavior
+    Keywords: Live Streaming, E-commerce
   </div>
 </div>
