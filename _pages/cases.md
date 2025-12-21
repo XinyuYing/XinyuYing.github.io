@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-以下列出了 **谭寅亮教授** 开发的最新商业教学案例。这些案例主要聚焦于人工智能、数字化转型以及商业模式创新，已被广泛用于 MBA、EMBA 及高管培训课程中。
-
 <br>
 
 <style>
