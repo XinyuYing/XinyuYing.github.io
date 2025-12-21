@@ -8,8 +8,9 @@ author_profile: true
 {% include base_path %}
 
 <style>
-  .pub-item { margin-bottom: 30px; line-height: 1.6; }
-  .pub-citation { font-size: 1rem; color: #333; }
+  /* 基础排版 */
+  .pub-item { margin-bottom: 35px; line-height: 1.6; }
+  .pub-citation { font-size: 1rem; color: #222; }
   
   /* 链接通用样式 */
   .pub-links a, .cite-toggle { 
@@ -17,39 +18,51 @@ author_profile: true
     color: #0056b3; 
     font-weight: bold; 
     cursor: pointer;
+    margin-left: 3px; /* 链接之间稍微留点空隙 */
   }
   .pub-links a:hover, .cite-toggle:hover { text-decoration: underline; }
 
-  /* 关键修改：强制 Cite 折叠框显示为行内元素 */
+  /* 关键修改：强制 Cite 不换行 */
   details.cite-box { display: inline; }
   summary.cite-toggle { display: inline; list-style: none; }
-  summary.cite-toggle::-webkit-details-marker { display: none; } /* 隐藏默认小三角 */
+  summary.cite-toggle::-webkit-details-marker { display: none; }
 
-  /* 核心介绍样式 */
-  details.core-insight { margin-top: 5px; }
+  /* 核心介绍 (Core Insight) 的样式 - 已去除灰框 */
+  details.core-insight { margin-top: 3px; }
   details.core-insight summary { 
-    cursor: pointer; color: #666; font-weight: bold; font-size: 0.9em; list-style: none; 
+    cursor: pointer; 
+    color: #666; 
+    font-size: 0.9em; 
+    list-style: none; 
   }
   details.core-insight summary::-webkit-details-marker { display: none; }
-  /* 自定义核心介绍的小三角 */
+  
+  /* 自定义小三角 */
   details.core-insight summary::before {
-    content: "▶"; display: inline-block; font-size: 0.8em; margin-right: 5px; transition: transform 0.2s;
+    content: "▶"; display: inline-block; font-size: 0.8em; margin-right: 5px; transition: transform 0.2s; color: #999;
   }
   details.core-insight[open] summary::before { transform: rotate(90deg); }
   
+  /* 展开后的文字内容 - 纯文字，无背景 */
   .insight-content {
-    background-color: #f7f7f7; padding: 10px 15px; border-radius: 4px; margin-top: 5px; color: #444; font-size: 0.95em;
+    background-color: transparent; /* 透明背景 */
+    padding: 2px 0 5px 18px; /* 左边稍微缩进一点点，对齐文字 */
+    margin-top: 0; 
+    color: #555; /* 深灰色字体，易读 */
+    font-size: 0.95em;
+    line-height: 1.5;
   }
 
-  /* BibTeX 代码框样式 */
+  /* BibTeX 代码框 - 保持灰色框以免混淆 */
   .bibtex-code {
-    display: block; /* 代码框展开后必须占一行 */
-    margin-top: 10px; padding: 10px; background: #eee; border: 1px solid #ccc; border-radius: 5px; font-size: 0.85em; font-family: monospace;
+    display: block; 
+    margin-top: 8px; padding: 10px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 0.85em; font-family: monospace;
   }
 
   /* 彻底隐藏 AI 关键词 */
   .ai-only { display: none !important; }
 </style>
+
 
 ## Selected Publications
 
@@ -60,9 +73,8 @@ author_profile: true
     <i>Management Science</i>, December 2025.
     
     <span class="pub-links">
-      &nbsp;
       <a href="/files/paper1.pdf" target="_blank">[PDF]</a> | 
-      <a href="你的谷歌学术链接" target="_blank">[Google Scholar]</a> | 
+      <a href="https://scholar.google.com/..." target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
@@ -80,12 +92,12 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      <b>💡 核心观点：</b>本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应。
+      本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应。这里是纯文字展示，没有背景框，也没有图标，非常干净。
     </div>
   </details>
 
   <div class="ai-only">
-    Keywords: GenAI, Supply Chain, Digital Transformation, Inventory Management
+    Keywords: GenAI, Supply Chain
   </div>
 </div>
 
@@ -98,7 +110,6 @@ author_profile: true
     <i>MIS Quarterly</i>, June 2024.
     
     <span class="pub-links">
-      &nbsp;
       <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
       <a href="链接" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
@@ -118,7 +129,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      <b>💡 核心观点：</b>研究了直播带货的信息过载问题...
+      研究了直播带货中“信息过载”对消费者退货率的非线性影响。点击展开后直接显示文字，没有多余的装饰。
     </div>
   </details>
 
