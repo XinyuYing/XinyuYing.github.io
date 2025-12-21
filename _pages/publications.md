@@ -49,9 +49,7 @@ author_profile: true
 
 ---
 
-## Publications by Year (按年份排列)
-
-### 2024
+## 2026
 
 **Another Great Paper Title Here**
 > **Core Insight**: 简要介绍文章发现。
@@ -73,8 +71,224 @@ author_profile: true
 
 ---
 
-### 2023
+## 2025
 
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2024
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2023
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2022
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2021
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2020
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2019
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2018
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2017
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2015
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2014
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2012
+**Paper Title From 2023**
+> **Core Insight**: 简要介绍。
+* **Keywords**: Keyword 1, Keyword 2
+* **Journal**: *Production and Operations Management*
+* **Authors**: Author D, **Yinliang Tan**
+* [PDF Download](/files/paper4.pdf) | [Google Scholar](链接)
+<details>
+<summary>BibTeX Citation</summary>
+<pre>
+@article{tan2023,
+  title={Paper Title},
+  journal={POM},
+  year={2023}
+}
+</pre>
+</details>
+
+## 2009
 **Paper Title From 2023**
 > **Core Insight**: 简要介绍。
 * **Keywords**: Keyword 1, Keyword 2
