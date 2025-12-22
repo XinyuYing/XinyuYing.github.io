@@ -135,7 +135,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-像Facebook、Twitter、Instagram和TikTok等社交网络平台的兴起极大促进了个体之间的社交互动，因此他们的产品消费对同龄人变得更为明显。这种增强的可见性影响消费者对奢侈品的购买决策，因为它影响了从这些产品的显性消费中获得的社会价值。在本文中，我们开发了一个分析模型来研究这些社交技术对沿分销渠道提供奢侈品的制造商和零售商的社会定价的影响。消费者表现出显性消费偏好，并被分为自恋者和从众者：自恋者重视产品的独特性，而从众者则渴望产品的流行性。我们得出了以下有趣的结果。首先，更好的社交技术可以提高或降低显性消费的可见性，从而可能提高或降低批发价和零售价。其次，在更好的社交技术下，制造商可能会获利（亏损），而零售商可能会亏损（获利）；也就是说，制造商和零售商对社交技术水平的偏好可能并不一致。第三，社交技术的进步可能会损害消费者盈余。最后，我们考虑了几个模型扩展，以验证我们在更广泛背景下的发现。
+研究揭示了社交媒体对奢侈品渠道的非直观影响：更高的消费可见度反而可能降低定价，并导致制造商与零售商的利益错位。
     </div>
   </details>
 
@@ -150,21 +150,24 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Author A, <b>Yinliang Tan</b>, 
-    "Impact of Live Streaming on E-commerce", 
-    <i>MIS Quarterly</i>, June 2024.
+    Ling Zhong, Jiajia Nie, <b>Yinliang Ricky Tan</b>, 
+    "Game of brands: Managing brand spillover in a co-opetitive supply chain", 
+    <i>Transportation Research Part E: Logistics and Transportation Review</i>, Jul 2025.
     
     <span class="pub-links">
-      <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
-      <a href="链接" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2025 TRE Brand Spillover.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1366554525001413" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{tan2024live,
-  title={Impact of Live Streaming},
-  author={Tan, Yinliang},
-  journal={MISQ},
-  year={2024}
+@article{zhong2025game,
+  title={Game of brands: Managing brand spillover in a co-opetitive supply chain},
+  author={Zhong, Ling and Nie, Jiajia and Tan, Yinliang Ricky},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={199},
+  pages={104100},
+  year={2025},
+  publisher={Elsevier}
 }
         </div>
       </details>
@@ -174,7 +177,80 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      研究了直播带货中“信息过载”对消费者退货率的非线性影响。点击展开后直接显示文字，没有多余的装饰。
+      研究通过博弈模型揭示，代工厂（CM）利用品牌溢出的‘搭便车’策略反而可能因加剧竞争或迫使OEM转向自制而损害自身利润，承诺放弃品牌搭便车往往是更优的长期战略。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Game theory, Supply chain management, Co-opetition, Outsourcing, Brand Spillover
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang Ricky Tan</b>
+    "Quality management in supply chain: Strategic implications and the paradox of AI inspection", 
+    <i>Decision Sciences</i>, Mar 2025.
+    
+    <span class="pub-links">
+      <a href="/files/2025 DSJ AI.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/deci.70003" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{pei2025quality,
+  title={Quality management in supply chain: Strategic implications and the paradox of AI inspection},
+  author={Pei, Jun and Wang, Ruiqi and Yan, Ping and Tan, Yinliang},
+  journal={Decision Sciences},
+  year={2025},
+  publisher={Wiley Online Library}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+     研究揭示了AI质检的‘投资悖论’——当制造商将AI技术共享给供应商时，尽管整体质量管理效率提升，制造商为了成本最优化反而会降低对该技术的研发投入水平，且即使AI更精准便宜，若供应商传统能力处于特定区间，制造商仍可能拒绝采用。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: AI inspection, inspection modes, quality management, retail returns, supply chain management, technology-sharing
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+     Meiqian Li, Guowei Liu, Guofang Nan, <b>Yinliang Ricky Tan</b>
+    "Governmental enforcement against piracy on media platforms", 
+    <i>Decision Support Systems</i>, Apr 2025.
+    
+    <span class="pub-links">
+      <a href="/files/2025 DSS Piracy.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S0167923625000594" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{li2025governmental,
+  title={Governmental enforcement against piracy on media platforms},
+  author={Li, Meiqian and Liu, Guowei and Nan, Guofang and Tan, Yinliang Ricky},
+  journal={Decision Support Systems},
+  pages={114458},
+  year={2025},
+  publisher={Elsevier}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+     研究通过博弈模型揭示，政府打击盗版的最优力度高度依赖于平台的盈利模式，且在面对高质量盗版时，适度放松执法反而能通过倒逼平台优化定价来最大化社会福利。
     </div>
   </details>
 
@@ -182,6 +258,46 @@ author_profile: true
     Keywords: Live Streaming, E-commerce
   </div>
 </div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang Ricky Tan</b>, 
+    "The Hidden Impact of Prosumers and Its Fair Mitigation", 
+    <i>Production and Operations Management</i>, Jul 2025.
+    
+    <span class="pub-links">
+      <a href="/files/2026 POMS Prosumer.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/full/10.1177/10591478251394133" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{lee2025hidden,
+  title={The Hidden Impact of Prosumers and Its Fair Mitigation},
+  author={Lee, Junghee and Wei, Lai and Hu, Ming and Tan, Yinliang},
+  journal={Production and Operations Management},
+  pages={10591478251394133},
+  year={2025},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究揭示了产消者虽然环保，却因增加电网不确定性而导致普通消费者电费上涨的‘隐性不公’，并提出了一种‘公平感知固定费用’机制来消除这种交叉补贴，实现环境效益与社会公平的双赢。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Prosumer, Electricity Price, Unfairness, Intervention
+  </div>
+</div>
+
+
 
 <hr>
 
