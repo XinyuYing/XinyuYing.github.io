@@ -305,21 +305,25 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Author A, <b>Yinliang Tan</b>, 
-    "Impact of Live Streaming on E-commerce", 
-    <i>MIS Quarterly</i>, June 2024.
+    <b>Yinliang Tan</b>, 
+    "Implications of Blockchain-Powered Marketplace of Preowned Virtual Goods", 
+    <i>Production and Operaion Management</i>, June 2024.
     
     <span class="pub-links">
-      <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
-      <a href="链接" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2024 POMS Blockchain.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.13657" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{tan2024live,
-  title={Impact of Live Streaming},
+@article{tan2024implications,
+  title={Implications of blockchain-powered marketplace of preowned virtual goods},
   author={Tan, Yinliang},
-  journal={MISQ},
-  year={2024}
+  journal={Production and Operations Management},
+  volume={33},
+  number={6},
+  pages={1393--1409},
+  year={2024},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
 }
         </div>
       </details>
@@ -329,12 +333,211 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      研究了直播带货中“信息过载”对消费者退货率的非线性影响。点击展开后直接显示文字，没有多余的装饰。
+      研究证明，对于可升级的虚拟商品，区块链驱动的二手市场能激发消费者的‘价值创造’动机，从而反直觉地提升了新商品的定价权和开发商的总利润，即便不收取交易版税也能实现双赢。
     </div>
   </details>
 
   <div class="ai-only">
-    Keywords: Live Streaming, E-commerce
+    Keywords: Agency model, blockchain, distributed ledgers, preowned products trading, virtual good
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Ting Hou, Meng Li, <b>Yinliang Tan</b>, Huazhong Zhao
+    "Physician adoption of AI assistant", 
+    <i>Manufacturing & Service Operations Management</i>, Sep 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 MSOM Physician AI Adoption.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0093" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{hou2024physician,
+  title={Physician adoption of AI assistant},
+  author={Hou, Ting and Li, Meng and Tan, Yinliang and Zhao, Huazhong},
+  journal={Manufacturing \& Service Operations Management},
+  volume={26},
+  number={5},
+  pages={1639--1655},
+  year={2024},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究表明，虽然高智能AI凭借其性能天然具有高采纳率，但对于低智能的自动化工具，‘透明化’（明确告知是AI）能作为关键的信任补偿机制，显著提升医生的采纳意愿，从而推翻了透明度必然导致算法厌恶的传统认知。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: health intelligence, operational transparency, medical platform, field experiment, generative AI, chatbot
+  </div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Ailing Xu, <b>Yinliang Tan</b>, Qiao-Chu He
+    "Information transparency with targeting technology for online service operations platform", 
+    <i>Production and Operations Management</i>, Jun 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 Information Transparency.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1177/10591478231224963" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{xu2024information,
+  title={Information transparency with targeting technology for online service operations platform},
+  author={Xu, Ailing and Tan, Yinliang and He, Qiao-Chu},
+  journal={Production and Operations Management},
+  volume={33},
+  number={6},
+  pages={1410--1425},
+  year={2024},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+    研究通过排队博弈模型揭示，在存在拥堵效应的在线服务市场中，完全的信息透明反而可能引发‘拥堵灾难’，而利用定向技术进行适度的‘模糊推荐’可以有效平衡供需匹配与等待时间，实现平台利润与社会福利的改进。  
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Service marketing, Hotelling model, information transparency, targeting
+  </div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang Tan</b>, 
+    "Physician adoption of AI assistant", 
+    <i>Manufacturing & Service Operations Management</i>, Sep 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 MSOM Physician AI Adoption.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0093" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{hou2024physician,
+  title={Physician adoption of AI assistant},
+  author={Hou, Ting and Li, Meng and Tan, Yinliang and Zhao, Huazhong},
+  journal={Manufacturing \& Service Operations Management},
+  volume={26},
+  number={5},
+  pages={1639--1655},
+  year={2024},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究表明，虽然高智能AI凭借其性能天然具有高采纳率，但对于低智能的自动化工具，‘透明化’（明确告知是AI）能作为关键的信任补偿机制，显著提升医生的采纳意愿，从而推翻了透明度必然导致算法厌恶的传统认知。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: health intelligence, operational transparency, medical platform, field experiment, generative AI, chatbot
+  </div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang Tan</b>, 
+    "Physician adoption of AI assistant", 
+    <i>Manufacturing & Service Operations Management</i>, Sep 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 MSOM Physician AI Adoption.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0093" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{hou2024physician,
+  title={Physician adoption of AI assistant},
+  author={Hou, Ting and Li, Meng and Tan, Yinliang and Zhao, Huazhong},
+  journal={Manufacturing \& Service Operations Management},
+  volume={26},
+  number={5},
+  pages={1639--1655},
+  year={2024},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究表明，虽然高智能AI凭借其性能天然具有高采纳率，但对于低智能的自动化工具，‘透明化’（明确告知是AI）能作为关键的信任补偿机制，显著提升医生的采纳意愿，从而推翻了透明度必然导致算法厌恶的传统认知。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: health intelligence, operational transparency, medical platform, field experiment, generative AI, chatbot
+  </div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang Tan</b>, 
+    "Physician adoption of AI assistant", 
+    <i>Manufacturing & Service Operations Management</i>, Sep 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 MSOM Physician AI Adoption.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/msom.2023.0093" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{hou2024physician,
+  title={Physician adoption of AI assistant},
+  author={Hou, Ting and Li, Meng and Tan, Yinliang and Zhao, Huazhong},
+  journal={Manufacturing \& Service Operations Management},
+  volume={26},
+  number={5},
+  pages={1639--1655},
+  year={2024},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究表明，虽然高智能AI凭借其性能天然具有高采纳率，但对于低智能的自动化工具，‘透明化’（明确告知是AI）能作为关键的信任补偿机制，显著提升医生的采纳意愿，从而推翻了透明度必然导致算法厌恶的传统认知。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: health intelligence, operational transparency, medical platform, field experiment, generative AI, chatbot
   </div>
 </div>
 
@@ -692,45 +895,6 @@ author_profile: true
 <hr>
 
 ## 2009
-
-<div class="pub-item">
-  <div class="pub-citation">
-    Author A, <b>Yinliang Tan</b>, 
-    "Impact of Live Streaming on E-commerce", 
-    <i>MIS Quarterly</i>, June 2024.
-    
-    <span class="pub-links">
-      <a href="/files/paper2.pdf" target="_blank">[PDF]</a> | 
-      <a href="链接" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{tan2024live,
-  title={Impact of Live Streaming},
-  author={Tan, Yinliang},
-  journal={MISQ},
-  year={2024}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      研究了直播带货中“信息过载”对消费者退货率的非线性影响。点击展开后直接显示文字，没有多余的装饰。
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Live Streaming, E-commerce
-  </div>
-</div>
-
-<hr>
-
-## 2025
 
 <div class="pub-item">
   <div class="pub-citation">
