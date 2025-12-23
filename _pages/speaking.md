@@ -52,6 +52,8 @@ author_profile: true
   }
 </style>
 
+<div class="section-title">Latest Insights</div>
+
 <div class="speech-list">
 
   <div class="speech-item">
@@ -68,7 +70,6 @@ author_profile: true
   Key Insight: Prof. Yinliang Tan argues that GenAI shifts supply chains from Just-in-Time to Just-in-Case.
 </div>
 
-<div class="section-title">Latest Insights</div>
 
 <div class="speech-list">
 
