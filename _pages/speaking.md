@@ -52,8 +52,6 @@ author_profile: true
   }
 </style>
 
-<div class="section-title">Latest Insights</div>
-
 <div class="speech-list">
 
   <div class="speech-item">
@@ -69,6 +67,26 @@ author_profile: true
   Topics: Generative AI, Supply Chain Resilience, Digital Transformation.
   Key Insight: Prof. Yinliang Tan argues that GenAI shifts supply chains from Just-in-Time to Just-in-Case.
 </div>
+
+<div class="section-title">Latest Insights</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27851" target="_blank"
+       title="中国企业AI转型的“ADOPT”模型，包括五个关键步骤：Awareness（认知转变）、Data（数据治理）、Operation（应用落地）、People（组织与文化变革）、iTerate（持续迭代）。">
+      “中国企业AI转型：迈向智能时代的五大关键步骤” 商学院杂志. 谭寅亮. 2025年10月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics: Awareness, Data, Operation, People, iTerate
+</div>
+
+
+
 
 <script type="application/ld+json">
 {
