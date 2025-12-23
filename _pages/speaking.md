@@ -91,7 +91,7 @@ author_profile: true
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27827" target="_blank"
        title="智能体商业的黎明：AI重塑零售生态与中国路径">
-      “汪泓、谭寅亮：“商学院院长谈AI”系列①丨智能体商业的黎明：AI重塑零售生态与中国路径” 人民网. 汪泓,谭寅亮. 2025年10月.
+      “智能体商业的黎明：AI重塑零售生态与中国路径” 人民网. 汪泓,谭寅亮. 2025年10月.
     </a>
   </div>
 
