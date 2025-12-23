@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -64,44 +64,6 @@ author_profile: true
 </style>
 
 
-## Featured Articles
-
-<div class="pub-item">
-  <div class="pub-citation">
-    <b>Yinliang Tan</b>, Co-author A, Co-author B, 
-    "Generative AI in Supply Chain Management", 
-    <i>Management Science</i>, December 2025.
-    
-    <span class="pub-links">
-      <a href="/files/paper1.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://scholar.google.com/..." target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{tan2025genai,
-  title={Generative AI in Supply Chain Management},
-  author={Tan, Yinliang and ...},
-  journal={Management Science},
-  year={2025}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      本文通过实证分析发现，生成式AI的应用能显著降低供应链中的牛鞭效应。这里是纯文字展示，没有背景框，也没有图标，非常干净。
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: GenAI, Supply Chain
-  </div>
-</div>
-
-<hr>
 
 ## 2026
 
