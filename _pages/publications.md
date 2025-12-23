@@ -109,45 +109,6 @@ author_profile: true
 <hr>
 
 ## 2025
-
-<div class="pub-item">
-  <div class="pub-citation">
-    Ling Zhong, Jiajia Nie, <b>Yinliang Ricky Tan</b>, 
-    "Game of brands: Managing brand spillover in a co-opetitive supply chain", 
-    <i>Transportation Research Part E: Logistics and Transportation Review</i>, Jul 2025.
-    
-    <span class="pub-links">
-      <a href="/files/2025 TRE Brand Spillover.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1366554525001413" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{zhong2025game,
-  title={Game of brands: Managing brand spillover in a co-opetitive supply chain},
-  author={Zhong, Ling and Nie, Jiajia and Tan, Yinliang Ricky},
-  journal={Transportation Research Part E: Logistics and Transportation Review},
-  volume={199},
-  pages={104100},
-  year={2025},
-  publisher={Elsevier}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      研究通过博弈模型揭示，代工厂（CM）利用品牌溢出的‘搭便车’策略反而可能因加剧竞争或迫使OEM转向自制而损害自身利润，承诺放弃品牌搭便车往往是更优的长期战略。
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Game theory, Supply chain management, Co-opetition, Outsourcing, Brand Spillover
-  </div>
-</div>
-
 <div class="pub-item">
   <div class="pub-citation">
     Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang Ricky Tan</b>
@@ -223,6 +184,44 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
+    Ling Zhong, Jiajia Nie, <b>Yinliang Ricky Tan</b>, 
+    "Game of brands: Managing brand spillover in a co-opetitive supply chain", 
+    <i>Transportation Research Part E: Logistics and Transportation Review</i>, Jul 2025.
+    
+    <span class="pub-links">
+      <a href="/files/2025 TRE Brand Spillover.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S1366554525001413" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{zhong2025game,
+  title={Game of brands: Managing brand spillover in a co-opetitive supply chain},
+  author={Zhong, Ling and Nie, Jiajia and Tan, Yinliang Ricky},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={199},
+  pages={104100},
+  year={2025},
+  publisher={Elsevier}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      研究通过博弈模型揭示，代工厂（CM）利用品牌溢出的‘搭便车’策略反而可能因加剧竞争或迫使OEM转向自制而损害自身利润，承诺放弃品牌搭便车往往是更优的长期战略。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Game theory, Supply chain management, Co-opetition, Outsourcing, Brand Spillover
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
     Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang Ricky Tan</b>, 
     "The Hidden Impact of Prosumers and Its Fair Mitigation", 
     <i>Production and Operations Management</i>, Jul 2025.
@@ -264,12 +263,50 @@ author_profile: true
 <hr>
 
 ## 2024
+<div class="pub-item">
+  <div class="pub-citation">
+   Geng Sun, Yeongin Kim, <b>Yinliang Tan</b>, Geoffrey G. Parker
+    "Dinner at Your Doorstep: Service Innovation via the Gig Economy on Food Delivery Platforms",    
+    <i>Information System Research</i>, Feb 2024. 
+    
+    <span class="pub-links">
+      <a href="/files/2023 ISR Gig Economy.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2022.0119" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{sun2024dinner,
+  title={Dinner at your doorstep: Service innovation via the gig economy on food delivery platforms},
+  author={Sun, Geng and Kim, Yeongin and Tan, Yinliang and Parker, Geoffrey G},
+  journal={Information Systems Research},
+  volume={35},
+  number={3},
+  pages={1216--1234},
+  year={2024},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+    
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: online food delivery, on-demand platform, gig economy, service innovation, multisided markets
+  </div>
+</div>
 
 <div class="pub-item">
   <div class="pub-citation">
     <b>Yinliang Tan</b>, 
     "Implications of Blockchain-Powered Marketplace of Preowned Virtual Goods", 
-    <i>Production and Operaion Management</i>, June 2024.
+    <i>Production and Operaion Management</i>, Jun 2024.
     
     <span class="pub-links">
       <a href="/files/2024 POMS Blockchain.pdf" target="_blank">[PDF]</a> | 
@@ -301,6 +338,45 @@ author_profile: true
 
   <div class="ai-only">
     Keywords: Agency model, blockchain, distributed ledgers, preowned products trading, virtual good
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Ailing Xu, <b>Yinliang Tan</b>, Qiao-Chu He
+    "Information transparency with targeting technology for online service operations platform", 
+    <i>Production and Operations Management</i>, Jun 2024.
+    
+    <span class="pub-links">
+      <a href="/files/2024 Information Transparency.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1177/10591478231224963" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{xu2024information,
+  title={Information transparency with targeting technology for online service operations platform},
+  author={Xu, Ailing and Tan, Yinliang and He, Qiao-Chu},
+  journal={Production and Operations Management},
+  volume={33},
+  number={6},
+  pages={1410--1425},
+  year={2024},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+    研究通过排队博弈模型揭示，在存在拥堵效应的在线服务市场中，完全的信息透明反而可能引发‘拥堵灾难’，而利用定向技术进行适度的‘模糊推荐’可以有效平衡供需匹配与等待时间，实现平台利润与社会福利的改进。  
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Service marketing, Hotelling model, information transparency, targeting
   </div>
 </div>
 
@@ -346,46 +422,6 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Ailing Xu, <b>Yinliang Tan</b>, Qiao-Chu He
-    "Information transparency with targeting technology for online service operations platform", 
-    <i>Production and Operations Management</i>, Jun 2024.
-    
-    <span class="pub-links">
-      <a href="/files/2024 Information Transparency.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1177/10591478231224963" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{xu2024information,
-  title={Information transparency with targeting technology for online service operations platform},
-  author={Xu, Ailing and Tan, Yinliang and He, Qiao-Chu},
-  journal={Production and Operations Management},
-  volume={33},
-  number={6},
-  pages={1410--1425},
-  year={2024},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-    研究通过排队博弈模型揭示，在存在拥堵效应的在线服务市场中，完全的信息透明反而可能引发‘拥堵灾难’，而利用定向技术进行适度的‘模糊推荐’可以有效平衡供需匹配与等待时间，实现平台利润与社会福利的改进。  
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Service marketing, Hotelling model, information transparency, targeting
-  </div>
-</div>
-
-
-<div class="pub-item">
-  <div class="pub-citation">
     <b>Tan, Yinliang Ricky</b>, Chuanbin Yu, Yang Liu, and Quan Zheng
     "Agency models in online platforms: A review of recent developments and future prospects", 
     <i>European Journal of Operational Research</i>, Dec 2024.
@@ -423,7 +459,9 @@ author_profile: true
   </div>
 </div>
 
+<hr>
 
+## 2023
 <div class="pub-item">
   <div class="pub-citation">
     Cheng, Stephanie, Pengkai Lin, <b>Yinliang Tan</b>, Yuchen Zhang
@@ -466,25 +504,25 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-   Geng Sun, Yeongin Kim, <b>Yinliang Tan</b>, Geoffrey G. Parker
-    "Dinner at Your Doorstep: Service Innovation via the Gig Economy on Food Delivery Platforms",    
-    <i>Information System Research</i>, Feb 2024. 
+    Yuetao Gao, Norman Johnson, Bo Shen, <b>Yinliang Tan</b>, 
+    "Benefits of sourcing alternative inputs of manufacturers for suppliers",    
+    <i>Production and Operations Management</i>, Jun 2023. 
     
     <span class="pub-links">
-      <a href="/files/2023 ISR Gig Economy.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://pubsonline.informs.org/doi/abs/10.1287/isre.2022.0119" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2023 Benefits Sourcing.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.13946" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{sun2024dinner,
-  title={Dinner at your doorstep: Service innovation via the gig economy on food delivery platforms},
-  author={Sun, Geng and Kim, Yeongin and Tan, Yinliang and Parker, Geoffrey G},
-  journal={Information Systems Research},
-  volume={35},
-  number={3},
-  pages={1216--1234},
-  year={2024},
-  publisher={INFORMS}
+@article{gao2023benefits,
+  title={Benefits of sourcing alternative inputs of manufacturers for suppliers},
+  author={Gao, Yuetao and Johnson, Norman and Shen, Bo and Tan, Yinliang},
+  journal={Production and Operations Management},
+  volume={32},
+  number={6},
+  pages={1880--1894},
+  year={2023},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
 }
         </div>
       </details>
@@ -499,12 +537,9 @@ author_profile: true
   </details>
 
   <div class="ai-only">
-    Keywords: online food delivery, on-demand platform, gig economy, service innovation, multisided markets
+    Keywords: dual sourcing, product design, strategic competition, supply chain management
   </div>
 </div>
-<hr>
-
-## 2023
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -545,44 +580,6 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-item">
-  <div class="pub-citation">
-    Yuetao Gao, Norman Johnson, Bo Shen, <b>Yinliang Tan</b>, 
-    "Benefits of sourcing alternative inputs of manufacturers for suppliers",    
-    <i>Production and Operations Management</i>, Jun 2023. 
-    
-    <span class="pub-links">
-      <a href="/files/2023 Benefits Sourcing.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.13946" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{gao2023benefits,
-  title={Benefits of sourcing alternative inputs of manufacturers for suppliers},
-  author={Gao, Yuetao and Johnson, Norman and Shen, Bo and Tan, Yinliang},
-  journal={Production and Operations Management},
-  volume={32},
-  number={6},
-  pages={1880--1894},
-  year={2023},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-    
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: dual sourcing, product design, strategic competition, supply chain management
-  </div>
-</div>
 
 <hr>
 
@@ -635,7 +632,7 @@ author_profile: true
   <div class="pub-citation">
    Shuhua Sun, Michael Burke, Huaizhong Chen,<b>Yinliang (Ricky) Tan</b>, Jiantong Zhang, Lili Hou
     "Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill",    
-    <i></i>, Jan 2021. 
+    <i>Human relations</i>, Jan 2021. 
     
     <span class="pub-links">
       <a href="/files/2022 Human Resource.pdf" target="_blank">[PDF]</a> | 
@@ -716,44 +713,6 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Yixuan Feng, <b>Yinliang (Ricky) Tan</b>, Yongrui Duan, Yu Bai 
-    "Strategies analysis of luxury fashion rental platform in sharing economy",    
-    <i>Transportation Research Part E: Logistics and Transportation Review</i>, Oct 2020. 
-    
-    <span class="pub-links">
-      <a href="/files/2020 TRE Sharing Economy Luxury.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://www.sciencedirect.com/science/article/abs/pii/S136655452030716X" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{feng2020strategies,
-  title={Strategies analysis of luxury fashion rental platform in sharing economy},
-  author={Feng, Yixuan and Tan, Yinliang Ricky and Duan, Yongrui and Bai, Yu},
-  journal={Transportation Research Part E: Logistics and Transportation Review},
-  volume={142},
-  pages={102065},
-  year={2020},
-  publisher={Elsevier}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-    
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Luxury fashion rental, Sharing economy, Online platform, Conspicuous behavior
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-citation">
     Haibing Gao, Huazhong Zhao, <b>Yinliang (Ricky) Tan</b>, Ya (Lisa) Lin, Lai Wei
     "Social Promotion: A Creative Promotional Framework on Consumers’ Social Network Value", 
     <i>Production and Operations Management</i>, June 2024.
@@ -788,45 +747,6 @@ author_profile: true
 
   <div class="ai-only">
     Keywords:social promotion, social red packet, social commerce, platform design
-  </div>
-</div>
-
-<div class="pub-item">
-  <div class="pub-citation">
-    He Huang, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>, Hongyan Xu
-    "Altruism or Shrewd Business? Implications of Technology Openness on Innovations and Competition", 
-    <i>MIS Quarterly</i>, Sep 2020.
-    
-    <span class="pub-links">
-      <a href="/files/2020 MISQ Technology Openness.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://misq.umn.edu/misq/article-abstract/44/3/1049/1800/Altruism-or-Shrewd-Business-Implications-of?redirectedFrom=fulltext" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{huang2020altruism,
-  title={Altruism or shrewd business? Implications of technology openness on innovations and competition},
-  author={Huang, He and Parker, Geoffrey and Tan, Yinliang and Xu, Hongyan},
-  journal={MIS Quarterly},
-  volume={44},
-  number={3},
-  pages={1049--1072},
-  year={2020},
-  publisher={Management Information Systems Research Center, University of Minnesota}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords:Economics of IS, technology openness, IT innovation investment, analytical modeling
   </div>
 </div>
 
@@ -869,6 +789,83 @@ author_profile: true
   </div>
 </div>
 
+<div class="pub-item">
+  <div class="pub-citation">
+    He Huang, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>, Hongyan Xu
+    "Altruism or Shrewd Business? Implications of Technology Openness on Innovations and Competition", 
+    <i>MIS Quarterly</i>, Sep 2020.
+    
+    <span class="pub-links">
+      <a href="/files/2020 MISQ Technology Openness.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://misq.umn.edu/misq/article-abstract/44/3/1049/1800/Altruism-or-Shrewd-Business-Implications-of?redirectedFrom=fulltext" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{huang2020altruism,
+  title={Altruism or shrewd business? Implications of technology openness on innovations and competition},
+  author={Huang, He and Parker, Geoffrey and Tan, Yinliang and Xu, Hongyan},
+  journal={MIS Quarterly},
+  volume={44},
+  number={3},
+  pages={1049--1072},
+  year={2020},
+  publisher={Management Information Systems Research Center, University of Minnesota}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords:Economics of IS, technology openness, IT innovation investment, analytical modeling
+  </div>
+</div>
+
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Yixuan Feng, <b>Yinliang (Ricky) Tan</b>, Yongrui Duan, Yu Bai 
+    "Strategies analysis of luxury fashion rental platform in sharing economy",    
+    <i>Transportation Research Part E: Logistics and Transportation Review</i>, Oct 2020. 
+    
+    <span class="pub-links">
+      <a href="/files/2020 TRE Sharing Economy Luxury.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://www.sciencedirect.com/science/article/abs/pii/S136655452030716X" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{feng2020strategies,
+  title={Strategies analysis of luxury fashion rental platform in sharing economy},
+  author={Feng, Yixuan and Tan, Yinliang Ricky and Duan, Yongrui and Bai, Yu},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={142},
+  pages={102065},
+  year={2020},
+  publisher={Elsevier}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+    
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Luxury fashion rental, Sharing economy, Online platform, Conspicuous behavior
+  </div>
+</div>
 
 <hr>
 
@@ -955,6 +952,44 @@ author_profile: true
 <hr>
 
 ## 2018
+<div class="pub-item">
+  <div class="pub-citation">
+   Brent Kitchens, Tawnya Means, <b>Yinliang (Ricky) Tan</b>
+    "Captivate: Building blocks for implementing active learning", 
+    <i>Journal of Education for Business</i>, Jan 2018.
+    
+    <span class="pub-links">
+      <a href="/files/2018 Active Learning.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://www.tandfonline.com/doi/abs/10.1080/08832323.2017.1417232" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{kitchens2018captivate,
+  title={Captivate: Building blocks for implementing active learning},
+  author={Kitchens, Brent and Means, Tawnya and Tan, Yinliang},
+  journal={Journal of Education for Business},
+  volume={93},
+  number={2},
+  pages={58--73},
+  year={2018},
+  publisher={Taylor \& Francis}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: Active Learning, Pedagogy, Student engagement
+  </div>
+</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -995,127 +1030,9 @@ author_profile: true
   </div>
 </div>
 
-<div class="pub-item">
-  <div class="pub-citation">
-    , <b>Yinliang (Ricky) Tan</b>, 
-    "", 
-    <i></i>, June 2024.
-    
-    <span class="pub-links">
-      <a href="/files/.pdf" target="_blank">[PDF]</a> | 
-      <a href="" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{tan2024live,
-  title={Impact of Live Streaming},
-  author={Tan, Yinliang},
-  journal={MISQ},
-  year={2024}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-    
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: 
-  </div>
-</div>
-
-
-<hr>
-
-## 2018
-
-<div class="pub-item">
-  <div class="pub-citation">
-   Brent Kitchens, Tawnya Means, <b>Yinliang (Ricky) Tan</b>
-    "Captivate: Building blocks for implementing active learning", 
-    <i>Journal of Education for Business</i>, Jan 2018.
-    
-    <span class="pub-links">
-      <a href="/files/2018 Active Learning.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://www.tandfonline.com/doi/abs/10.1080/08832323.2017.1417232" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{kitchens2018captivate,
-  title={Captivate: Building blocks for implementing active learning},
-  author={Kitchens, Brent and Means, Tawnya and Tan, Yinliang},
-  journal={Journal of Education for Business},
-  volume={93},
-  number={2},
-  pages={58--73},
-  year={2018},
-  publisher={Taylor \& Francis}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Active Learning, Pedagogy, Student engagement
-  </div>
-</div>
-
 <hr>
 
 ## 2017
-
-<div class="pub-item">
-  <div class="pub-citation">
-   <b>Yinliang (Ricky) Tan</b>, Anand A. Paul, Qi Deng, Lai Wei
-    "Mitigating Inventory Overstocking: Optimal Order-up-to Level to Achieve a Target Fill Rate over a Finite Horizon", 
-    <i>Production and Operations Management}</i>, Nov 2017.
-    
-    <span class="pub-links">
-      <a href="/files/2017 POMS Fill Rate.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.12750" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{tan2017mitigating,
-  title={Mitigating inventory overstocking: Optimal order-up-to level to achieve a target fill rate over a finite horizon},
-  author={Tan, Yinliang and Paul, Anand A and Deng, Qi and Wei, Lai},
-  journal={Production and Operations Management},
-  volume={26},
-  number={11},
-  pages={1971--1988},
-  year={2017},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: service level agreement; fill rate; positive lead time; base-stock policy; simulation-based optimization
-  </div>
-</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -1156,30 +1073,27 @@ author_profile: true
   </div>
 </div>
 
-<hr>
-
-## 2015
 <div class="pub-item">
   <div class="pub-citation">
-  <b>Yinliang (Ricky) Tan</b>,  Janice E. Carrillo, Hsing Kenny Cheng
-    "The Agency Model for Digital Goods", 
-    <i>Decision Sciences</i>, Sep 2015.
+   <b>Yinliang (Ricky) Tan</b>, Anand A. Paul, Qi Deng, Lai Wei
+    "Mitigating Inventory Overstocking: Optimal Order-up-to Level to Achieve a Target Fill Rate over a Finite Horizon", 
+    <i>Production and Operations Management}</i>, Nov 2017.
     
     <span class="pub-links">
-      <a href="/files/2016 Decision Science E-book.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/deci.12173" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2017 POMS Fill Rate.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.12750" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{tan2016agency,
-  title={The agency model for digital goods},
-  author={Tan, Yinliang and Carrillo, Janice E and Cheng, Hsing Kenny},
-  journal={Decision Sciences},
-  volume={47},
-  number={4},
-  pages={628--660},
-  year={2016},
-  publisher={Wiley Online Library}
+@article{tan2017mitigating,
+  title={Mitigating inventory overstocking: Optimal order-up-to level to achieve a target fill rate over a finite horizon},
+  author={Tan, Yinliang and Paul, Anand A and Deng, Qi and Wei, Lai},
+  journal={Production and Operations Management},
+  volume={26},
+  number={11},
+  pages={1971--1988},
+  year={2017},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
 }
         </div>
       </details>
@@ -1194,7 +1108,50 @@ author_profile: true
   </details>
 
   <div class="ai-only">
-    Keywords: Coordination Mechanism, E-book Industry, Pricing,Supply Chain Contracts.
+    Keywords: service level agreement; fill rate; positive lead time; base-stock policy; simulation-based optimization
+  </div>
+</div>
+
+
+<hr>
+
+## 2015
+<div class="pub-item">
+  <div class="pub-citation">
+   Anuj Kumar, <b>Yinliang (Ricky) Tan</b>
+    "The Demand Effects of Joint Product Advertising in Online Videos", 
+    <i>Management Science</i>, Mar 2015.
+    
+    <span class="pub-links">
+      <a href="/files/2015 MS Online Video.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2014.2086" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{kumar2015demand,
+  title={The demand effects of joint product advertising in online videos},
+  author={Kumar, Anuj and Tan, Yinliang},
+  journal={Management Science},
+  volume={61},
+  number={8},
+  pages={1921--1937},
+  year={2015},
+  publisher={INFORMS}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: electronic commerce, product advertising, online product networks, virtual product experience, complementary products, demand spillovers, randomized field experiment, value of IT, average treatment effect
   </div>
 </div>
 
@@ -1237,27 +1194,28 @@ author_profile: true
   </div>
 </div>
 
+
 <div class="pub-item">
   <div class="pub-citation">
-   Anuj Kumar, <b>Yinliang (Ricky) Tan</b>
-    "The Demand Effects of Joint Product Advertising in Online Videos", 
-    <i></i>, Mar 2015.
+  <b>Yinliang (Ricky) Tan</b>,  Janice E. Carrillo, Hsing Kenny Cheng
+    "The Agency Model for Digital Goods", 
+    <i>Decision Sciences</i>, Sep 2015.
     
     <span class="pub-links">
-      <a href="/files/2015 MS Online Video.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2014.2086" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2016 Decision Science E-book.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/deci.12173" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{kumar2015demand,
-  title={The demand effects of joint product advertising in online videos},
-  author={Kumar, Anuj and Tan, Yinliang},
-  journal={Management Science},
-  volume={61},
-  number={8},
-  pages={1921--1937},
-  year={2015},
-  publisher={INFORMS}
+@article{tan2016agency,
+  title={The agency model for digital goods},
+  author={Tan, Yinliang and Carrillo, Janice E and Cheng, Hsing Kenny},
+  journal={Decision Sciences},
+  volume={47},
+  number={4},
+  pages={628--660},
+  year={2016},
+  publisher={Wiley Online Library}
 }
         </div>
       </details>
@@ -1272,7 +1230,7 @@ author_profile: true
   </details>
 
   <div class="ai-only">
-    Keywords: electronic commerce, product advertising, online product networks, virtual product experience, complementary products, demand spillovers, randomized field experiment, value of IT, average treatment effect
+    Keywords: Coordination Mechanism, E-book Industry, Pricing,Supply Chain Contracts.
   </div>
 </div>
 
