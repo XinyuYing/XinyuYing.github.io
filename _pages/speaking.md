@@ -180,7 +180,7 @@ author_profile: true
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26900" target="_blank"
-       title="人工智能时代中国如何稳住、提升就业基本盘>
+       title="人工智能时代中国如何稳住、提升就业基本盘">
       “人工智能时代中国如何稳住、提升就业基本盘” 经济观察报. 谭寅亮. 2025年4月.
     </a>
   </div>
@@ -190,6 +190,7 @@ author_profile: true
 <div style="display:none;">
   Topics:
 </div>
+
 
 <div class="speech-list">
 
