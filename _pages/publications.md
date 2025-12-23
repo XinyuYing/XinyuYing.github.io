@@ -710,51 +710,11 @@ author_profile: true
 <hr>
 
 ## 2020
-
-<div class="pub-item">
-  <div class="pub-citation">
-    Haibing Gao, Huazhong Zhao, <b>Yinliang (Ricky) Tan</b>, Ya (Lisa) Lin, Lai Wei
-    "Social Promotion: A Creative Promotional Framework on Consumers’ Social Network Value", 
-    <i>Production and Operations Management</i>, June 2024.
-    
-    <span class="pub-links">
-      <a href="/files/2020 POMS Social Red Packets.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.13247" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{gao2020social,
-  title={Social promotion: A creative promotional framework on consumers’ social network value},
-  author={Gao, Haibing and Zhao, Huazhong and Tan, Yinliang and Lin, Ya and Wei, Lai},
-  journal={Production and Operations Management},
-  volume={29},
-  number={12},
-  pages={2661--2678},
-  year={2020},
-  publisher={Sage Publications Sage CA: Los Angeles, CA}
-}
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords:social promotion, social red packet, social commerce, platform design
-  </div>
-</div>
-
 <div class="pub-item">
   <div class="pub-citation">
     Subodha Kumar, <b>Yinliang (Ricky) Tan</b>, Lai Wei
     "When to Play Your Advertisement? Optimal Insertion Policy of Behavioral Advertisement", 
-    <i>Information Systems Research</i>, June 2020.
+    <i>Information Systems Research</i>, Jun 2020.
     
     <span class="pub-links">
       <a href="/files/2020 ISR Advertisement Placement.pdf" target="_blank">[PDF]</a> | 
@@ -864,6 +824,45 @@ author_profile: true
 
   <div class="ai-only">
     Keywords: Luxury fashion rental, Sharing economy, Online platform, Conspicuous behavior
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Haibing Gao, Huazhong Zhao, <b>Yinliang (Ricky) Tan</b>, Ya (Lisa) Lin, Lai Wei
+    "Social Promotion: A Creative Promotional Framework on Consumers’ Social Network Value", 
+    <i>Production and Operations Management</i>, Dec 2020.
+    
+    <span class="pub-links">
+      <a href="/files/2020 POMS Social Red Packets.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.13247" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{gao2020social,
+  title={Social promotion: A creative promotional framework on consumers’ social network value},
+  author={Gao, Haibing and Zhao, Huazhong and Tan, Yinliang and Lin, Ya and Wei, Lai},
+  journal={Production and Operations Management},
+  volume={29},
+  number={12},
+  pages={2661--2678},
+  year={2020},
+  publisher={Sage Publications Sage CA: Los Angeles, CA}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords:social promotion, social red packet, social commerce, platform design
   </div>
 </div>
 
