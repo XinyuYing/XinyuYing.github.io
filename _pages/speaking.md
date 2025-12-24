@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "前沿观点 (Frontier Perspectives)"
+title: ""
 permalink: /speaking/
 author_profile: true
 ---
