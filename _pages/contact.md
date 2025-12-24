@@ -67,14 +67,15 @@ sidebar:
 <div class="contact-container">
   
   <div class="contact-info">
-    <h1>保持联系</h1> 
+    <h1>保持联系...</h1> 
     
-    <p>演讲活动或媒体评论请直接和我联系</p>
+    <p>演讲活动或媒体评论请和我联系</p>
     
     <p>✉️ <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
 
     <p style="margin-top: 30px;">
-      对于其他所有咨询事宜，请联系我的助手 <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
+      对于其他所有咨询事宜，请联系我的助手Maggie</p>
+    <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a></p>
     </p>
 
     <div class="address-block">
@@ -89,27 +90,27 @@ sidebar:
   <div class="contact-form">
     <form action="https://formspree.io/f/xykgjwro" method="POST">
       
-      <div class="form-group">
-        <label>姓名/Name (必填/required)</label>
-        <input type="text" name="name" required placeholder="Your Name">
-      </div>
+<div class="form-group">
+  <label>姓名/Name <span class="required">(必填/required)</span></label>
+  <input type="text" name="name" required placeholder="Your Name">
+</div>
 
-      <div class="form-group">
-        <label>电子邮箱/Email (必填/required)</label>
-        <input type="email" name="email" required placeholder="your.email@example.com">
-      </div>
+<div class="form-group">
+  <label>电子邮箱/Email <span class="required">(必填/required)</span></label>
+  <input type="email" name="email" required placeholder="your.email@example.com">
+</div>
 
-      <div class="form-group">
-        <label>公司/Company (必填/required)</label>
-        <input type="text" name="company">
-      </div>
+<div class="form-group">
+  <label>公司/Company <span class="required">(必填/required)</span></label>
+  <input type="text" name="company">
+</div>
 
-      <div class="form-group">
-        <label>联系事由/Message (必填/required)</label>
-        <textarea name="message" required placeholder="How can I help you?"></textarea>
-      </div>
+<div class="form-group">
+  <label>联系事由/Message <span class="required">(必填/required)</span></label>
+  <textarea name="message" required placeholder="How can I help you?"></textarea>
+</div>
 
-      <button type="提交/submit" class="submit-btn">Send Message</button>
+<button type="submit" class="submit-btn">Send Message</button>
     </form>
   </div>
 
