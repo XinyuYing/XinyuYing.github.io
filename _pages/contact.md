@@ -62,6 +62,17 @@ sidebar:
     transition: background 0.3s;
   }
   .submit-btn:hover { background-color: #c9302c; }
+
+  /* 中英文标签样式 */
+  .contact-info strong {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .contact-info p span {
+    color: #666;
+    font-size: 0.9em;
+  }
 </style>
 
 <div class="contact-container">
@@ -75,42 +86,42 @@ sidebar:
 
     <p style="margin-top: 30px;">
       对于其他所有咨询事宜，请联系我的助手Maggie</p>
-    <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a></p>
+    <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
     </p>
 
     <div class="address-block">
-      <strong>Prof. Yinliang Tan</strong><br>
-      China Europe International Business School (CEIBS)<br>
-      699 Hongfeng Road, Pudong<br>
-      Shanghai, P.R.C. 201206<br>
-      China
+      <strong>谭寅亮教授</strong><br>
+      中欧国际工商学院 (CEIBS)<br>
+      上海市浦东新区洪丰路699号<br>
+      上海，中国 201206<br>
+      中国
     </div>
   </div>
 
   <div class="contact-form">
     <form action="https://formspree.io/f/xykgjwro" method="POST">
       
-<div class="form-group">
-  <label>姓名/Name <span class="required">(必填/required)</span></label>
-  <input type="text" name="name" required placeholder="Your Name">
-</div>
+      <div class="form-group">
+        <label>姓名/Name <span class="required">(必填/required)</span></label>
+        <input type="text" name="name" required placeholder="Your Name">
+      </div>
 
-<div class="form-group">
-  <label>电子邮箱/Email <span class="required">(必填/required)</span></label>
-  <input type="email" name="email" required placeholder="your.email@example.com">
-</div>
+      <div class="form-group">
+        <label>电子邮箱/Email <span class="required">(必填/required)</span></label>
+        <input type="email" name="email" required placeholder="your.email@example.com">
+      </div>
 
-<div class="form-group">
-  <label>公司/Company <span class="required">(必填/required)</span></label>
-  <input type="text" name="company">
-</div>
+      <div class="form-group">
+        <label>公司/Company <span class="required">(必填/required)</span></label>
+        <input type="text" name="company">
+      </div>
 
-<div class="form-group">
-  <label>联系事由/Message <span class="required">(必填/required)</span></label>
-  <textarea name="message" required placeholder="How can I help you?"></textarea>
-</div>
+      <div class="form-group">
+        <label>联系事由/Message <span class="required">(必填/required)</span></label>
+        <textarea name="message" required placeholder="How can I help you?"></textarea>
+      </div>
 
-<button type="submit" class="submit-btn">Send Message</button>
+      <button type="submit" class="submit-btn">Send Message</button>
     </form>
   </div>
 
