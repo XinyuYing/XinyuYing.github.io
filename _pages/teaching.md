@@ -17,8 +17,6 @@ author_profile: true
     font-size: 1.4rem;
     font-weight: bold;
     color: #24292e;
-    border-left: 5px solid #d9534f; /* 中欧红 */
-    padding-left: 12px;
     margin-bottom: 15px;
   }
   .course-list {
