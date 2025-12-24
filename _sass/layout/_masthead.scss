@@ -1,5 +1,5 @@
 /* ==========================================================================
-   MASTHEAD
+   MASTHEAD (Modified for Alignment)
    ========================================================================== */
 
 .masthead {
@@ -27,8 +27,13 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 0.5em 1em;
+    /* 这里的 padding 需要根据页面整体边距微调 */
+    padding: 0.5em 1em; 
     font-family: $sans-serif-narrow;
+
+    /* 使用 Flex 布局让标题和菜单紧凑排列 */
+    display: flex;
+    align-items: center;
 
     @include breakpoint($x-large) {
       max-width: $x-large;
@@ -36,6 +41,8 @@
 
     nav {
       z-index: 10;
+      display: flex;
+      width: 100%;
     }
 
     a {
@@ -45,24 +52,53 @@
 }
 
 .masthead__menu {
+  width: 100%;
 
   ul {
     margin: 0;
     padding: 0;
-    clear: both;
     list-style-type: none;
+    display: flex; /* 让菜单横向排列 */
+    flex-wrap: nowrap;
   }
 }
 
 .masthead__menu-item {
   background-color: var(--global-bg-color);
-  display: block;
   list-style-type: none;
   white-space: nowrap;
+  
+  /* 默认导航文字大小 */
+  font-size: 1.1rem; 
 
+  /* 普通菜单项的间距 */
+  margin-right: 1.5rem;
+
+  /* 针对左上角标题的特殊处理 */
   &--lg {
-    padding-right: 2em;
+    /* 这里的宽度是核心：它必须等于侧边栏的宽度 */
+    /* 260px 通常能让文字出现在照片正上方 */
+    min-width: 260px; 
     font-weight: 700;
     font-size: 1.5rem;
+    padding-right: 0;
+    margin-right: 40px; /* 这个间距决定了“个人介绍”与标题的距离 */
+    
+    /* 让“谭寅亮”在侧边栏区域内居中，对齐下方照片 */
+    text-align: center; 
   }
+
+  a {
+    color: inherit;
+    &:hover {
+      color: #d9534f; /* 悬停颜色 */
+    }
+  }
+}
+
+/* 强制修正：确保 site-title 样式生效 */
+.site-title {
+  display: flex !important;
+  justify-content: center !important;
+  width: 260px !important; 
 }
