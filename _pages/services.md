@@ -7,9 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-
-<br>
-
 <style>
   /* 板块容器 */
   .service-section { margin-bottom: 40px; }
