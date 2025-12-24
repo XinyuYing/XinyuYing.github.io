@@ -7,7 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<br>
 
 <style>
   /* 统一的红线标题风格 */
