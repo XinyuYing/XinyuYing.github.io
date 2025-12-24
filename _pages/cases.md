@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "教学案例 (Teaching Cases)"
+title: ""
 permalink: /cases/
 author_profile: true
 ---
