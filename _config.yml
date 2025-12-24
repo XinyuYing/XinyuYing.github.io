@@ -28,8 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Professor of Decision Sciences and MIS at CEIBS"
   location         : "Shanghai, China"
-  employer         : "<a href='https://cn.ceibs.edu/ricky_tan'>CEIBS</a>"
-  uri              : "https://cn.ceibs.edu/ricky_tan"
+  employer         : "<a href='https://cn.ceibs.edu/ricky_tan' style='display:inline'>CEIBS</a>"
   email            : "yrtan@ceibs.edu" 
 
   # Academic websites
