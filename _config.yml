@@ -24,20 +24,19 @@ repository               : "XinyuYing/XinyuYing.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Yinliang Tan"
+  name             : "Yinliang (Ricky) Tan"
   pronouns         : # example: "she/her"  
   bio              : "Professor of Decision Sciences and MIS at CEIBS"
   location         : "Shanghai, China"
-  employer         : "CEIBS"
+  employer         : "<a href='https://cn.ceibs.edu/ricky_tan'>CEIBS</a>"
   uri              : "https://cn.ceibs.edu/ricky_tan"
   email            : "yrtan@ceibs.edu" 
 
   # Academic websites
-  academia         : "https://cn.ceibs.edu/ricky_tan"
   googlescholar    : "https://scholar.google.com/citations?hl=en&user=9Xc1WXIAAAAJ"
 
   # Social media
-  LinkedIn         : "https://www.linkedin.com/in/yinliang-ricky-tan-99220634/?originalSubdomain=cn“  
+  linkedin         : "https://www.linkedin.com/in/yinliang-ricky-tan-99220634/?originalSubdomain=cn"
   
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
