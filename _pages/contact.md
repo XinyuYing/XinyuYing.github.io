@@ -67,14 +67,14 @@ sidebar:
 <div class="contact-container">
   
   <div class="contact-info">
-    <h1>Get In Touch...</h1>
+    <h1>保持联系</h1> 
     
-    <p>Connect with me for speaking engagements and media commentary.</p>
+    <p>演讲活动或媒体评论请直接和我联系</p>
     
     <p>✉️ <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
 
     <p style="margin-top: 30px;">
-      For all other inquiries, please contact my assistant at <a href="mailto:assistant@example.com">assistant@example.com</a>
+      对于其他所有咨询事宜，请联系我的助手 <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
     </p>
 
     <div class="address-block">
@@ -90,26 +90,26 @@ sidebar:
     <form action="https://formspree.io/f/xykgjwro" method="POST">
       
       <div class="form-group">
-        <label>Name (required)</label>
+        <label>姓名/Name (必填/required)</label>
         <input type="text" name="name" required placeholder="Your Name">
       </div>
 
       <div class="form-group">
-        <label>Email (required)</label>
+        <label>电子邮箱/Email (必填/required)</label>
         <input type="email" name="email" required placeholder="your.email@example.com">
       </div>
 
       <div class="form-group">
-        <label>Company / Organization</label>
+        <label>公司/Company (必填/required)</label>
         <input type="text" name="company">
       </div>
 
       <div class="form-group">
-        <label>Message (required)</label>
+        <label>联系事由/Message (必填/required)</label>
         <textarea name="message" required placeholder="How can I help you?"></textarea>
       </div>
 
-      <button type="submit" class="submit-btn">Send Message</button>
+      <button type="提交/submit" class="submit-btn">Send Message</button>
     </form>
   </div>
 
