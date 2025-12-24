@@ -80,19 +80,19 @@ sidebar:
   <div class="contact-info">
     <h1>保持联系...</h1> 
     
-    <p>演讲活动或媒体评论请和我联系</p>
+    <p>学术交流请和我联系</p>
     
     <p>✉️ <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
 
     <p style="margin-top: 30px;">
-      对于其他所有咨询事宜，请联系我的助手Maggie</p>
+      其他事宜请联系我的研究员张老师(Maggie)</p>
     <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
     </p>
 
     <div class="address-block">
       <strong>谭寅亮教授</strong><br>
       中欧国际工商学院 (CEIBS)<br>
-      上海市浦东新区洪丰路699号<br>
+      上海市浦东新区红枫路699号教授楼232<br>
       上海，中国 201206<br>
       中国
     </div>
