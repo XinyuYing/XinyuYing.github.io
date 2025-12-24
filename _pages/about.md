@@ -57,7 +57,7 @@ redirect_from:
 </div>
 
 <div class="bio-text">
-  <strong>谭寅亮教授 </strong> 毕业于美国<strong>佛罗里达大学沃灵顿商学院</strong>，学习运营管理及信息系统。谭寅亮教授的研究主要聚焦于<strong>人工智能</strong>与<strong>数字经济</strong>，在中美许多企业有丰富的工作经历和合作实践。此外，谭寅亮教授在数据分析方面具有深厚的教学经验，并曾荣获<strong>弗里曼商学院年度最佳教师奖</strong>。
+  <strong>谭寅亮教授 </strong> 毕业于美国<strong>佛罗里达大学沃灵顿商学院</strong>，学习运营管理及信息系统。谭寅亮教授的研究主要聚焦于<strong>人工智能</strong>与<strong>数字经济</strong>，在中美许多企业有丰富的工作经历和合作实践。此外，谭寅亮教授在数据分析方面具有深厚的教学经验，曾荣获<strong>弗里曼商学院年度最佳教师奖</strong>。
 </div>
 
 <div class="bio-text">
