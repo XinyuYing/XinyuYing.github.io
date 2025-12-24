@@ -13,7 +13,7 @@ redirect_from:
 <style>
   /* 1. 顶格修正：消除 Jekyll 模板默认的顶部间距 */
   .page__content {
-    margin-top: 40px !important; /* 强制内容上移 */
+    margin-top: 20px !important; /* 强制内容上移 */
   }
   .page__title {
     display: none !important; /* 隐藏空标题占位 */
