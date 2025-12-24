@@ -615,7 +615,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    本研究通过田野实验，探讨了社交定价的有效性，发现社交定价能显著提高现有消费者的购买频率和订单价值，进而提升零售商的利润，并通过社交互动机制进一步优化效果。
     </div>
   </details>
 
@@ -779,7 +779,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本研究探讨了技术开放对创新和竞争的影响，发现技术开放不仅可能抑制创新，还可能减少消费者剩余，强调了技术共享决策中的信息效应与访问效应之间的复杂权衡。 
     </div>
   </details>
 
@@ -818,7 +818,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    本研究分析了奢侈品牌公司与租赁平台的合作策略，发现代理合同在提升品牌公司利润、消费者福利和社会福利方面优于批发合同，且租赁平台的存在能通过市场扩展效应为品牌公司带来更多收益。
     </div>
   </details>
 
@@ -857,7 +857,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本研究提出了社交红包作为基于社交网络价值的定制化促销策略，分析了社交网络价值如何影响促销奖励，并发现通过社交互动，消费者可以提高其社交网络的商业价值，从而提升平台的销售效果。
     </div>
   </details>
 
@@ -1141,7 +1141,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    本研究提出了一种模拟优化算法，帮助库存管理人员在有限评审期和正的提前期条件下减少库存过剩，确保目标填充率的实现，并显著降低库存成本。
     </div>
   </details>
 
