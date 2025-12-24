@@ -1184,7 +1184,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    本研究通过实地随机实验，探讨了产品视频广告在电子商务网站上展示相关产品的需求效应，发现视频广告不仅提高了焦点产品的销售，还通过揭示产品互补性显著增加了配饰产品的销售。
+    本研究通过田野实验，探讨了产品视频广告在电子商务网站上展示相关产品的需求效应，发现视频广告不仅提高了焦点产品的销售，还通过揭示产品互补性显著增加了配饰产品的销售。
     </div>
   </details>
 
