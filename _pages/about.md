@@ -50,7 +50,7 @@ redirect_from:
   }
 </style>
 
-<div class="section-title">Intro</div>
+<div class="section-title"></div>
 
 <div class="bio-text">
   <strong>谭寅亮教授 (Prof. Yinliang (Ricky) Tan)</strong> 现任<strong>中欧国际工商学院 (CEIBS)</strong> 决策科学和管理信息系统学教授。他曾在<strong>斯坦福大学人工智能研究院和数字经济实验室</strong>担任访问学者。在加入中欧之前，他是美国<strong>休斯顿大学</strong> C.T. Bauer (鲍尔商学院) 决策和信息科学终身教授、鲍尔讲席教授、DBA 项目主任，以及供应链管理方向系主任。他还担任了休斯顿大学人工智能研究中心副主任和慧与科技 (HPE) 数据科学研究中心资深研究员。在此之前，他在美国<strong>杜兰大学</strong> Freeman School of Business (弗里曼商学院) 管理科学方向担任助理教授、副教授和戈德林国际教育中心行政主任，并获得终身教授与讲席教授职位。
