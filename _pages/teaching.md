@@ -12,7 +12,7 @@ author_profile: true
     margin-bottom: 35px;
   }
   .school-name {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: bold;
     color: #24292e;
     margin-bottom: 15px;
