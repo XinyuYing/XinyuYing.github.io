@@ -532,7 +532,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    本研究发现，当制造商选择从替代低质量原材料中采购时，供应商不仅可以通过提高批发价格销售更多原材料，还可以通过这种价格提升来促使制造商采用更多的低质量替代材料，从而降低其生产成本，最终导致零售价格降低并增加消费者的需求。尽管批发价格较高，制造商通过更低的零售价格仍能获得更高的利润，因此这一双重采购策略对整个供应链有利。
     </div>
   </details>
 
