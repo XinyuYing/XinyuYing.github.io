@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<br>
-
 <style>
   .school-section {
     margin-bottom: 35px;
