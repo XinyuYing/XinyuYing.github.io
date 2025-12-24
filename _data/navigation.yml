@@ -9,27 +9,27 @@
 
 # main links
 main:
-  - title: "Research"
-    url: /publications/
-    
-  - title: "About"
+  - title: "个人介绍"
     url: /
     
-  - title: "Teaching"
+  - title: "学术研究"
+    url: /publications/
+    
+  - title: "教学课程"
     url: /teaching/
     
-  - title: "Cases"
+  - title: "案例开发"
     url: /cases/
 
-  - title: "Speaking"
+  - title: "媒体观点"
     url: /speaking/
     
-  - title: "Services"
+  - title: "学术服务"
     url: /services/
     
-  - title: "Contact"
+  - title: "联系方式"
     url: /contact/
 
     
-  - title: "CV"
+  - title: "简历"
     url: /files/CV___CEIBS_2025 简历.pdf
