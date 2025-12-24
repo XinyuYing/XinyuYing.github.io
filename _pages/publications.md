@@ -64,7 +64,6 @@ author_profile: true
 </style>
 
 
-
 ## 2026
 
 <div class="pub-item">
