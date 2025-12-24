@@ -41,7 +41,7 @@ redirect_from:
   }
 </style>
 
-
+<div class="section-title">Intro</div>
 
 
 <div class="bio-text">
