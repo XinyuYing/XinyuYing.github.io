@@ -42,12 +42,6 @@ redirect_from:
 </style>
 
 
-<div class="video-box">
-  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <source src="/files/talk.mp4" type="video/mp4">
-    您的浏览器不支持 HTML5 视频播放，请下载观看。
-  </video>
-</div>
 
 
 <div class="bio-text">
@@ -70,4 +64,10 @@ redirect_from:
   谭寅亮教授于 2019 年被评为<strong>世界最佳 40 名 40 岁以下的商学院教授</strong> (40 Under 40 Professors)，同年他获得了国际决策科学学会（Decision Science Institute）颁发的早期职业成就奖。谭教授于 2022 年获得 INFORMS 信息系统学会颁发的 <strong>Sandy Slaughter 职业成就奖</strong>以表彰他对信息系统领域做出的贡献。2025 年，他获得<strong>中欧国际工商学院年度最佳研究奖</strong>，并获得“欧洲案例交流中心”人工智能类别最佳案例开发奖。
 </div>
 
+<div class="video-box">
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <source src="/files/talk.mp4" type="video/mp4">
+    您的浏览器不支持 HTML5 视频播放，请下载观看。
+  </video>
+</div>
 
