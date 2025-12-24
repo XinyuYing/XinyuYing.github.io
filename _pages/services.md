@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "学术服务 (Services)"
+title: ""
 permalink: /services/
 author_profile: true
 ---
