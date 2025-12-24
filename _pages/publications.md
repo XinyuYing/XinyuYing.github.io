@@ -97,7 +97,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-研究揭示了社交媒体对奢侈品渠道的非直观影响：更高的消费可见度反而可能降低定价，并导致制造商与零售商的利益错位。
+研究揭示了在分销渠道中，消费者的社会地位追求虽然提升了奢侈品的溢价空间，但也极易因零售商追求销量而导致‘品牌信号贬值’，因此制造商必须通过精细的渠道定价策略来平衡稀缺性与利润。
     </div>
   </details>
 
@@ -293,7 +293,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    研究通过构建三边市场博弈模型揭示，引入零工经济虽能提升服务质量并软化消费者端的价格竞争，但高昂的劳动力成本可能使平台陷入‘囚徒困境’导致利润下降；此外，反直觉的是，最低工资政策反而能通过缓解平台间的工资恶性竞争来提升平台利润，却损害了消费者利益。
     </div>
   </details>
 
@@ -450,7 +450,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    综述系统性地梳理了在线平台从批发向代理模式转型的驱动力，指出代理模式通过赋予供应商定价权有效缓解了双重边际效应，并预判未来研究将聚焦于AI算法决策与跨渠道生态系统的复杂交互。”
     </div>
   </details>
 
@@ -492,7 +492,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    该研究通过对美国20年间专利数据的准实验分析发现，大麻合法化显著降低了区域的创新产出与专利质量，揭示了公共政策在推动社会自由化的同时，可能对高精密研发领域造成长期的‘副作用’
     </div>
   </details>
 
@@ -571,7 +571,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    该研究揭示了众筹市场中消费者与投资者之间存在显著且不对称的互动效应——消费者的早期购买是市场潜力的强信号，能有效吸引投资者；而创业者需在股权分红与产品定价间精妙平衡，以实现两类异质性支持者的共生与项目价值最大化
     </div>
   </details>
 
@@ -658,7 +658,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    该研究通过对医护人员的三波追踪调查发现，面对‘恶上司’的打压，员工的积极建言并非总是良药——只有当员工具备高超的‘政治技能’时，建言才能作为心理护盾，有效缓解被打压的痛苦并抑制离职冲动。
     </div>
   </details>
 
@@ -697,7 +697,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    
+    研究通过解析模型证明了零售商库容具有重要的战略制衡作用——通过保持适度的‘战略性缺货’，零售商能有效诱发供应商之间的价格战以获取极低的批发价，从而实现‘库容越少，利润越高’的反直觉增长。
     </div>
   </details>
 
@@ -740,7 +740,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本研究提出了一种基于用户参与度的广告插入优化策略，采用阈值政策，能够根据用户的行为动态调整广告的播放时机和长度，从而最大化平台的广告收入并提高用户留存率。 
     </div>
   </details>
 
@@ -900,7 +900,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+      本文在“OEM—竞争性供应商—非竞争但随机良率的备选供应商”的共竞供应链中证明：OEM 总是会选择双源采购，即使备选供应商不可靠；同时，竞争性供应商以“断供”威胁阻止 OEM 引入备选供应商在均衡中并不可信。
     </div>
   </details>
 
@@ -939,7 +939,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本文把“承诺质量+事后努力”共同决定的满意度风险内生嵌入多属性评分采购拍卖与绩效合同（PBC），证明投标者必须在报价前联合选择承诺质量与努力，并推导最优评分规则与保留分数：最优机制会向下扭曲承诺质量，且努力在“质量—努力互补/替代”两类情形下分别出现向下/向上扭曲，同时单独设保留质量或保留价格都不足以筛除劣质投标者。
     </div>
   </details>
 
@@ -981,7 +981,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    研究提出一个用于设计与落地“主动学习（active learning）”课程的六要素框架 CAPTIvatE（内容传递、主动学习方法、物理环境、技术增强、激励对齐、教师投入），并用三门课程的实施对比给出初步证据：在学生投入相近的情况下，主动学习设计能显著提升学生“学到多少/课程价值/成绩”和师生同伴连接感。
     </div>
   </details>
 
@@ -1020,12 +1020,51 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+      本文建立“上游厂商（核心产品+附加品）—下游平台（批发制/代理制）”博弈模型，发现分销契约会根本性改变企业在“附加品单独定价（add-on pricing）”与“捆绑（bundling）”之间的最优选择：批发制下企业更偏好捆绑，代理制下更偏好附加品定价；其关键机制是代理制下平台对降价成本的“损失分担效应（loss-sharing）
     </div>
   </details>
 
   <div class="ai-only">
     Keywords: add-on pricing; online platform; agency model; supply chain contract
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Lin Tian, Asoo J. Vakharia, <b>Yinliang (Ricky) Tan</b>, Yifan Xu
+    "Marketplace, Reseller, or Hybrid: Strategic Analysis of an Emerging E-Commerce Model", 
+    <i>Production and Operations Management</i>, Aug 2018.
+    
+    <span class="pub-links">
+      <a href="/files/2018 POMS Marketplace.pdf" target="_blank">[PDF]</a> | 
+      <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.12885" target="_blank">[Google Scholar]</a> | 
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{tian2018marketplace,
+  title={Marketplace, reseller, or hybrid: Strategic analysis of an emerging e-commerce model},
+  author={Tian, Lin and Vakharia, Asoo J and Tan, Yinliang and Xu, Yifan},
+  journal={Production and Operations Management},
+  volume={27},
+  number={8},
+  pages={1595--1610},
+  year={2018},
+  publisher={SAGE Publications Sage CA: Los Angeles, CA}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">
+      本文在“两家上游供应商竞争 + 一个线上中介平台”的框架下比较纯转售（Reseller）、纯平台（Marketplace）与混合（Hybrid）三种模式，核心结论是：“平台模式一定更优、能消除双重加价”的传统观点在供应商竞争存在时不成立；最优模式取决于“上游竞争强度 × 履约（仓储/配送）成本”的交互——竞争越激烈、履约成本越高越应转售；竞争越弱、履约成本越低越应平台；中间区域混合最优。
+    </div>
+  </details>
+
+  <div class="ai-only">
+    Keywords: online marketplace; channel structure; upstream competition; order-fulfillment cost
   </div>
 </div>
 
@@ -1063,7 +1102,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本文以电子书为代表的数字产品为背景，构建“出版商—零售商”的定价博弈，证明由出版商主导电子书定价的代理制（agency）在相当广的参数区间内比批发制（wholesale）更能缓解双重加价、提高供应链利润并提升消费者剩余；其优势来自“收入分成 + 上游定价权”这两项机制的叠加。
     </div>
   </details>
 
@@ -1102,7 +1141,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    
     </div>
   </details>
 
@@ -1145,7 +1184,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本研究通过实地随机实验，探讨了产品视频广告在电子商务网站上展示相关产品的需求效应，发现视频广告不仅提高了焦点产品的销售，还通过揭示产品互补性显著增加了配饰产品的销售。
     </div>
   </details>
 
@@ -1184,7 +1223,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本文在模块化产品族的成品变体备货问题中，建立了“利润最大化 + 总体与变体级 fill rate 约束”的统一框架，并通过 iPad 案例的计算实验表明：提高对消费者模块选项偏好的估计精度，比提高对总需求的预测精度更能带来利润提升与更合理的库存配置.  
     </div>
   </details>
 
@@ -1224,7 +1263,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本文以电子书为代表的数字产品为背景，建立“出版商—两家竞争零售商”的定价博弈模型，证明当由上游出版商在代理制下统一定价时，该代理制能够实现对竞争零售商的供应链协调（虚拟纵向一体化），并在一定分成区间内实现出版商、零售商与消费者剩余的帕累托改进。  
     </div>
   </details>
 
@@ -1265,7 +1304,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+    本研究通过博弈论模型分析了电子书行业中代理模式与批发模式的战略影响，表明代理模式能有效减少供应链的双重边际化效应，并提高消费者剩余和社会福利。
     </div>
   </details>
 
@@ -1306,7 +1345,7 @@ author_profile: true
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-      
+      该研究通过扩展经典的单产品新闻售货员模型，提出了多产品新闻售货员问题，并探讨了多种产品间的替代和互补效应，旨在优化库存管理策略，以提高多产品库存系统中的预期利润。
     </div>
   </details>
 
