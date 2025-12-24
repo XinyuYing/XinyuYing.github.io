@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "关于我 (About Me)"
+title: ""
 excerpt: "About Me"
 author_profile: true
 redirect_from: 
@@ -42,7 +42,15 @@ redirect_from:
 </style>
 
 
-<div class="section-title">个人简介 (Biography)</div>
+<div class="section-title">最新演讲 (Latest Talk)</div>
+
+<div class="video-box">
+  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    <source src="/files/talk.mp4" type="video/mp4">
+    您的浏览器不支持 HTML5 视频播放，请下载观看。
+  </video>
+</div>
+
 
 <div class="bio-text">
   <strong>谭寅亮博士 (Dr. Yinliang Tan)</strong> 现任<strong>中欧国际工商学院 (CEIBS)</strong> 决策科学和管理信息系统学教授。他曾在<strong>斯坦福大学人工智能研究院和数字经济实验室</strong>担任访问学者。在加入中欧之前，他是美国<strong>休斯顿大学</strong> C.T. Bauer (鲍尔商学院) 决策和信息科学终身教授、鲍尔讲席教授、DBA 项目主任，以及供应链管理方向系主任。他还担任了休斯顿大学人工智能研究中心副主任和慧与科技 (HPE) 数据科学研究中心资深研究员。在此之前，他在美国<strong>杜兰大学</strong> Freeman School of Business (弗里曼商学院) 管理科学方向担任助理教授、副教授和戈德林国际教育中心行政主任，并获得终身教授与讲席教授职位。
@@ -60,26 +68,8 @@ redirect_from:
   谭寅亮教授现在担任《生产和运营管理》（<em>Production and Operations Management</em>，FT 50）的资深编辑、《决策科学》（<em>Decision Sciences Journal</em>）的部门编辑、《信息与管理》（<em>Information & Management</em>）期刊的副主编，以及《信息系统研究》（<em>Information Systems Research</em>）、《运营管理期刊》（<em>Journal of Operations Management</em>）和《管理信息系统期刊》（<em>Journal of Management Information Systems</em>）的编委会成员。同时，他担任《哈佛商业评论》“鼎革奖”的评委会成员，并受聘为上海市人工智能技术协会标准化工作委员会委员。
 </div>
 
-<div class="section-title">荣誉与奖项 (Honors & Awards)</div>
-
 <div class="bio-text">
   谭寅亮教授于 2019 年被评为<strong>世界最佳 40 名 40 岁以下的商学院教授</strong> (40 Under 40 Professors)，同年他获得了国际决策科学学会（Decision Science Institute）颁发的早期职业成就奖。谭教授于 2022 年获得 INFORMS 信息系统学会颁发的 <strong>Sandy Slaughter 职业成就奖</strong>以表彰他对信息系统领域做出的贡献。2025 年，他获得<strong>中欧国际工商学院年度最佳研究奖</strong>，并获得“欧洲案例交流中心”人工智能类别最佳案例开发奖。
 </div>
 
 
-<div class="section-title">最新演讲 (Latest Talk)</div>
-
-<div class="video-box">
-  <video width="100%" controls style="border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
-    <source src="/files/视频.mp4" type="video/mp4">
-    您的浏览器不支持 HTML5 视频播放，请下载观看。
-  </video>
-  
-  <p style="font-size: 0.9em; color: #666; margin-top: 10px; line-height: 1.5;">
-    <b> 视频简介</b>：谭教授关于人工智能与商业决策的最新演讲。
-    <br>
-    <a href="/files/视频.mp4" download style="color: #d9534f; text-decoration: none; font-weight: bold;">
-       点击下载视频文件
-    </a>
-  </p>
-</div>
