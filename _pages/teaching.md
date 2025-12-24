@@ -84,7 +84,7 @@ author_profile: true
     <li class="course-item">
       <span class="course-code">OPER 051</span>
       <span class="course-title">可视化分析 (Visual Analytics)</span>
-      <span class="course-level">研究生课程</span>
+      <span class="course-level">MBA</span>
     </li>
   </ul>
 </div>
@@ -95,7 +95,7 @@ author_profile: true
     <li class="course-item">
       <span class="course-code">SCM 8397</span>
       <span class="course-title">运营管理中的分析建模</span>
-      <span class="course-level">Ph.D. (博士)</span>
+      <span class="course-level">博士课程</span>
     </li>
     <li class="course-item">
       <span class="course-code">MIS 7397</span>
