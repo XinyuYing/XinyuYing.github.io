@@ -69,14 +69,14 @@
 
   &--lg {
     /* 核心修改：左对齐布局 */
-    min-width: 250px; 
+    min-width: 240px; 
     font-weight: 700;
     font-size: 1.5rem;
     padding-right: 0;
     /* 这里的 padding-left 是关键：
        如果文字还是偏右，就减小这个数字（如 45px）；
        如果偏左，就增大这个数字（如 55px）。*/
-    padding-left: 47px; 
+    padding-left: 45px; 
     text-align: left; 
     margin-right: 30px; 
   }
