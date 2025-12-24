@@ -11,28 +11,39 @@ redirect_from:
 {% include base_path %}
 
 <style>
-  /* 1. 标题样式：中欧红左竖线 */
+  /* 1. 顶格修正：消除 Jekyll 模板默认的顶部间距 */
+  .page__content {
+    margin-top: -40px !important; /* 强制内容上移 */
+  }
+  .page__title {
+    display: none !important; /* 隐藏空标题占位 */
+  }
+  .page__inner-wrap header {
+    margin-bottom: 0 !important;
+  }
+
+  /* 2. 标题样式 */
   .section-title {
     font-size: 1.4rem;
     font-weight: bold;
     color: #24292e;
-    margin-top: 30px;
+    margin-top: 10px; /* 调小顶部间距配合顶格 */
     margin-bottom: 20px;
   }
 
-  /* 2. 正文段落样式：增加呼吸感 */
+  /* 3. 正文段落样式 */
   .bio-text {
     font-size: 1rem;
-    line-height: 1.8; /* 1.8倍行高，阅读体验更好 */
+    line-height: 1.8;
     color: #333;
-    margin-bottom: 20px; /* 段落间距 */
-    text-align: justify; /* 两端对齐，让文字块更整齐 */
+    margin-bottom: 20px;
+    text-align: justify;
   }
 
-  /* 3. 视频容器样式 */
+  /* 4. 视频容器样式 */
   .video-box {
     margin-top: 20px;
-    background: #f9f9f9; /* 浅灰背景衬托 */
+    background: #f9f9f9;
     padding: 15px;
     border-radius: 8px;
     border: 1px solid #eee;
@@ -40,7 +51,6 @@ redirect_from:
 </style>
 
 <div class="section-title">Intro</div>
-
 
 <div class="bio-text">
   <strong>谭寅亮博士 (Dr. Yinliang Tan)</strong> 现任<strong>中欧国际工商学院 (CEIBS)</strong> 决策科学和管理信息系统学教授。他曾在<strong>斯坦福大学人工智能研究院和数字经济实验室</strong>担任访问学者。在加入中欧之前，他是美国<strong>休斯顿大学</strong> C.T. Bauer (鲍尔商学院) 决策和信息科学终身教授、鲍尔讲席教授、DBA 项目主任，以及供应链管理方向系主任。他还担任了休斯顿大学人工智能研究中心副主任和慧与科技 (HPE) 数据科学研究中心资深研究员。在此之前，他在美国<strong>杜兰大学</strong> Freeman School of Business (弗里曼商学院) 管理科学方向担任助理教授、副教授和戈德林国际教育中心行政主任，并获得终身教授与讲席教授职位。
@@ -68,4 +78,3 @@ redirect_from:
     您的浏览器不支持 HTML5 视频播放，请下载观看。
   </video>
 </div>
-
