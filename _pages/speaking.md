@@ -7,8 +7,6 @@ author_profile: true
 
 {% include base_path %}
 
-<br>
-
 <style>
   /* 1. 统一的红线标题风格 (与其他页面保持一致) */
   .section-title {
