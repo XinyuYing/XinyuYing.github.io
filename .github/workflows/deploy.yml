@@ -1,0 +1,35 @@
+name: Deploy Jekyll to Aliyun
+
+on:
+  push:
+    branches:
+      - master  # 确认一下你的主分支是 master 还是 main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+
+      - name: Build Site
+        run: |
+          bundle install
+          bundle exec jekyll build
+        # Jekyll 会自动把网页生成到 _site/ 目录
+
+      - name: Deploy to Server
+        uses: easingthemes/ssh-deploy@main
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+          ARGS: "-rltgoDzvO"
+          SOURCE: "_site/"
+          REMOTE_HOST: "47.99.57.64"     # 你的服务器 IP
+          REMOTE_USER: "root"
+          TARGET: "/www/wwwroot/yrtan.com/" # 宝塔建站目录
