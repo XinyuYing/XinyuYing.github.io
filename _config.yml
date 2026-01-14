@@ -13,7 +13,7 @@ title                    : "谭寅亮"
 title_separator          : "-"
 name                     : &name "Yinliang Tan"
 description              : &description "谭寅亮教授(Prof.Yinliang Tan)的学术网站。任职于中欧商学院，研究领域包括人工智能、数字经济、企业数字战略。分享最新论文、教学案例与媒体观点"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : "https://xinyuying.github.io" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : "https://www.yrtan.com" # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "XinyuYing/XinyuYing.github.io"
