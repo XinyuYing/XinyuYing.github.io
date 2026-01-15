@@ -61,15 +61,15 @@ redirect_from:
 </div>
 
 <div class="bio-text">
-  <strong>谭寅亮教授 </strong>在英国《金融时报》（Financial Times）认定的 50 种国际顶级管理学期刊累计发表了 <strong>20</strong> 多篇论文，包括《管理科学》（<em>Management Science</em>）、《管理信息系统季刊》（<em>MIS Quarterly</em>）、《信息系统研究》（<em>Information Systems Research</em>）、《生产和运营管理》（<em>Production and Operations Management</em>）、《制造与服务运营管理》（<em>Manufacturing & Service Operations Management</em>）和《人际关系》（<em>Human Relations</em>），并多次获得最佳论文奖。
+  <strong>谭寅亮教授 </strong> 在英国《金融时报》（Financial Times）认定的 50 种国际顶级管理学期刊累计发表了 <strong>20</strong> 多篇论文，包括《管理科学》（<em>Management Science</em>）、《管理信息系统季刊》（<em>MIS Quarterly</em>）、《信息系统研究》（<em>Information Systems Research</em>）、《生产和运营管理》（<em>Production and Operations Management</em>）、《制造与服务运营管理》（<em>Manufacturing & Service Operations Management</em>）和《人际关系》（<em>Human Relations</em>），并多次获得最佳论文奖。
 </div>
 
 <div class="bio-text">
-  <strong>谭寅亮教授 </strong>现在担任《生产和运营管理》<em>Production and Operations Management</em>，FT 50）的<strong>资深编辑</strong>、《决策科学》（<em>Decision Sciences Journal</em>）的<strong>部门编辑</strong>、《信息与管理》（<em>Information & Management</em>）期刊的<strong>副主编</strong>，以及《信息系统研究》（<em>Information Systems Research</em>）、《运营管理期刊》（<em>Journal of Operations Management</em>）和《管理信息系统期刊》<em>Journal of Management Information Systems</em>）的编委会成员。同时，他担任<strong>《哈佛商业评论》</strong>“鼎革奖”的评委会成员，并受聘为<strong>上海市人工智能技术协会</strong>标准化工作委员会委员。
+  <strong>谭寅亮教授 </strong> 现在担任《生产和运营管理》<em>Production and Operations Management</em>，FT 50）的<strong>资深编辑</strong>、《决策科学》（<em>Decision Sciences Journal</em>）的<strong>部门编辑</strong>、《信息与管理》（<em>Information & Management</em>）期刊的<strong>副主编</strong>，以及《信息系统研究》（<em>Information Systems Research</em>）、《运营管理期刊》（<em>Journal of Operations Management</em>）和《管理信息系统期刊》<em>Journal of Management Information Systems</em>）的编委会成员。同时，他担任<strong>《哈佛商业评论》</strong>“鼎革奖”的评委会成员，并受聘为<strong>上海市人工智能技术协会</strong>标准化工作委员会委员。
 </div>
 
 <div class="bio-text">
-  <strong>谭寅亮教授</strong>于 2019 年被评为<strong>世界最佳 40 名 40 岁以下的商学院教授</strong> (40 Under 40 Professors)，同年他获得了<strong>国际决策科学学会</strong>（Decision Science Institute）颁发的早期职业成就奖。谭教授于 2022 年获得 INFORMS 信息系统学会颁发的 <strong>Sandy Slaughter 职业成就奖</strong>以表彰他对信息系统领域做出的贡献。2025 年，他获得<strong>中欧国际工商学院年度最佳研究奖</strong>，并获得<strong>“欧洲案例交流中心”人工智能类别最佳案例开发奖</strong>。
+  <strong>谭寅亮教授</strong> 于2019 年被评为<strong>世界最佳 40 名 40 岁以下的商学院教授</strong> (40 Under 40 Professors)，同年他获得了<strong>国际决策科学学会</strong>（Decision Science Institute）颁发的早期职业成就奖。谭教授于 2022 年获得 INFORMS 信息系统学会颁发的 <strong>Sandy Slaughter 职业成就奖</strong>以表彰他对信息系统领域做出的贡献。2025 年，他获得<strong>中欧国际工商学院年度最佳研究奖</strong>，并获得<strong>“欧洲案例交流中心”人工智能类别最佳案例开发奖</strong>。
 </div>
 
 <div class="video-box">
