@@ -68,7 +68,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Yuetao Gao, Shaoxuan Liu, Bo Shen, <b>Yinliang Tan</b>, 
+    Yuetao Gao, Shaoxuan Liu, Bo Shen, <b>Yinliang (Ricky) Tan</b>, 
     "Social pricing of luxury products in a distribution channel", 
     <i>Production and Operations Management</i>, Jan 2026.
     
@@ -110,7 +110,7 @@ author_profile: true
 ## 2025
 <div class="pub-item">
   <div class="pub-citation">
-    Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang Ricky Tan</b>
+    Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang (Ricky) Tan</b>
     "Quality management in supply chain: Strategic implications and the paradox of AI inspection", 
     <i>Decision Sciences</i>, Mar 2025.
     
@@ -146,7 +146,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-     Meiqian Li, Guowei Liu, Guofang Nan, <b>Yinliang Ricky Tan</b>
+     Meiqian Li, Guowei Liu, Guofang Nan, <b>Yinliang (Ricky) Tan</b>
     "Governmental enforcement against piracy on media platforms", 
     <i>Decision Support Systems</i>, Apr 2025.
     
@@ -183,7 +183,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Ling Zhong, Jiajia Nie, <b>Yinliang Ricky Tan</b>, 
+    Ling Zhong, Jiajia Nie, <b>Yinliang (Ricky) Tan</b>, 
     "Game of brands: Managing brand spillover in a co-opetitive supply chain", 
     <i>Transportation Research Part E: Logistics and Transportation Review</i>, Jul 2025.
     
@@ -221,7 +221,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang Ricky Tan</b>, 
+    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang (Ricky) Tan</b>, 
     "The Hidden Impact of Prosumers and Its Fair Mitigation", 
     <i>Production and Operations Management</i>, Jul 2025.
     
@@ -264,7 +264,7 @@ author_profile: true
 ## 2024
 <div class="pub-item">
   <div class="pub-citation">
-   Geng Sun, Yeongin Kim, <b>Yinliang Tan</b>, Geoffrey G. Parker
+   Geng Sun, Yeongin Kim, <b>Yinliang (Ricky) Tan</b>, Geoffrey G. Parker
     "Dinner at Your Doorstep: Service Innovation via the Gig Economy on Food Delivery Platforms",    
     <i>Information System Research</i>, Feb 2024. 
     
@@ -303,7 +303,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    <b>Yinliang Tan</b>, 
+    <b>Yinliang (Ricky) Tan</b>, 
     "Implications of Blockchain-Powered Marketplace of Preowned Virtual Goods", 
     <i>Production and Operaion Management</i>, Jun 2024.
     
@@ -342,7 +342,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Ailing Xu, <b>Yinliang Tan</b>, Qiao-Chu He
+    Ailing Xu, <b>Yinliang (Ricky) Tan</b>, Qiao-Chu He
     "Information transparency with targeting technology for online service operations platform", 
     <i>Production and Operations Management</i>, Jun 2024.
     
@@ -381,7 +381,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Ting Hou, Meng Li, <b>Yinliang Tan</b>, Huazhong Zhao
+    Ting Hou, Meng Li, <b>Yinliang (Ricky) Tan</b>, Huazhong Zhao
     "Physician adoption of AI assistant", 
     <i>Manufacturing & Service Operations Management</i>, Sep 2024.
     
@@ -463,7 +463,7 @@ author_profile: true
 ## 2023
 <div class="pub-item">
   <div class="pub-citation">
-    Cheng, Stephanie, Pengkai Lin, <b>Yinliang Tan</b>, Yuchen Zhang
+    Cheng, Stephanie, Pengkai Lin, <b>Yinliang (Ricky) Tan</b>, Yuchen Zhang
     "“High” innovators? Marijuana legalization and regional innovation",    
     <i>Production and Operations Management</i>, Mar 2023. 
     
@@ -503,7 +503,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Yuetao Gao, Norman Johnson, Bo Shen, <b>Yinliang Tan</b>, 
+    Yuetao Gao, Norman Johnson, Bo Shen, <b>Yinliang (Ricky) Tan</b>, 
     "Benefits of sourcing alternative inputs of manufacturers for suppliers",    
     <i>Production and Operations Management</i>, Jun 2023. 
     
@@ -542,7 +542,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    Feiqiong Wei, <b>Yinliang Tan</b>, Haibing Gao, Huazhong Zhao
+    Feiqiong Wei, <b>Yinliang (Ricky) Tan</b>, Haibing Gao, Huazhong Zhao
     "When investors meet consumers: The roles and interactions of different backers in the crowdfunding market",    
     <i>Decision Sciences</i>, Aug 2023. 
     
