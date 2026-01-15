@@ -1,3 +1,52 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<script>
+/**
+ * Fix: Mobile portrait nav overflow / half-cut menu text
+ * Cause: GreedyNav width calc can be wrong before fonts/layout settle (esp. iOS + webfonts + orientation changes)
+ * Action: trigger resize recalculation at key moments
+ */
+(function () {
+  let queued = false;
+
+  function recalcGreedyNav() {
+    if (queued) return;
+    queued = true;
+    requestAnimationFrame(function () {
+      queued = false;
+      window.dispatchEvent(new Event("resize"));
+    });
+  }
+
+  // After full load
+  window.addEventListener("load", function () {
+    setTimeout(recalcGreedyNav, 0);
+  });
+
+  // iOS Safari bfcache restore
+  window.addEventListener("pageshow", function () {
+    setTimeout(recalcGreedyNav, 0);
+  });
+
+  // After fonts are ready (important when using CN fonts / webfonts)
+  if (document.fonts && document.fonts.ready) {
+    document.fonts.ready.then(function () {
+      setTimeout(recalcGreedyNav, 0);
+    });
+  }
+
+  // Orientation change (portrait/landscape)
+  window.addEventListener("orientationchange", function () {
+    setTimeout(recalcGreedyNav, 250);
+  });
+
+  // Visual viewport changes (iOS address bar, safe-area changes)
+  if (window.visualViewport) {
+    window.visualViewport.addEventListener("resize", function () {
+      setTimeout(recalcGreedyNav, 50);
+    });
+  }
+})();
+</script>
+
 {% include analytics.html %}
