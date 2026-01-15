@@ -77,3 +77,20 @@
     justify-content: flex-start;
   }
 }
+
+/* Force light mode + hide theme toggle in masthead */
+html { color-scheme: light; }
+
+.masthead {
+  .theme-toggle,
+  #theme-toggle,
+  .js-theme-toggle,
+  .dark-mode-toggle,
+  .toggle-theme,
+  .appearance-toggle,
+  .fa-gear,
+  .fa-moon,
+  .fa-sun {
+    display: none !important;
+  }
+}
