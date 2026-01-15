@@ -421,7 +421,7 @@ author_profile: true
 
 <div class="pub-item">
   <div class="pub-citation">
-    <b>Tan, Yinliang Ricky</b>, Chuanbin Yu, Yang Liu, and Quan Zheng
+    <b>Yinliang (Ricky) Tan</b>, Chuanbin Yu, Yang Liu, and Quan Zheng
     "Agency models in online platforms: A review of recent developments and future prospects", 
     <i>European Journal of Operational Research</i>, Dec 2024.
     
