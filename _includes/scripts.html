@@ -1,3 +1,22 @@
+<script>
+  (function () {
+    try {
+      // 常见主题缓存 key（不同主题实现可能不同，多清几个没副作用）
+      localStorage.removeItem("theme");
+      localStorage.removeItem("color-scheme");
+      localStorage.removeItem("mm-theme");
+      localStorage.removeItem("appearance");
+    } catch (e) {}
+
+    // 强制回到 light
+    document.documentElement.removeAttribute("data-theme");
+    document.documentElement.classList.remove("dark");
+    document.documentElement.style.colorScheme = "light";
+  })();
+</script>
+
+<script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
+
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
 <script>
