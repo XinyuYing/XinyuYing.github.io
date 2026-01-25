@@ -430,10 +430,10 @@ author_profile: true
 
 <div class="disclaimer-box">
   <p>
-    <strong>Statement:</strong> All my academic articles, media commentaries, opinion pieces, and interviews are listed on the personal website below and on official platforms or channels of CEIBS. These lists are updated in real time. Apart from the content listed, I have never published any other articles or given any interviews to media outlets.
+    <strong>本人郑重声明：</strong>我撰写的所有学术文章、媒体评论、观点文章及接受的采访，均列于上方所示个人网站及中欧商学院官方平台/渠道，并会实时更新。除此之外，我从未发表过任何其他文章，也从未接受过列表之外的媒体采访。
   </p>
-  <p>
-    <strong>本人郑重声明：</strong>我撰写的所有学术文章、媒体评论、观点文章及接受的采访，均列于下方所示个人网站及中欧商学院官方平台/渠道，并会实时更新。除此之外，我从未发表过任何其他文章，也从未接受过列表之外的媒体采访。
+    <p>
+    <strong>Statement:</strong> All my academic articles, media commentaries, opinion pieces, and interviews are listed on the personal website above and on official platforms or channels of CEIBS. These lists are updated in real time. Apart from the content listed, I have never published any other articles or given any interviews to media outlets.
   </p>
 </div>
 
