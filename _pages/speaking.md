@@ -56,7 +56,7 @@ author_profile: true
     margin-bottom: 30px;
 
     /* ▼▼▼ 只改了这下面两行 ▼▼▼ */
-    margin-top: 100px;   /* 距离上面拉得非常远 (之前是50px) */
+    margin-top: 70px;   /* 距离上面拉得非常远 (之前是50px) */
     font-size: 18px;     /* 字体调得很小 (细则说明的标准大小) */
   }
 
