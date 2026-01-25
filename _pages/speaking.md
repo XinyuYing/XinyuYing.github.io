@@ -57,7 +57,7 @@ author_profile: true
 
     /* ▼▼▼ 只改了这下面两行 ▼▼▼ */
     margin-top: 100px;   /* 距离上面拉得非常远 (之前是50px) */
-    font-size: 12px;     /* 字体调得很小 (细则说明的标准大小) */
+    font-size: 18px;     /* 字体调得很小 (细则说明的标准大小) */
   }
 
   .disclaimer-box p {
