@@ -46,6 +46,27 @@ author_profile: true
     background-color: #fff5f5; /* 微微的红色背景 */
     padding-left: 12px; /* 悬停时文字微微右移，增加动感 */
   }
+  
+  .disclaimer-box {
+    background-color: #f9f9f9; 
+    border-left: 4px solid #bbb; 
+    padding: 15px 20px;
+    color: #777;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+    /* ▼▼▼ 只改了这下面两行 ▼▼▼ */
+    margin-top: 100px;   /* 距离上面拉得非常远 (之前是50px) */
+    font-size: 12px;     /* 字体调得很小 (细则说明的标准大小) */
+  }
+
+  .disclaimer-box p {
+    margin-bottom: 8px;
+  }
+  
+  .disclaimer-box p:last-child {
+    margin-bottom: 0;
+  }
 </style>
 
 <div class="section-title">Latest Insights</div>
