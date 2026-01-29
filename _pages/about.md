@@ -65,7 +65,7 @@ redirect_from:
 </div>
 
 <div class="bio-text">
-  <strong>谭寅亮教授 </strong> 现在担任《生产和运营管理》<em>Production and Operations Management</em>，FT 50）的<strong>资深编辑</strong>，《决策科学》（<em>Decision Sciences Journal</em>）的<strong>部门编辑</strong>，《信息与管理》（<em>Information & Management</em>）、《信息系统研究》（<em>Information Systems Research</em>、《决策支持系统》（<em>Decision Support Systems</em>的<strong>副主编</strong>，以及《运营管理期刊》（<em>Journal of Operations Management</em>）和《管理信息系统期刊》<em>Journal of Management Information Systems</em>）的编委会成员。同时，他担任<strong>《哈佛商业评论》</strong>“鼎革奖”的评委会成员，并受聘为<strong>上海市人工智能技术协会</strong>标准化工作委员会委员。
+  <strong>谭寅亮教授 </strong> 现在担任《生产和运营管理》(<em>Production and Operations Management</em>）的<strong>资深编辑</strong>，《决策科学》（<em>Decision Sciences Journal</em>）的<strong>部门编辑</strong>，《信息与管理》（<em>Information & Management</em>）、《信息系统研究》（<em>Information Systems Research</em>)、《决策支持系统》（<em>Decision Support Systems</em>)的<strong>副主编</strong>，以及《运营管理期刊》（<em>Journal of Operations Management</em>）和《管理信息系统期刊》(<em>Journal of Management Information Systems</em>）的编委会成员。同时，他担任<strong>《哈佛商业评论》</strong>“鼎革奖”的评委会成员，并受聘为<strong>上海市人工智能技术协会</strong>标准化工作委员会委员。
 </div>
 
 <div class="bio-text">
