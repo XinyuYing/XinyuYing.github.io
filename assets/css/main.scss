@@ -5,92 +5,40 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands",
+
+  "custom"
 ;
-/* ===== Mobile portrait masthead/nav alignment fix (Minimal Mistakes / GreedyNav) ===== */
-@media (max-width: 640px) {
-  /* Ensure masthead nav uses stable flex layout */
-  .masthead__menu .greedy-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: nowrap;
-    width: 100%;
-  }
-
-  /* Prevent visible links from pushing toggle out of viewport */
-  .masthead__menu .greedy-nav .visible-links {
-    min-width: 0;
-    overflow: hidden;
-    flex: 1 1 auto;
-  }
-
-  /* Keep the toggle (hamburger) always visible */
-  .masthead__menu .greedy-nav__toggle {
-    flex: 0 0 auto;
-    margin-left: 0.25rem;
-  }
-
-  /* Slightly reduce horizontal padding to avoid overflow */
-  .masthead__menu .greedy-nav a {
-    padding-left: 0.55rem;
-    padding-right: 0.55rem;
-  }
-
-  /* Avoid any accidental centering that can cause truncation */
-  .masthead__menu,
-  .masthead__menu .greedy-nav .visible-links {
-    text-align: left;
-    justify-content: flex-start;
-  }
-}
-
-/* Force light mode + hide theme toggle in masthead */
-html { color-scheme: light; }
-
-.masthead {
-  .theme-toggle,
-  #theme-toggle,
-  .js-theme-toggle,
-  .dark-mode-toggle,
-  .toggle-theme,
-  .appearance-toggle,
-  .fa-gear,
-  .fa-moon,
-  .fa-sun {
-    display: none !important;
-  }
-}
