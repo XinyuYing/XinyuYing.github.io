@@ -1,0 +1,10 @@
+/* 让“折叠菜单/下拉菜单”始终竖排显示 */
+.masthead__menu ul.hidden-links {
+  display: block !important;
+  white-space: normal !important;
+}
+
+.masthead__menu ul.hidden-links li,
+.masthead__menu ul.hidden-links a {
+  display: block !important;
+}
