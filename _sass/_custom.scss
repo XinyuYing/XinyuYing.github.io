@@ -1,10 +1,64 @@
-/* 让“折叠菜单/下拉菜单”始终竖排显示 */
-.masthead__menu ul.hidden-links {
-  display: block !important;
-  white-space: normal !important;
+/* ===== Mobile portrait masthead/nav alignment fix (Minimal Mistakes / GreedyNav) ===== */
+@media (max-width: 640px) {
+  .masthead__menu .greedy-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+  }
+
+  .masthead__menu .greedy-nav .visible-links {
+    min-width: 0;
+    overflow: hidden;
+    flex: 1 1 auto;
+  }
+
+  .masthead__menu .greedy-nav__toggle {
+    flex: 0 0 auto;
+    margin-left: 0.25rem;
+  }
+
+  .masthead__menu .greedy-nav a {
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+  }
+
+  .masthead__menu,
+  .masthead__menu .greedy-nav .visible-links {
+    text-align: left;
+    justify-content: flex-start;
+  }
 }
 
-.masthead__menu ul.hidden-links li,
-.masthead__menu ul.hidden-links a {
-  display: block !important;
+/* ===== Fix: dropdown (hidden-links) must be vertical on mobile ===== */
+@media (max-width: 768px) {
+  .masthead__menu ul.hidden-links {
+    display: block !important;
+    white-space: normal !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  .masthead__menu ul.hidden-links li,
+  .masthead__menu ul.hidden-links a {
+    display: block !important;
+  }
+}
+
+/* Force light mode + hide theme toggle in masthead */
+html { color-scheme: light; }
+
+.masthead {
+  .theme-toggle,
+  #theme-toggle,
+  .js-theme-toggle,
+  .dark-mode-toggle,
+  .toggle-theme,
+  .appearance-toggle,
+  .fa-gear,
+  .fa-moon,
+  .fa-sun {
+    display: none !important;
+  }
 }
