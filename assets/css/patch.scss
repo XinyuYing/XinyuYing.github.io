@@ -1,0 +1,36 @@
+---
+---
+
+/* 1) 修复：下拉菜单（hidden-links）在手机端必须竖排 */
+@media (max-width: 768px) {
+  .masthead__menu ul.hidden-links,
+  .greedy-nav .hidden-links {
+    display: block !important;
+    white-space: normal !important;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  .masthead__menu ul.hidden-links li,
+  .masthead__menu ul.hidden-links a,
+  .greedy-nav .hidden-links li,
+  .greedy-nav .hidden-links a {
+    display: block !important;
+  }
+}
+
+/* 2) 你之前想隐藏夜览按钮的话，也可以继续放这里（可选） */
+html { color-scheme: light; }
+
+.masthead {
+  .theme-toggle,
+  #theme-toggle,
+  .js-theme-toggle,
+  .dark-mode-toggle,
+  .toggle-theme,
+  .appearance-toggle,
+  .fa-moon,
+  .fa-sun {
+    display: none !important;
+  }
+}
