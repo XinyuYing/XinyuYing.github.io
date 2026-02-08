@@ -5,7 +5,7 @@ permalink: /workingpaper/
 author_profile: true
 ---
 
-\style
+<style>
   /* 通用列表样式 */
   .service-list { list-style: none; padding-left: 5px; }
   .service-item {
@@ -14,7 +14,7 @@ author_profile: true
     color: #333;
     line-height: 1.5;
   }
-
+</style>
 
 ## Selected Working Papers
 
