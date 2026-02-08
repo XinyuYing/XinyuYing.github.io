@@ -5,6 +5,17 @@ permalink: /workingpaper/
 author_profile: true
 ---
 
+\style
+  /* 通用列表样式 */
+  .service-list { list-style: none; padding-left: 5px; }
+  .service-item {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
+
+
 ## Selected Working Papers
 
 1. **Digital Platforms, Innovation, and Transformations in the Age of Artificial Intelligence**
