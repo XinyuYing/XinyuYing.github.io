@@ -28,11 +28,10 @@ main:
     url: /services/
 
   - title: "工作论文"
-    url: /working-paper/
+    url: /workingpaper/
     
   - title: "联系方式"
     url: /contact/
-
     
   - title: "简历"
     url: /files/Tan_Yinliang_CV_CEIBS.pdf
