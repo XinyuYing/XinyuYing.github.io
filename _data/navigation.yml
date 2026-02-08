@@ -28,7 +28,7 @@ main:
     url: /services/
 
   - title: "工作论文"
-    url: /working-paper.md/
+    url: /working-paper/
     
   - title: "联系方式"
     url: /contact/
