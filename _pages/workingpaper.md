@@ -1,4 +1,3 @@
-<img width="432" height="13" alt="image" src="https://github.com/user-attachments/assets/a1b51d74-4705-4ad3-880a-dce8576ef80d" /><img width="432" height="13" alt="image" src="https://github.com/user-attachments/assets/8679de83-4a0f-4fc5-ab64-cf8233fe2337" />---
 layout: archive
 title:
 permalink: /workingpaper/
