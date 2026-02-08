@@ -10,7 +10,7 @@ author_profile: true
 1. **Digital Platforms, Innovation, and Transformations in the Age of Artificial Intelligence**
    <br>*Yinliang (Ricky) Tan*
    <br>
-   [[PDF (Abstract Only)]](/files/paper-abstract-only.pdf) 
+   [[PDF (Abstract Only)]](/files/Digital Platforms.pdf) 
    <br>
    <small style="color: gray;">
    This is for editorial review of the Special Issue of Production and Operations Management “New Business Models and Operations Innovations”.
