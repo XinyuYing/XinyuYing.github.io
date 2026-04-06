@@ -19,7 +19,25 @@
   }
 }
 
-/* 2) 你之前想隐藏夜览按钮的话，也可以继续放这里（可选） */
+/* 2) Dropdown flattening inside greedy-nav hidden-links (mobile overflow) */
+.greedy-nav .hidden-links {
+  .has-dropdown .dropdown-menu {
+    display: block !important;
+    position: static;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    padding-left: 1em;
+    min-width: 0;
+    transform: none;
+  }
+
+  .has-dropdown .dropdown-toggle i {
+    display: none;
+  }
+}
+
+/* 3) Force light mode + hide theme toggle */
 html { color-scheme: light; }
 
 .masthead {

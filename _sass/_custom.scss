@@ -31,6 +31,29 @@
   }
 }
 
+/* ===== Dropdown flattening inside greedy-nav hidden-links (mobile overflow) ===== */
+.greedy-nav .hidden-links {
+  .has-dropdown .dropdown-menu {
+    display: block !important;
+    position: static;
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    padding-left: 1em;
+    min-width: 0;
+    transform: none;
+
+    a {
+      font-size: $type-size-5;
+      padding: 10px 20px;
+    }
+  }
+
+  .has-dropdown .dropdown-toggle i {
+    display: none;
+  }
+}
+
 /* ===== Fix: dropdown (hidden-links) must be vertical on mobile ===== */
 @media (max-width: 768px) {
   .masthead__menu ul.hidden-links {

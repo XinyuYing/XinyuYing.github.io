@@ -68,4 +68,25 @@
 })();
 </script>
 
+<!-- Dropdown toggle for touch / click devices -->
+<script>
+(function () {
+  document.addEventListener('click', function (e) {
+    var toggle = e.target.closest('.dropdown-toggle');
+    if (toggle) {
+      e.preventDefault();
+      var parent = toggle.closest('.has-dropdown');
+      document.querySelectorAll('.has-dropdown.open').forEach(function (el) {
+        if (el !== parent) el.classList.remove('open');
+      });
+      parent.classList.toggle('open');
+    } else {
+      document.querySelectorAll('.has-dropdown.open').forEach(function (el) {
+        el.classList.remove('open');
+      });
+    }
+  });
+})();
+</script>
+
 {% include analytics.html %}

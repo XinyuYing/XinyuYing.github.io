@@ -3,6 +3,8 @@ layout: archive
 title: ""
 permalink: /cases/
 author_profile: true
+lang: zh
+lang_pair: /en/cases/
 ---
 
 {% include base_path %}

@@ -25,10 +25,14 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Yinliang (Ricky) Tan"
-  pronouns         : # example: "she/her"  
+  name_zh          : "谭寅亮"
+  pronouns         : # example: "she/her"
   bio              : "Professor of Decision Sciences <br> and MIS"
+  bio_zh           : "决策科学与管理信息系统教授"
   location         : "Shanghai, China"
+  location_zh      : "上海，中国"
   employer         : "<a href='https://cn.ceibs.edu/ricky_tan' style='display:inline'>CEIBS</a>"
+  employer_zh      : "<a href='https://cn.ceibs.edu/ricky_tan' style='display:inline'>中欧国际工商学院</a>"
   email            : "yrtan@ceibs.edu" 
 
   # Academic websites

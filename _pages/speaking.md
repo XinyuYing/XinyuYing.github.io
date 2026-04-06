@@ -3,6 +3,8 @@ layout: archive
 title: ""
 permalink: /speaking/
 author_profile: true
+lang: zh
+lang_pair: /en/speaking/
 ---
 
 {% include base_path %}

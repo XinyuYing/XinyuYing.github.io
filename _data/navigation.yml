@@ -1,37 +1,59 @@
-# The following is the order of the links in the header of the website.
-#
-# Changing the order here will adjust the order and you can also add additional
-# links. Removing a link prevents it from showing in the header, but does not
-# prevent it from being included in the site.
-#
-# NOTE that only one of the CV options should be selected, the first is for the
-#      Markdown formatted page while the second is generated using JSON.
+# Navigation links — supports dropdown children and bilingual (zh / en)
 
-# main links
-main:
+main_zh:
   - title: "个人介绍"
     url: /
-    
-  - title: "学术研究"
-    url: /publications/
-    
-  - title: "教学课程"
-    url: /teaching/
-    
-  - title: "案例开发"
-    url: /cases/
 
-  - title: "媒体观点"
+  - title: "学术"
+    children:
+      - title: "学术研究"
+        url: /publications/
+      - title: "工作论文"
+        url: /workingpaper/
+      - title: "学术服务"
+        url: /services/
+
+  - title: "教学"
+    children:
+      - title: "教学课程"
+        url: /teaching/
+      - title: "案例开发"
+        url: /cases/
+
+  - title: "观点"
     url: /speaking/
-    
-  - title: "学术服务"
-    url: /services/
 
-  - title: "工作论文"
-    url: /workingpaper/
-    
-  - title: "联系方式"
+  - title: "联系"
     url: /contact/
-    
+
   - title: "简历"
+    url: /files/Tan_Yinliang_CV_CEIBS.pdf
+
+main_en:
+  - title: "About"
+    url: /en/
+
+  - title: "Research"
+    children:
+      - title: "Publications"
+        url: /en/publications/
+      - title: "Working Papers"
+        url: /en/workingpaper/
+      - title: "Academic Services"
+        url: /en/services/
+
+  - title: "Teaching"
+    children:
+      - title: "Courses"
+        url: /en/teaching/
+      - title: "Cases"
+        url: /en/cases/
+
+  - title: "Media"
+    url: /en/speaking/
+
+  - title: "Contact"
+    url: /en/contact/
+
+  - title: "CV"
     url: /files/Tan_Yinliang_CV_CEIBS.pdf

@@ -1,5 +1,24 @@
 {% include base_path %}
 
+{% comment %} ── Language detection ── {% endcomment %}
+{% if page.lang == "en" %}
+  {% assign nav_items = site.data.navigation.main_en %}
+  {% if page.lang_pair %}
+    {% assign switch_url = page.lang_pair %}
+  {% else %}
+    {% assign switch_url = page.url | replace_first: "/en/", "/" %}
+  {% endif %}
+  {% assign switch_label = "中文" %}
+{% else %}
+  {% assign nav_items = site.data.navigation.main_zh %}
+  {% if page.lang_pair %}
+    {% assign switch_url = page.lang_pair %}
+  {% else %}
+    {% assign switch_url = "/en" | append: page.url %}
+  {% endif %}
+  {% assign switch_label = "EN" %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -7,16 +26,37 @@
         <button><span class="navicon"></span></button>
         <ul class="visible-links">
           <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
+
+          {% for link in nav_items %}
+            {% if link.children %}
+              <li class="masthead__menu-item has-dropdown">
+                <a href="javascript:void(0)" class="dropdown-toggle">
+                  {{ link.title }} <i class="fa fa-caret-down" aria-hidden="true"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  {% for child in link.children %}
+                    {% if child.url contains 'http' %}
+                      {% assign child_domain = '' %}
+                    {% else %}
+                      {% assign child_domain = base_path %}
+                    {% endif %}
+                    <li><a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a></li>
+                  {% endfor %}
+                </ul>
+              </li>
             {% else %}
-              {% assign domain = base_path %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = base_path %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
-          <li id="theme-toggle" class="masthead__menu-item persist tail">
-            <a role="button" aria-labelledby="theme-icon"><i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i></a>
+
+          <!-- Language switcher -->
+          <li class="masthead__menu-item persist tail lang-switch">
+            <a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a>
           </li>
         </ul>
         <ul class="hidden-links hidden"></ul>

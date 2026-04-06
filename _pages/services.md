@@ -3,6 +3,8 @@ layout: archive
 title: ""
 permalink: /services/
 author_profile: true
+lang: zh
+lang_pair: /en/services/
 ---
 
 {% include base_path %}

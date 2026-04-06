@@ -3,6 +3,8 @@ layout: archive
 title:
 permalink: /workingpaper/
 author_profile: true
+lang: zh
+lang_pair: /en/workingpaper/
 ---
 
 <style>

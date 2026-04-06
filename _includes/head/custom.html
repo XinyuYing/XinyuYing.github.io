@@ -19,4 +19,16 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- hreflang for bilingual pages -->
+{% if page.lang_pair %}
+  {% if page.lang == "en" %}
+    <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.lang_pair }}" />
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}" />
+  {% else %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.lang_pair }}" />
+    <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.url }}" />
+  {% endif %}
+  <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}" />
+{% endif %}
+
 <!-- end custom head snippets -->
