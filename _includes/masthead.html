@@ -22,14 +22,21 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><span class="navicon"></span></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg persist"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+      <nav id="site-nav">
 
+        <!-- Site title (always visible) -->
+        <a class="site-title" href="{{ base_path }}/">{{ site.title }}</a>
+
+        <!-- Hamburger button (mobile only) -->
+        <button class="mobile-nav-toggle" aria-label="Menu">
+          <span class="navicon"></span>
+        </button>
+
+        <!-- Desktop nav with dropdowns -->
+        <ul class="desktop-nav">
           {% for link in nav_items %}
             {% if link.children %}
-              <li class="masthead__menu-item has-dropdown">
+              <li class="has-dropdown">
                 <a href="javascript:void(0)" class="dropdown-toggle">
                   {{ link.title }} <i class="fa fa-caret-down" aria-hidden="true"></i>
                 </a>
@@ -50,19 +57,16 @@
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
-
-          <!-- Language switcher -->
-          <li class="masthead__menu-item persist tail lang-switch">
+          <li class="lang-switch">
             <a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a>
           </li>
         </ul>
-        <ul class="hidden-links hidden"></ul>
 
-        <!-- Mobile-only flat menu (no dropdowns) -->
-        <ul class="mobile-flat-menu hidden">
+        <!-- Mobile nav (flat, no dropdowns) -->
+        <ul class="mobile-nav hidden">
           {% for link in nav_items %}
             {% if link.children %}
               {% for child in link.children %}
@@ -84,21 +88,36 @@
           {% endfor %}
           <li class="lang-switch"><a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a></li>
         </ul>
+
       </nav>
-      <script>
-      (function(){
-        var nav = document.getElementById('site-nav');
-        if (!nav) return;
-        var btn = nav.querySelector('button');
-        var flat = nav.querySelector('.mobile-flat-menu');
-        if (!btn || !flat) return;
-        btn.addEventListener('click', function(){
-          if (window.innerWidth <= 768) {
-            flat.classList.toggle('hidden');
-          }
-        });
-      })();
-      </script>
     </div>
   </div>
 </div>
+
+<script>
+(function(){
+  var btn = document.querySelector('.mobile-nav-toggle');
+  var menu = document.querySelector('.mobile-nav');
+  if (!btn || !menu) return;
+  btn.addEventListener('click', function(){
+    menu.classList.toggle('hidden');
+    btn.classList.toggle('open');
+  });
+  // Close dropdown on outside click (desktop)
+  document.addEventListener('click', function(e){
+    var toggle = e.target.closest('.dropdown-toggle');
+    if (toggle) {
+      e.preventDefault();
+      var parent = toggle.closest('.has-dropdown');
+      document.querySelectorAll('.has-dropdown.open').forEach(function(el){
+        if (el !== parent) el.classList.remove('open');
+      });
+      parent.classList.toggle('open');
+    } else {
+      document.querySelectorAll('.has-dropdown.open').forEach(function(el){
+        el.classList.remove('open');
+      });
+    }
+  });
+})();
+</script>
