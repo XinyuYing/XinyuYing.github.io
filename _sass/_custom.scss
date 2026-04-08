@@ -31,42 +31,6 @@
   }
 }
 
-/* ===== Dropdown flattening inside greedy-nav hidden-links (mobile overflow) ===== */
-.greedy-nav .hidden-links {
-  .has-dropdown .dropdown-toggle {
-    display: none !important;
-  }
-
-  .has-dropdown .dropdown-menu {
-    display: block !important;
-    position: static;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    min-width: 0;
-    transform: none;
-
-    a {
-      font-size: $type-size-5;
-      padding: 10px 20px;
-    }
-  }
-}
-
-/* ===== Fix: dropdown (hidden-links) must be vertical on mobile ===== */
-@media (max-width: 768px) {
-  .masthead__menu ul.hidden-links {
-    display: block !important;
-    white-space: normal !important;
-    left: 0 !important;
-    right: 0 !important;
-  }
-
-  .masthead__menu ul.hidden-links li,
-  .masthead__menu ul.hidden-links a {
-    display: block !important;
-  }
-}
 
 /* Force light mode + hide theme toggle in masthead */
 html { color-scheme: light; }
