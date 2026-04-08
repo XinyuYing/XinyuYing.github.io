@@ -9,21 +9,20 @@
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
-/* Site title — match sidebar width (2 of 12 cols) to center over photo */
+/* Site title — match sidebar (15.254%) + gutter (1.695%) = 16.949% */
 .site-title {
   font-weight: 700;
   font-size: 1.5rem;
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-  width: 16.667%;
-  min-width: 160px;
+  width: 16.949%;
   text-align: center;
   flex-shrink: 0;
   &:hover { color: #d9534f; }
 }
 
-/* Desktop nav — left-align with content area */
+/* Desktop nav — left-align with content text (match .page padding-left) */
 .desktop-nav {
   display: flex;
   align-items: center;
@@ -31,7 +30,7 @@
   margin: 0;
   padding: 0;
   gap: 0.2rem;
-  padding-left: 0.5rem;
+  padding-left: calc(4.237% - 0.8rem);
 
   > li > a {
     display: block;
