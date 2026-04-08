@@ -9,14 +9,17 @@
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
 }
 
-/* Site title */
+/* Site title — match sidebar width (2 of 12 cols) to center over photo */
 .site-title {
   font-weight: 700;
   font-size: 1.5rem;
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-  margin-right: 2rem;
+  width: 16.667%;
+  min-width: 160px;
+  text-align: center;
+  flex-shrink: 0;
   &:hover { color: #d9534f; }
 }
 
