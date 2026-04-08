@@ -68,6 +68,58 @@ lang_pair: /speaking/
 
 <div class="speech-list">
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
+       title="Core insight: The main barrier to humanoid robots entering homes is not technology but the 'uncanny valley' effect — an instinctive human aversion to entities that look human but are not.">
+      "From the Uncanny Valley to the Trust Valley: The Hidden Costs of Humanoid Robot Commercialization" 36Kr. Yinliang Tan. February 2026.
+    </a>
+  </div>
+</div>
+
+<div style="display:none;">
+  Topics: Humanoid Robots, Uncanny Valley, Commercialization
+</div>
+
+<div class="speech-list">
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28384" target="_blank"
+       title="Core insight: The real strategic advantage lies in transforming AI collaborative intelligence into sustainable, replicable co-creation capabilities.">
+      "The New Frontier of Human-AI Collaboration" Harvard Business Review. Yinliang Tan. January 2026.
+    </a>
+  </div>
+</div>
+
+<div style="display:none;">
+  Topics: Human-AI Collaboration, AI Strategy
+</div>
+
+<div class="speech-list">
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28383" target="_blank"
+       title="Core insight: Electricity has become the fourth critical element of AI after data, algorithms, and computing power, determining the physical ceiling of AI industry expansion.">
+      "The Fourth Element of AI: Electricity Is Determining the Ceiling of the Next Computing Power Race" Forbes China. Yinliang Tan. January 2026.
+    </a>
+  </div>
+</div>
+
+<div style="display:none;">
+  Topics: AI Infrastructure, Energy, Computing Power
+</div>
+
+<div class="speech-list">
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28324" target="_blank"
+       title="Core insight: By combining inspection with compensation guarantees and AI technology, China's used car industry is transforming from a 'lemon market' into a risk-manageable service industry.">
+      "Solving the 'Lemon Market': Trust Rebuilding and the AI Transformation of China's Used Car Industry" 21st Century Business Herald. Yinliang Tan. December 2025.
+    </a>
+  </div>
+</div>
+
+<div style="display:none;">
+  Topics: Lemon Market, Information Asymmetry, AI, Used Car Industry
+</div>
+
+<div class="speech-list">
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank"
        title="Core insight: Before adopting AI agents, enterprises must establish robust data governance frameworks or risk 'garbage in, garbage out.'">
       "Are Enterprises Ready for AI Agents? The Foundations They Need First" Economic Observer. Yinliang Tan. November 2025.
@@ -264,6 +316,19 @@ lang_pair: /speaking/
 
 <div class="speech-list">
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26222" target="_blank"
+       title="Core insight: Generative AI is a powerful decision-support tool but cannot fully replace CEO strategic decision-making in the near term; a human-AI collaboration model is the way forward.">
+      "Can Generative AI Replace CEOs in Decision-Making?" Harvard Business Review. Yinliang Tan. January 2025.
+    </a>
+  </div>
+</div>
+
+<div style="display:none;">
+  Topics: Generative AI, CEO Decision-Making, Human-AI Collaboration
+</div>
+
+<div class="speech-list">
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26114" target="_blank"
        title="A New Era of AI Regulation: Impact and Challenges of AI Legislation">
       "A New Era of AI Regulation: Impact and Challenges of AI Legislation" Business School Magazine. Yinliang Tan. December 2024.
@@ -329,7 +394,7 @@ lang_pair: /speaking/
 
 <div class="speech-list">
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27496" target="_blank"
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25424" target="_blank"
        title="Baidu's Robotaxi 'Apollo Go': Sprint or Pace?">
       "Baidu's Robotaxi 'Apollo Go': Sprint or Pace?" TMTPost. Yinliang Tan. August 2024.
     </a>

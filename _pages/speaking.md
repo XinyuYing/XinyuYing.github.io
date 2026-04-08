@@ -71,17 +71,51 @@ lang_pair: /en/speaking/
   }
 </style>
 
-<div class="section-title">Latest Insights</div>
+<div class=”section-title”>Latest Insights</div>
 
-<div class="speech-list">
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28534” target=”_blank”
+       title=”核心观点：人形机器人进入家庭的主要障碍不是技术，而是人类基因深处的’恐怖谷’效应，家庭服务机器人应走非人化设计路线。”>
+      “从恐怖谷到信任谷：人形机器人商业化的隐形成本” 36氪. 谭寅亮. 2026年2月.
+    </a>
+  </div>
+</div>
 
-  <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank"
-       title="核心观点：企业在引入智能体（AI Agents）前，必须建立完善的数据治理框架，否则将面临‘垃圾进垃圾出’的风险。">
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28384” target=”_blank”
+       title=”核心观点：企业真正的战略优势在于将AI协作智商转化为可持续、可复制的共创能力，使AI成为认知伙伴而非单纯工具。”>
+      “人机协同新边界” 哈佛商业评论. 谭寅亮. 2026年1月.
+    </a>
+  </div>
+</div>
+
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28383” target=”_blank”
+       title=”核心观点：电力已成为继数据、算法、算力之后的第四个关键要素，决定了AI产业扩张的物理上限。”>
+      “AI的第四个要素：电力，正在决定下一轮算力竞争的上限” 福布斯中文网. 谭寅亮. 2026年1月.
+    </a>
+  </div>
+</div>
+
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28324” target=”_blank”
+       title=”核心观点：通过检测与赔付保障机制结合AI技术，中国二手车行业正从’柠檬市场’转型为风险可控的服务型产业。”>
+      “破题”柠檬市场”：中国二手车产业的信任重塑与AI变局” 21世纪经济报道. 谭寅亮. 2025年12月.
+    </a>
+  </div>
+</div>
+
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/27895” target=”_blank”
+       title=”核心观点：企业在引入智能体（AI Agents）前，必须建立完善的数据治理框架，否则将面临’垃圾进垃圾出’的风险。”>
       “引入智能体需要这些基础，企业准备好了么” 经济观察报. 谭寅亮. 2025年11月.
     </a>
   </div>
-
 </div>
 
 <div style="display:none;">
@@ -297,15 +331,28 @@ lang_pair: /en/speaking/
 
 </div>
 
-<div style="display:none;">
+<div style=”display:none;”>
   Topics:
 </div>
 
-<div class="speech-list">
+<div class=”speech-list”>
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/26222” target=”_blank”
+       title=”核心观点：生成式AI是强大的决策辅助工具，但短期内无法替代CEO的战略决策，应采取人机协作模式。”>
+      “生成式AI能否替代CEO做决策？” 哈佛商业评论. 谭寅亮. 2025年1月.
+    </a>
+  </div>
+</div>
 
-  <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26114" target="_blank"
-       title="AI监管新纪元——AI法案的影响与挑战">
+<div style=”display:none;”>
+  Topics:
+</div>
+
+<div class=”speech-list”>
+
+  <div class=”speech-item”>
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/26114” target=”_blank”
+       title=”AI监管新纪元——AI法案的影响与挑战”>
       “AI监管新纪元——AI法案的影响与挑战” 商学院杂志. 谭寅亮. 2024年12月.
     </a>
   </div>
@@ -379,9 +426,9 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27496" target="_blank"
-       title="“萝卜”，该快跑还是慢跑？| 数智前沿">
-      ““萝卜”，该快跑还是慢跑？” 钛媒体. 谭寅亮. 2024年8月.
+    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/25424” target=”_blank”
+       title=””萝卜”，该快跑还是慢跑？| 数智前沿”>
+      “”萝卜”，该快跑还是慢跑？” 钛媒体. 谭寅亮. 2024年8月.
     </a>
   </div>
 
