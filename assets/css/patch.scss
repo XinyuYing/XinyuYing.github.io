@@ -1,43 +1,80 @@
 ---
 ---
 
-/* 1) 修复：下拉菜单（hidden-links）在手机端必须竖排 */
+/* Mobile flat menu: hidden by default */
+.mobile-flat-menu {
+  display: none;
+}
+
+/* On mobile: hide greedy-nav hidden-links, show flat menu instead */
 @media (max-width: 768px) {
-  .masthead__menu ul.hidden-links,
-  .greedy-nav .hidden-links {
-    display: block !important;
-    white-space: normal !important;
-    left: 0 !important;
-    right: 0 !important;
+  .greedy-nav .hidden-links,
+  .greedy-nav ul.hidden-links,
+  ul.hidden-links {
+    display: none !important;
+    visibility: hidden !important;
+    width: 0 !important;
+    height: 0 !important;
+    overflow: hidden !important;
   }
 
-  .masthead__menu ul.hidden-links li,
-  .masthead__menu ul.hidden-links a,
-  .greedy-nav .hidden-links li,
-  .greedy-nav .hidden-links a {
+  .greedy-nav .mobile-flat-menu {
     display: block !important;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 15px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    list-style: none;
+    z-index: 30;
+    white-space: normal;
+  }
+
+  .greedy-nav .mobile-flat-menu li {
+    display: block;
+    border-bottom: 1px solid #eee;
+  }
+
+  .greedy-nav .mobile-flat-menu li:last-child {
+    border-bottom: none;
+  }
+
+  .greedy-nav .mobile-flat-menu a {
+    display: block;
+    padding: 10px 20px;
+    font-size: 0.95rem;
+    color: #333;
+    text-decoration: none;
+  }
+
+  .greedy-nav .mobile-flat-menu a:hover {
+    background: #f0f0f0;
+    color: #d9534f;
+  }
+
+  .greedy-nav .mobile-flat-menu .lang-switch a {
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  /* Hide the top-bar lang switch on mobile (it's in the flat menu already) */
+  .greedy-nav .visible-links .lang-switch {
+    display: none !important;
   }
 }
 
-/* 2) Dropdown flattening inside greedy-nav hidden-links (mobile overflow) */
-.greedy-nav .hidden-links {
-  .has-dropdown .dropdown-menu {
-    display: block !important;
-    position: static;
-    border: none;
-    box-shadow: none;
-    padding: 0;
-    padding-left: 1em;
-    min-width: 0;
-    transform: none;
-  }
-
-  .has-dropdown .dropdown-toggle i {
-    display: none;
+/* Desktop: hide mobile flat menu */
+@media (min-width: 769px) {
+  .mobile-flat-menu {
+    display: none !important;
   }
 }
 
-/* 3) Force light mode + hide theme toggle */
+/* Force light mode + hide theme toggle */
 html { color-scheme: light; }
 
 .masthead {

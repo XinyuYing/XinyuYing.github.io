@@ -8,10 +8,24 @@ lang_pair: /workingpaper/
 ---
 
 <style>
-  .page__content { margin-top: 20px !important; }
-  .page__title { display: none !important; }
+  .service-list { list-style: none; padding-left: 5px; }
+  .service-item {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.5;
+  }
 </style>
 
-<div style="font-size:1.2rem; font-weight:bold; margin-bottom:20px;">Working Papers</div>
+## Selected Working Papers
 
-<p><em>English version is under construction. Please visit the <a href="/workingpaper/">Chinese version</a> for the full list.</em></p>
+1. **Digital Platforms, Innovation, and Transformations in the Age of Artificial Intelligence**
+   <br> Edward Anderson, Nitin Joglekar, Sunil Mithas, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>
+   <br>
+   [[PDF (Abstract Only)]](/files/Digital Platforms.pdf) 
+   <br>
+   <small style="color: gray;">
+   This is for editorial review of the Special Issue of Production and Operations Management "New Business Models and Operations Innovations".
+   </small>
+
+---
