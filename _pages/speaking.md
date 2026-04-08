@@ -71,51 +71,77 @@ lang_pair: /en/speaking/
   }
 </style>
 
-<div class=”section-title”>Latest Insights</div>
+<div class="section-title">Latest Insights</div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28534” target=”_blank”
-       title=”核心观点：人形机器人进入家庭的主要障碍不是技术，而是人类基因深处的’恐怖谷’效应，家庭服务机器人应走非人化设计路线。”>
-      “从恐怖谷到信任谷：人形机器人商业化的隐形成本” 36氪. 谭寅亮. 2026年2月.
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
+       title="核心观点：人形机器人进入家庭的主要障碍不是技术，而是人类基因深处的恐怖谷效应，家庭服务机器人应走非人化设计路线。">
+      "从恐怖谷到信任谷：人形机器人商业化的隐形成本" 36氪. 谭寅亮. 2026年2月.
     </a>
   </div>
+
 </div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28384” target=”_blank”
-       title=”核心观点：企业真正的战略优势在于将AI协作智商转化为可持续、可复制的共创能力，使AI成为认知伙伴而非单纯工具。”>
-      “人机协同新边界” 哈佛商业评论. 谭寅亮. 2026年1月.
-    </a>
-  </div>
+<div style="display:none;">
+  Topics:
 </div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28383” target=”_blank”
-       title=”核心观点：电力已成为继数据、算法、算力之后的第四个关键要素，决定了AI产业扩张的物理上限。”>
-      “AI的第四个要素：电力，正在决定下一轮算力竞争的上限” 福布斯中文网. 谭寅亮. 2026年1月.
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28384" target="_blank"
+       title="核心观点：企业真正的战略优势在于将AI协作智商转化为可持续、可复制的共创能力，使AI成为认知伙伴而非单纯工具。">
+      "人机协同新边界" 哈佛商业评论. 谭寅亮. 2026年1月.
     </a>
   </div>
+
 </div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/28324” target=”_blank”
-       title=”核心观点：通过检测与赔付保障机制结合AI技术，中国二手车行业正从’柠檬市场’转型为风险可控的服务型产业。”>
-      “破题”柠檬市场”：中国二手车产业的信任重塑与AI变局” 21世纪经济报道. 谭寅亮. 2025年12月.
-    </a>
-  </div>
+<div style="display:none;">
+  Topics:
 </div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/27895” target=”_blank”
-       title=”核心观点：企业在引入智能体（AI Agents）前，必须建立完善的数据治理框架，否则将面临’垃圾进垃圾出’的风险。”>
-      “引入智能体需要这些基础，企业准备好了么” 经济观察报. 谭寅亮. 2025年11月.
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28383" target="_blank"
+       title="核心观点：电力已成为继数据、算法、算力之后的第四个关键要素，决定了AI产业扩张的物理上限。">
+      "AI的第四个要素：电力，正在决定下一轮算力竞争的上限" 福布斯中文网. 谭寅亮. 2026年1月.
     </a>
   </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28324" target="_blank"
+       title="核心观点：通过检测与赔付保障机制结合AI技术，中国二手车行业正从柠檬市场转型为风险可控的服务型产业。">
+      "破题"柠檬市场"：中国二手车产业的信任重塑与AI变局" 21世纪经济报道. 谭寅亮. 2025年12月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27895" target="_blank"
+       title="核心观点：企业在引入智能体（AI Agents）前，必须建立完善的数据治理框架，否则将面临垃圾进垃圾出的风险。">
+      "引入智能体需要这些基础，企业准备好了么" 经济观察报. 谭寅亮. 2025年11月.
+    </a>
+  </div>
+
 </div>
 
 <div style="display:none;">
@@ -128,8 +154,8 @@ lang_pair: /en/speaking/
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27851" target="_blank"
-       title="中国企业AI转型的“ADOPT”模型，包括五个关键步骤：Awareness（认知转变）、Data（数据治理）、Operation（应用落地）、People（组织与文化变革）、iTerate（持续迭代）。">
-      “中国企业AI转型：迈向智能时代的五大关键步骤” 商学院杂志. 谭寅亮. 2025年10月.
+       title="中国企业AI转型的"ADOPT"模型，包括五个关键步骤：Awareness（认知转变）、Data（数据治理）、Operation（应用落地）、People（组织与文化变革）、iTerate（持续迭代）。">
+      "中国企业AI转型：迈向智能时代的五大关键步骤" 商学院杂志. 谭寅亮. 2025年10月.
     </a>
   </div>
 
@@ -144,7 +170,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27827" target="_blank"
        title="智能体商业的黎明：AI重塑零售生态与中国路径">
-      “智能体商业的黎明：AI重塑零售生态与中国路径” 人民网. 汪泓,谭寅亮. 2025年10月.
+      "智能体商业的黎明：AI重塑零售生态与中国路径" 人民网. 汪泓,谭寅亮. 2025年10月.
     </a>
   </div>
 
@@ -159,7 +185,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27599" target="_blank"
        title="智能体崛起：助力AI进入生产力跃升阶段">
-      “智能体崛起：助力AI进入生产力跃升阶段” 商学院杂志. 谭寅亮. 2025年9月.
+      "智能体崛起：助力AI进入生产力跃升阶段" 商学院杂志. 谭寅亮. 2025年9月.
     </a>
   </div>
 
@@ -174,7 +200,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27496" target="_blank"
        title="AI营销时代：GEO智能体重构内容基建">
-      “AI营销时代：GEO智能体重构内容基建” 商学院杂志. 谭寅亮. 2025年9月.
+      "AI营销时代：GEO智能体重构内容基建" 商学院杂志. 谭寅亮. 2025年9月.
     </a>
   </div>
 
@@ -189,7 +215,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27474" target="_blank"
        title="AI 如何改写生产力规则？ | 36氪2025AI Partner百业大会">
-      “AI 如何改写生产力规则？ | 36氪2025AI Partner百业大会” 36氪. 谭寅亮. 2025年8月.
+      "AI 如何改写生产力规则？ | 36氪2025AI Partner百业大会" 36氪. 谭寅亮. 2025年8月.
     </a>
   </div>
 
@@ -204,7 +230,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27404" target="_blank"
        title="GPT-5加速全球AI竞赛：中国如何跟进">
-      “GPT-5加速全球AI竞赛：中国如何跟进” 财新. 谭寅亮. 2025年8月.
+      "GPT-5加速全球AI竞赛：中国如何跟进" 财新. 谭寅亮. 2025年8月.
     </a>
   </div>
 
@@ -219,7 +245,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27399" target="_blank"
        title="BAT 30年，AI重写江湖">
-      “BAT 30年，AI重写江湖” 商学院. 谭寅亮. 2025年5月.
+      "BAT 30年，AI重写江湖" 商学院. 谭寅亮. 2025年5月.
     </a>
   </div>
 
@@ -234,7 +260,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26900" target="_blank"
        title="人工智能时代中国如何稳住、提升就业基本盘">
-      “人工智能时代中国如何稳住、提升就业基本盘” 经济观察报. 谭寅亮. 2025年4月.
+      "人工智能时代中国如何稳住、提升就业基本盘" 经济观察报. 谭寅亮. 2025年4月.
     </a>
   </div>
 
@@ -250,7 +276,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26467" target="_blank"
        title="人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影">
-      “人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影” BBC中文网. 谭寅亮. 2025年3月.
+      "人工智能大爆发后的监管命题：风险分类、路线分化与地缘政治阴影" BBC中文网. 谭寅亮. 2025年3月.
     </a>
   </div>
 
@@ -265,7 +291,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26611" target="_blank"
        title="人工智能时代不可或缺的能力">
-      “人工智能时代不可或缺的能力” 商学院杂志. 谭寅亮. 2025年3月.
+      "人工智能时代不可或缺的能力" 商学院杂志. 谭寅亮. 2025年3月.
     </a>
   </div>
 
@@ -280,7 +306,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26406" target="_blank"
        title="一家品牌营销公司的AI进化论">
-      “一家品牌营销公司的AI进化论” 经济观察报. 谭寅亮. 2025年3月.
+      "一家品牌营销公司的AI进化论" 经济观察报. 谭寅亮. 2025年3月.
     </a>
   </div>
 
@@ -295,7 +321,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26388" target="_blank"
        title="谭寅亮：都在用AI，欧洲顶级商学院评审为啥青睐这个上海商业案例？">
-      “谭寅亮：都在用AI，欧洲顶级商学院评审为啥青睐这个上海商业案例？” 文汇报. 谭寅亮. 2025年2月.
+      "谭寅亮：都在用AI，欧洲顶级商学院评审为啥青睐这个上海商业案例？" 文汇报. 谭寅亮. 2025年2月.
     </a>
   </div>
 
@@ -310,7 +336,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26308" target="_blank"
        title="谭寅亮：DeepSeek戳破了英伟达泡沫，市值蒸发2.9万亿">
-      “谭寅亮：DeepSeek戳破了英伟达泡沫，市值蒸发2.9万亿” 钛媒体AGI. 谭寅亮. 2025年1月.
+      "谭寅亮：DeepSeek戳破了英伟达泡沫，市值蒸发2.9万亿" 钛媒体AGI. 谭寅亮. 2025年1月.
     </a>
   </div>
 
@@ -324,36 +350,38 @@ lang_pair: /en/speaking/
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26309" target="_blank"
-       title="谭寅亮：DeepSeek“刷屏”硅谷 芯片管制反激发中国大模型创新力？">
-      “DeepSeek“刷屏”硅谷，芯片管制反激发中国大模型创新力？” 第一财经. 谭寅亮. 2025年1月.
+       title="谭寅亮：DeepSeek"刷屏"硅谷 芯片管制反激发中国大模型创新力？">
+      "DeepSeek"刷屏"硅谷，芯片管制反激发中国大模型创新力？" 第一财经. 谭寅亮. 2025年1月.
     </a>
   </div>
 
 </div>
 
-<div style=”display:none;”>
+<div style="display:none;">
   Topics:
 </div>
 
-<div class=”speech-list”>
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/26222” target=”_blank”
-       title=”核心观点：生成式AI是强大的决策辅助工具，但短期内无法替代CEO的战略决策，应采取人机协作模式。”>
-      “生成式AI能否替代CEO做决策？” 哈佛商业评论. 谭寅亮. 2025年1月.
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26222" target="_blank"
+       title="核心观点：生成式AI是强大的决策辅助工具，但短期内无法替代CEO的战略决策，应采取人机协作模式。">
+      "生成式AI能否替代CEO做决策？" 哈佛商业评论. 谭寅亮. 2025年1月.
     </a>
   </div>
+
 </div>
 
-<div style=”display:none;”>
+<div style="display:none;">
   Topics:
 </div>
 
-<div class=”speech-list”>
+<div class="speech-list">
 
-  <div class=”speech-item”>
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/26114” target=”_blank”
-       title=”AI监管新纪元——AI法案的影响与挑战”>
-      “AI监管新纪元——AI法案的影响与挑战” 商学院杂志. 谭寅亮. 2024年12月.
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/26114" target="_blank"
+       title="AI监管新纪元——AI法案的影响与挑战">
+      "AI监管新纪元——AI法案的影响与挑战" 商学院杂志. 谭寅亮. 2024年12月.
     </a>
   </div>
 
@@ -368,7 +396,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25963" target="_blank"
        title="全球AI监管新纪元——欧盟AI法案的影响与挑战">
-      “全球AI监管新纪元——欧盟AI法案的影响与挑战” 经济观察报. 谭寅亮. 2024年11月.
+      "全球AI监管新纪元——欧盟AI法案的影响与挑战" 经济观察报. 谭寅亮. 2024年11月.
     </a>
   </div>
 
@@ -383,7 +411,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25787" target="_blank"
        title="缺乏失业保障和技能转移难度大，导致美国码头工人对自动化态度保守">
-      “缺乏失业保障和技能转移难度大，导致美国码头工人对自动化态度保守” 商学院杂志. 谭寅亮. 2024年10月.
+      "缺乏失业保障和技能转移难度大，导致美国码头工人对自动化态度保守" 商学院杂志. 谭寅亮. 2024年10月.
     </a>
   </div>
 
@@ -398,7 +426,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25772" target="_blank"
        title="生产力悖论：三次工业革命规律如何在AI时代演绎">
-      “生产力悖论：三次工业革命规律如何在AI时代演绎” 财新. 谭寅亮. 2024年10月.
+      "生产力悖论：三次工业革命规律如何在AI时代演绎" 财新. 谭寅亮. 2024年10月.
     </a>
   </div>
 
@@ -412,8 +440,8 @@ lang_pair: /en/speaking/
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25640" target="_blank"
-       title="代码“神器”Cursor爆火，程序员和开发者如何适应AI时代？">
-      “代码“神器”Cursor爆火，程序员和开发者如何适应AI时代？” 第一财经日报. 谭寅亮. 2024年9月.
+       title="代码"神器"Cursor爆火，程序员和开发者如何适应AI时代？">
+      "代码"神器"Cursor爆火，程序员和开发者如何适应AI时代？" 第一财经日报. 谭寅亮. 2024年9月.
     </a>
   </div>
 
@@ -426,9 +454,9 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href=”https://cn.ceibs.edu/media/press-clippings/faculty/25424” target=”_blank”
-       title=””萝卜”，该快跑还是慢跑？| 数智前沿”>
-      “”萝卜”，该快跑还是慢跑？” 钛媒体. 谭寅亮. 2024年8月.
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25424" target="_blank"
+       title=""萝卜"，该快跑还是慢跑？| 数智前沿">
+      ""萝卜"，该快跑还是慢跑？" 钛媒体. 谭寅亮. 2024年8月.
     </a>
   </div>
 
@@ -443,7 +471,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25497" target="_blank"
        title="谷歌前CEO言论激起波澜：远程办公是否阻碍了科技巨头的创新步伐？">
-      “谷歌前CEO言论激起波澜：远程办公是否阻碍了科技巨头的创新步伐？” 第一财经日报. 谭寅亮. 2024年8月.
+      "谷歌前CEO言论激起波澜：远程办公是否阻碍了科技巨头的创新步伐？" 第一财经日报. 谭寅亮. 2024年8月.
     </a>
   </div>
 
@@ -458,7 +486,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25484" target="_blank"
        title="OpenAI面临多个挑战：人才流失、财务压力与竞争对手的追赶">
-      “OpenAI面临多个挑战：人才流失、财务压力与竞争对手的追赶” 第一财经日报. 谭寅亮. 2024年8月.
+      "OpenAI面临多个挑战：人才流失、财务压力与竞争对手的追赶" 第一财经日报. 谭寅亮. 2024年8月.
     </a>
   </div>
 
@@ -472,8 +500,8 @@ lang_pair: /en/speaking/
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25319" target="_blank"
-       title="行业“爆改”进行时，企业该不该“听劝”让自己AI化？">
-      “行业“爆改”进行时，企业该不该“听劝”让自己AI化？” 第一财经. 谭寅亮. 2024年7月.
+       title="行业"爆改"进行时，企业该不该"听劝"让自己AI化？">
+      "行业"爆改"进行时，企业该不该"听劝"让自己AI化？" 第一财经. 谭寅亮. 2024年7月.
     </a>
   </div>
 
@@ -488,7 +516,7 @@ lang_pair: /en/speaking/
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25233" target="_blank"
        title="突围与蝶变——​中国大模型发展方兴未艾">
-      “突围与蝶变——​中国大模型发展方兴未艾” 《法人》杂志. 谭寅亮. 2024年6月.
+      "突围与蝶变——​中国大模型发展方兴未艾" 《法人》杂志. 谭寅亮. 2024年6月.
     </a>
   </div>
 
