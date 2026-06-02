@@ -69,6 +69,51 @@ lang_pair: /speaking/
 <div class="speech-list">
 
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28961" target="_blank"
+       title="Core insight: AI Agents are not replacements for software but its heaviest users; software will shift from a front-end interface operated by humans to an underlying capability invoked by Agents, and the true golden age of the software industry is only just beginning.">
+      "AI Agents Are Here: The True Golden Age of Software Has Just Begun" 36Kr. Yinliang Tan. May 2026.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics: AI Agents, Software Industry
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/new-papers-columns/28946" target="_blank"
+       title="Core insight: AI hallucinations are an inevitable product of how current AI models work; formal verification and similar methods are needed to turn fuzzy probabilistic reasoning into deterministic, mathematically checkable processes that build trust in critical applications.">
+      "Can AI Hallucinations Be Solved?" CEIBS. Yinliang Tan. May 2026.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics: AI Hallucination, Trust, Formal Verification
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28813" target="_blank"
+       title="Core insight: AI is advancing faster than society's compensation mechanisms, pushing public anxiety from opinion toward violent confrontation; the response requires de-escalating extreme narratives, spreading technology dividends, and strengthening employment-transition safeguards.">
+      "Attacks on OpenAI Founders' Homes: 'AI Panic' Is Tearing American Society Apart" Yicai. Yinliang Tan. April 2026.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics: AI Anxiety, Society, Employment
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
        title="Core insight: The main barrier to humanoid robots entering homes is not technology but the 'uncanny valley' effect — an instinctive human aversion to entities that look human but are not.">
       "From the Uncanny Valley to the Trust Valley: The Hidden Costs of Humanoid Robot Commercialization" 36Kr. Yinliang Tan. February 2026.

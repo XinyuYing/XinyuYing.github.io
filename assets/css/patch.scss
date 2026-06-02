@@ -70,6 +70,17 @@
       z-index: 30;
       list-style: none;
 
+      /* invisible bridge over the 4px gap so hover isn't lost */
+      &:before {
+        content: "";
+        position: absolute;
+        top: -4px;
+        left: 0;
+        right: 0;
+        height: 4px;
+        background: transparent;
+      }
+
       li {
         border-bottom: 1px solid #f0f0f0;
         &:last-child { border-bottom: none; }

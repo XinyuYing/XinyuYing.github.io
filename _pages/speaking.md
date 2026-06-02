@@ -76,6 +76,51 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28961" target="_blank"
+       title="AI Agent并非软件的替代者，而是软件的最重度使用者，软件将从“被人操作的前台界面”转变为“被Agent调用的底层能力”，软件行业的真正黄金时代才刚刚开始。">
+      "AI Agent来了，软件行业真正的黄金时代才刚开始" 36氪. 谭寅亮. 2026年5月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/new-papers-columns/28946" target="_blank"
+       title="AI幻觉是当前AI模型工作机制的必然产物，需要通过形式化验证等方法将模糊的概率推导过程转变为可被数学和逻辑检查的确定性过程，以在关键应用中建立信任基础。">
+      "AI幻觉，能被解决吗？" 中欧国际工商学院. 谭寅亮. 2026年5月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28813" target="_blank"
+       title="AI技术发展速度远超社会补偿机制，导致民众焦虑从舆论转向暴力对抗，需要淡化极端叙述、推动技术红利下沉并完善就业转型保障。">
+      "OpenAI创始人住所接连遭袭，“AI恐慌”正撕裂美国社会" 第一财经. 谭寅亮. 2026年4月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
        title="人形机器人进入家庭的主要障碍不是技术，而是恐怖谷效应，家庭服务机器人应走非人化设计路线。">
       "从恐怖谷到信任谷：人形机器人商业化的隐形成本" 36氪. 谭寅亮. 2026年2月.
