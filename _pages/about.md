@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-seo_title: "AI in Business Professor"
+seo_title: "Yinliang (Ricky) Tan - AI in Business Professor"
 description: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
 excerpt: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
 author_profile: true
@@ -54,7 +54,7 @@ redirect_from:
   }
 </style>
 
-<h1 class="section-title">AI in Business Professor</h1>
+<h1 class="section-title">Yinliang (Ricky) Tan - AI in Business Professor</h1>
 
 <div class="bio-text">
   谭寅亮教授 (Prof. Yinliang (Ricky) Tan) 现任中欧国际工商学院 (CEIBS) 决策科学和管理信息系统学教授。他曾在斯坦福大学人工智能研究院和数字经济实验室担任访问学者。在加入中欧之前，他是美国休斯顿大学 C.T. Bauer (鲍尔商学院) 决策和信息科学终身教授、鲍尔讲席教授、DBA 项目主任，以及供应链管理方向系主任。他还担任了休斯顿大学人工智能研究中心副主任和慧与科技 (HPE) 数据科学研究中心资深研究员。在此之前，他在美国杜兰大学 Freeman School of Business (弗里曼商学院) 管理科学方向担任助理教授、副教授和戈德林国际教育中心行政主任，并获得终身教授与讲席教授职位。

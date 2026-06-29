@@ -1,7 +1,7 @@
 ---
 permalink: /en/
 title: ""
-seo_title: "AI in Business Professor"
+seo_title: "Yinliang (Ricky) Tan - AI in Business Professor"
 description: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
 excerpt: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
 author_profile: true
@@ -44,7 +44,7 @@ lang_pair: /
   }
 </style>
 
-<h1 class="section-title">AI in Business Professor</h1>
+<h1 class="section-title">Yinliang (Ricky) Tan - AI in Business Professor</h1>
 
 <div class="bio-text">
   Prof. Yinliang (Ricky) Tan is a Professor of Decision Sciences and Management Information Systems at CEIBS (China Europe International Business School). He was a visiting scholar at the Stanford Institute for Human-Centered Artificial Intelligence and Digital Economy Lab. Prior to joining CEIBS, he was a tenured Professor, Bauer Endowed Chair Professor, DBA Program Director, and Area Chair of Supply Chain Management at the C.T. Bauer College of Business, University of Houston. He also served as Associate Director of the AI Research Center and Senior Fellow of the HPE Data Science Institute at the University of Houston. Before that, he held positions of Assistant Professor, Associate Professor, and Administrative Director of the Goldring Institute for International Education at Tulane University's A.B. Freeman School of Business, where he earned tenure and an endowed chair.
