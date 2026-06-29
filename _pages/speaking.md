@@ -73,6 +73,9 @@ lang_pair: /en/speaking/
 
 <div class="section-title">Latest Insights</div>
 
+<!-- BEGIN CEIBS AUTO-UPDATED INSIGHTS -->
+<!-- END CEIBS AUTO-UPDATED INSIGHTS -->
+
 <div class="speech-list">
 
   <div class="speech-item">
