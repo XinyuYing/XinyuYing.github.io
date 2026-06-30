@@ -231,7 +231,7 @@ textarea,
 
 /* Mobile nav */
 .mobile-nav {
-  display: none;
+  display: none !important;
   position: absolute;
   top: 100%;
   right: 0;
@@ -270,8 +270,12 @@ textarea,
     font-weight: 600;
   }
 
+  &.hidden {
+    display: none !important;
+  }
+
   &:not(.hidden) {
-    display: block;
+    display: block !important;
   }
 }
 
