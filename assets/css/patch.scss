@@ -1,12 +1,48 @@
 ---
 ---
 
+/* ===== Site typography and reading layout ===== */
+
+:root {
+  --site-font-family: "Helvetica Neue", Arial, "Noto Sans CJK SC", "Noto Sans SC",
+    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body,
+button,
+input,
+select,
+textarea,
+.masthead,
+.masthead__inner-wrap,
+#site-nav,
+.page,
+.page__content,
+.sidebar,
+.author__content,
+.author__urls-wrapper {
+  font-family: var(--site-font-family) !important;
+}
+
+.page__content .bio-text {
+  text-align: justify !important;
+  text-align-last: left;
+  text-justify: inter-character;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
 /* ===== Simple responsive nav (no greedy-nav) ===== */
 
 #site-nav {
   display: flex;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+  font-family: var(--site-font-family);
 }
 
 /* Site title — match sidebar (15.254%) + gutter (1.695%) = 16.949% */
@@ -118,6 +154,10 @@
   }
 }
 
+.desktop-nav > li:first-child > a {
+  padding-left: 0.2rem;
+}
+
 /* Hamburger button */
 .mobile-nav-toggle {
   display: none;
@@ -188,7 +228,11 @@
 /* ===== Responsive: mobile ===== */
 @media (max-width: 768px) {
   .desktop-nav { display: none !important; }
-  .mobile-nav-toggle { display: block; }
+  .mobile-nav-toggle,
+  .mobile-nav-toggle.hidden {
+    display: block !important;
+    visibility: visible !important;
+  }
   #site-nav { position: relative; }
 }
 
