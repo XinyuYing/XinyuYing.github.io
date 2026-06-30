@@ -194,7 +194,7 @@ textarea,
   .lang-switch a {
     font-weight: 600;
     font-size: 0.85rem;
-    padding: 2px 8px !important;
+    padding: 2px 0 2px 8px !important;
     border: 1px solid #333;
     border-radius: 3px;
     &:hover { background: #333; color: #fff; }
@@ -296,6 +296,13 @@ textarea,
   .archive > style:first-child + .contact-container,
   .archive > .page__title:empty + style + .contact-container {
     margin-top: 1rem !important;
+  }
+
+  .archive > style:first-child + .school-section,
+  .archive > .page__title:empty + style + .school-section,
+  .archive > style:first-child + .section-title,
+  .archive > .page__title:empty + style + .section-title {
+    margin-top: 0.75rem !important;
   }
 
   .sidebar .author__avatar,
