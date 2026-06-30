@@ -98,7 +98,7 @@ textarea,
     flex: 0 0 auto;
     justify-content: flex-start;
     min-width: auto;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
 
   > li > a {
@@ -141,10 +141,15 @@ textarea,
 
     .dropdown-toggle {
       cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 0.25em;
-      i { font-size: 0.7em; transition: transform 0.2s; }
+      position: relative;
+      i {
+        position: absolute;
+        top: 50%;
+        left: calc(100% + 0.25rem);
+        font-size: 0.7em;
+        transform: translateY(-50%);
+        transition: transform 0.2s;
+      }
     }
 
     .dropdown-menu {
@@ -202,7 +207,7 @@ textarea,
     }
     &:hover .dropdown-toggle i,
     &.open .dropdown-toggle i {
-      transform: rotate(180deg);
+      transform: translateY(-50%) rotate(180deg);
     }
   }
 
@@ -237,7 +242,7 @@ textarea,
   .desktop-nav > li.lang-switch {
     position: absolute;
     top: 50%;
-    left: calc(100% + 2rem);
+    left: calc(100% + 1.5rem);
     transform: translateY(-50%);
     margin-left: 0;
   }
