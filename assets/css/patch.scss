@@ -6,6 +6,9 @@
 :root {
   --site-font-family: "Helvetica Neue", Arial, "Noto Sans CJK SC", "Noto Sans SC",
     "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --site-active-color: #d9534f;
+  --site-sidebar-width: 260px;
+  --site-avatar-width: 175px;
 }
 
 html {
@@ -43,39 +46,77 @@ textarea,
   display: flex;
   align-items: center;
   font-family: var(--site-font-family);
+  width: 100%;
 }
 
-/* Site title — match sidebar (15.254%) + gutter (1.695%) = 16.949% */
+/* Site title — align the name with the photo center in the left column. */
 .site-title {
+  display: flex !important;
+  justify-content: center !important;
+  box-sizing: border-box;
   font-weight: 700;
   font-size: 1.5rem;
   color: #333;
   text-decoration: none;
   white-space: nowrap;
-  width: 16.949%;
+  width: var(--site-sidebar-width) !important;
+  flex: 0 0 var(--site-sidebar-width);
+  padding-right: calc(var(--site-sidebar-width) - var(--site-avatar-width));
   text-align: center;
-  flex-shrink: 0;
-  &:hover { color: #d9534f; }
+  &:hover { color: var(--site-active-color); }
 }
 
-/* Desktop nav — left-align with content text (match .page padding-left) */
+/* Desktop nav — same width as the content column and evenly spaced. */
 .desktop-nav {
   display: flex;
   align-items: center;
+  flex: 1 1 auto;
   list-style: none;
   margin: 0;
   padding: 0;
-  gap: 0.2rem;
-  padding-left: calc(4.237% - 0.8rem);
+  gap: 0;
+  width: auto;
+  min-width: 0;
+
+  > li {
+    display: flex;
+    flex: 1 1 0;
+    justify-content: center;
+    min-width: 0;
+  }
+
+  > li:first-child {
+    justify-content: flex-start;
+  }
+
+  > li:last-child {
+    justify-content: flex-end;
+  }
 
   > li > a {
     display: block;
-    padding: 0.5rem 0.8rem;
+    padding: 0.5rem 0.35rem;
     color: #333;
     text-decoration: none;
     font-size: 1.05rem;
     white-space: nowrap;
-    &:hover { color: #d9534f; }
+    border-bottom: 2px solid transparent;
+    &:hover { color: var(--site-active-color); }
+  }
+
+  > li:first-child > a {
+    padding-left: 0.2rem;
+  }
+
+  > li:last-child > a {
+    padding-right: 0;
+  }
+
+  > li.active > a,
+  > li > a.active {
+    color: var(--site-active-color) !important;
+    font-weight: 700;
+    border-bottom-color: var(--site-active-color);
   }
 
   /* Dropdown parent */
@@ -129,7 +170,13 @@ textarea,
         font-size: 0.95rem;
         color: #333;
         text-decoration: none;
-        &:hover { background: #f6f8fa; color: #d9534f; }
+        &:hover { background: #f6f8fa; color: var(--site-active-color); }
+      }
+
+      li.active > a,
+      a.active {
+        color: var(--site-active-color) !important;
+        font-weight: 700;
       }
     }
 
@@ -152,10 +199,6 @@ textarea,
     border-radius: 3px;
     &:hover { background: #333; color: #fff; }
   }
-}
-
-.desktop-nav > li:first-child > a {
-  padding-left: 0.2rem;
 }
 
 /* Hamburger button */
@@ -213,7 +256,14 @@ textarea,
     color: #333;
     text-decoration: none;
     font-size: 1rem;
-    &:hover { background: #f6f8fa; color: #d9534f; }
+    &:hover { background: #f6f8fa; color: var(--site-active-color); }
+  }
+
+  li.active > a,
+  a.active {
+    color: var(--site-active-color) !important;
+    font-weight: 700;
+    border-left: 3px solid var(--site-active-color);
   }
 
   .lang-switch a {
@@ -222,6 +272,50 @@ textarea,
 
   &:not(.hidden) {
     display: block;
+  }
+}
+
+/* ===== Content width, spacing, and alignment ===== */
+
+@media (min-width: 769px) {
+  #main .page {
+    padding-right: 0 !important;
+  }
+
+  .archive > .page__title:empty {
+    display: none !important;
+    margin: 0 !important;
+  }
+
+  .archive > style:first-child + h2,
+  .archive > .page__title:empty + style + h2,
+  .archive > style:first-child + .section-title,
+  .archive > .page__title:empty + style + .section-title,
+  .archive > style:first-child + .school-section,
+  .archive > .page__title:empty + style + .school-section,
+  .archive > style:first-child + .contact-container,
+  .archive > .page__title:empty + style + .contact-container {
+    margin-top: 1rem !important;
+  }
+
+  .sidebar .author__avatar,
+  .sidebar .author__content {
+    width: var(--site-avatar-width);
+  }
+
+  .sidebar .author__avatar {
+    display: block;
+  }
+
+  .sidebar .author__avatar img,
+  .sidebar img.author__avatar {
+    width: var(--site-avatar-width);
+    max-width: var(--site-avatar-width);
+  }
+
+  .sidebar .author__name,
+  .sidebar .author__bio {
+    text-align: center;
   }
 }
 

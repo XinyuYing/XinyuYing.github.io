@@ -13,7 +13,7 @@ lang_pair: /
 
 <style>
   .page__content {
-    margin-top: 20px !important;
+    margin-top: 12px !important;
   }
   .page__title {
     display: none !important;

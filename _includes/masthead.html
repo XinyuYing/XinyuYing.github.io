@@ -18,6 +18,7 @@
   {% endif %}
   {% assign switch_label = "EN" %}
 {% endif %}
+{% assign current_url = page.url | replace: "index.html", "" %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -35,19 +36,28 @@
         <!-- Desktop nav with dropdowns -->
         <ul class="desktop-nav">
           {% for link in nav_items %}
+            {% assign link_url = link.url | replace: "index.html", "" %}
             {% if link.children %}
-              <li class="has-dropdown">
-                <a href="javascript:void(0)" class="dropdown-toggle">
+              {% assign child_active = false %}
+              {% for child in link.children %}
+                {% assign child_url = child.url | replace: "index.html", "" %}
+                {% if current_url == child_url %}
+                  {% assign child_active = true %}
+                {% endif %}
+              {% endfor %}
+              <li class="has-dropdown{% if child_active %} active{% endif %}">
+                <a href="javascript:void(0)" class="dropdown-toggle{% if child_active %} active{% endif %}">
                   {{ link.title }} <i class="fa fa-caret-down" aria-hidden="true"></i>
                 </a>
                 <ul class="dropdown-menu">
                   {% for child in link.children %}
+                    {% assign child_url = child.url | replace: "index.html", "" %}
                     {% if child.url contains 'http' %}
                       {% assign child_domain = '' %}
                     {% else %}
                       {% assign child_domain = base_path %}
                     {% endif %}
-                    <li><a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a></li>
+                    <li class="{% if current_url == child_url %}active{% endif %}"><a href="{{ child_domain }}{{ child.url }}" class="{% if current_url == child_url %}active{% endif %}">{{ child.title }}</a></li>
                   {% endfor %}
                 </ul>
               </li>
@@ -57,7 +67,7 @@
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-              <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <li class="{% if current_url == link_url %}active{% endif %}"><a href="{{ domain }}{{ link.url }}" class="{% if current_url == link_url %}active{% endif %}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
           <li class="lang-switch">
@@ -68,14 +78,16 @@
         <!-- Mobile nav (flat, no dropdowns) -->
         <ul class="mobile-nav hidden">
           {% for link in nav_items %}
+            {% assign link_url = link.url | replace: "index.html", "" %}
             {% if link.children %}
               {% for child in link.children %}
+                {% assign child_url = child.url | replace: "index.html", "" %}
                 {% if child.url contains 'http' %}
                   {% assign child_domain = '' %}
                 {% else %}
                   {% assign child_domain = base_path %}
                 {% endif %}
-                <li><a href="{{ child_domain }}{{ child.url }}">{{ child.title }}</a></li>
+                <li class="{% if current_url == child_url %}active{% endif %}"><a href="{{ child_domain }}{{ child.url }}" class="{% if current_url == child_url %}active{% endif %}">{{ child.title }}</a></li>
               {% endfor %}
             {% else %}
               {% if link.url contains 'http' %}
@@ -83,7 +95,7 @@
               {% else %}
                 {% assign domain = base_path %}
               {% endif %}
-              <li><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+              <li class="{% if current_url == link_url %}active{% endif %}"><a href="{{ domain }}{{ link.url }}" class="{% if current_url == link_url %}active{% endif %}">{{ link.title }}</a></li>
             {% endif %}
           {% endfor %}
           <li class="lang-switch"><a href="{{ base_path }}{{ switch_url }}">{{ switch_label }}</a></li>
