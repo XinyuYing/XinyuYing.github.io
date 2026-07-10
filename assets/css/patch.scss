@@ -10,6 +10,7 @@
   --site-sidebar-width: 260px;
   --site-avatar-width: 175px;
   --content-start-gap: 0.75rem;
+  --language-slot-width: calc(39px + 1.5rem);
 }
 
 html {
@@ -250,7 +251,7 @@ h6,
 
 /* The theme's `.masthead__menu ul` rule is more specific than `.desktop-nav`. */
 .masthead__menu ul.desktop-nav {
-  padding-right: calc(39px + 1.5rem);
+  padding-right: var(--language-slot-width);
 }
 
 @media (min-width: 1360px) {
@@ -397,6 +398,13 @@ h6,
   .sidebar .author__name,
   .sidebar .author__bio {
     text-align: center;
+  }
+}
+
+@media (min-width: 925px) and (max-width: 1359px) {
+  #main .page,
+  #main .archive {
+    padding-right: var(--language-slot-width) !important;
   }
 }
 
