@@ -401,7 +401,7 @@ h6,
   }
 }
 
-@media (min-width: 925px) and (max-width: 1359px) {
+@media (min-width: 1280px) and (max-width: 1359px) {
   #main .page,
   #main .archive {
     padding-right: var(--language-slot-width) !important;
@@ -409,7 +409,7 @@ h6,
 }
 
 /* ===== Responsive: mobile ===== */
-@media (max-width: 924px) {
+@media (max-width: 1279px) {
   .desktop-nav { display: none !important; }
   .mobile-nav-toggle,
   .mobile-nav-toggle.hidden {
@@ -428,7 +428,7 @@ h6,
 }
 
 /* ===== Responsive: desktop ===== */
-@media (min-width: 925px) {
+@media (min-width: 1280px) {
   .mobile-nav { display: none !important; }
   .mobile-nav-toggle { display: none !important; }
 }
