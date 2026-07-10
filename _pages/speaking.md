@@ -74,6 +74,35 @@ lang_pair: /en/speaking/
 <div class="section-title">Latest Insights</div>
 
 <!-- BEGIN CEIBS AUTO-UPDATED INSIGHTS -->
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29450" target="_blank"
+       title="当前，AI硬科技产业已形成一个高度专业化、深度全球化、彼此强依存的分工体系。不同经济体凭借各自的技术积累与产业禀赋，分别占据了产业链的关键环节，共同支撑起全球AI算力的庞大基座。中国在光模块、PCB等环节已具备全球竞争力和真实业绩支撑，这些环节既深度受益于全球AI产业的扩张，又不易被单一国家的政策所影响，构成了当前确定性最强的投资主线。同时，在高端芯片...">
+      “上证观察家——人工智能浪潮下A股硬科技的重估逻辑” 上海证券报. 谭寅亮. 2026年7月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29438" target="_blank"
+       title="上个月，OpenAI成立了OpenAI部署公司，初始投资超40亿美元，派遣FDE深入企业提供定制化AI构建服务，同时还通过收购AI咨询公司Tomoro，为新公司带来约150名的FDE。Anthropic则联手黑石、高盛等，成立了估值15亿美元的企业服务合资公司，同样采用FDE驻场模式推动Claude模型的深度部署。 该岗位的薪水待遇也很丰厚。Persp...">
+      “硅谷最热门工种来了！大厂为何集体招聘“前端部署工程师”？” 第一财经. 谭寅亮. 2026年6月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
 <!-- END CEIBS AUTO-UPDATED INSIGHTS -->
 
 <div class="speech-list">

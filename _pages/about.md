@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: ""
+semantic_title: "谭寅亮"
+hide_title: true
 seo_title: "Yinliang (Ricky) Tan - AI in Business Professor"
 description: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
 excerpt: "Prof. Yinliang (Ricky) Tan is an AI in Business Professor at CEIBS, focusing on artificial intelligence, digital economy, and business transformation."
@@ -18,9 +20,6 @@ redirect_from:
   /* 1. 顶格修正：消除 Jekyll 模板默认的顶部间距 */
   .page__content {
     margin-top: 12px !important; /* 与其他栏目正文顶距保持一致 */
-  }
-  .page__title {
-    display: none !important; /* 隐藏空标题占位 */
   }
   .page__inner-wrap header {
     margin-bottom: 0 !important;

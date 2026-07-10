@@ -2,11 +2,9 @@
 layout: archive
 title: ""
 permalink: /contact/
-author_profile: false
+author_profile: true
 lang: zh
 lang_pair: /en/contact/
-sidebar:
-  nav: "docs"
 ---
 
 <style>
@@ -16,7 +14,7 @@ sidebar:
     flex-wrap: wrap; /* 手机端自动换行 */
     gap: 50px;       /* 左右两栏的间距 */
     margin-top: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-family: var(--site-font-family);
   }
 
   /* 左边：联系信息 */
@@ -75,20 +73,25 @@ sidebar:
     color: #666;
     font-size: 0.9em;
   }
+
+  @media (max-width: 924px) {
+    .contact-container { gap: 32px; }
+    .contact-info, .contact-form { min-width: 0; flex-basis: 100%; }
+  }
 </style>
 
 <div class="contact-container">
   
   <div class="contact-info">
-    <h1>保持联系...</h1> 
+    <h1>保持联系</h1>
     
     <p>学术交流请和我联系</p>
     
-    <p>✉️ <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
+    <p>电子邮箱：<a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
 
     <p style="margin-top: 30px;">
       其他事宜请联系我的研究员张老师(Maggie)</p>
-    <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
+    <p>电子邮箱：<a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a>
     </p>
 
     <div class="address-block">
@@ -104,26 +107,26 @@ sidebar:
     <form action="https://formspree.io/f/xykgjwro" method="POST">
       
       <div class="form-group">
-        <label>姓名/Name <span class="required">(必填/required)</span></label>
-        <input type="text" name="name" required placeholder="Your Name">
+        <label for="contact-name">姓名/Name <span class="required">(必填/required)</span></label>
+        <input id="contact-name" type="text" name="name" required autocomplete="name" placeholder="Your Name">
       </div>
 
       <div class="form-group">
-        <label>电子邮箱/Email <span class="required">(必填/required)</span></label>
-        <input type="email" name="email" required placeholder="your.email@example.com">
+        <label for="contact-email">电子邮箱/Email <span class="required">(必填/required)</span></label>
+        <input id="contact-email" type="email" name="email" required autocomplete="email" placeholder="your.email@example.com">
       </div>
 
       <div class="form-group">
-        <label>公司/Company <span class="required">(必填/required)</span></label>
-        <input type="text" name="company">
+        <label for="contact-company">公司/Company <span class="required">(必填/required)</span></label>
+        <input id="contact-company" type="text" name="company" autocomplete="organization">
       </div>
 
       <div class="form-group">
-        <label>联系事由/Message <span class="required">(必填/required)</span></label>
-        <textarea name="message" required placeholder="How can I help you?"></textarea>
+        <label for="contact-message">联系事由/Message <span class="required">(必填/required)</span></label>
+        <textarea id="contact-message" name="message" required placeholder="How can I help you?"></textarea>
       </div>
 
-      <button type="submit" class="submit-btn">Send Message</button>
+      <button type="submit" class="submit-btn">发送消息</button>
     </form>
   </div>
 

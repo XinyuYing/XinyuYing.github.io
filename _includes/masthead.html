@@ -19,6 +19,11 @@
   {% assign switch_label = "EN" %}
 {% endif %}
 {% assign current_url = page.url | replace: "index.html", "" %}
+{% if page.lang == "en" %}
+  {% assign menu_label = "Menu" %}
+{% else %}
+  {% assign menu_label = "导航菜单" %}
+{% endif %}
 
 <div class="masthead">
   <div class="masthead__inner-wrap">
@@ -29,7 +34,7 @@
         <a class="site-title" href="{{ base_path }}/">{{ site.title }}</a>
 
         <!-- Hamburger button (mobile only) -->
-        <button class="mobile-nav-toggle" aria-label="Menu">
+        <button class="mobile-nav-toggle" type="button" aria-label="{{ menu_label }}" aria-controls="mobile-site-menu" aria-expanded="false">
           <span class="navicon"></span>
         </button>
 
@@ -76,7 +81,7 @@
         </ul>
 
         <!-- Mobile nav (flat, no dropdowns) -->
-        <ul class="mobile-nav hidden">
+        <ul id="mobile-site-menu" class="mobile-nav hidden">
           {% for link in nav_items %}
             {% assign link_url = link.url | replace: "index.html", "" %}
             {% if link.children %}
@@ -111,9 +116,19 @@
   var btn = document.querySelector('.mobile-nav-toggle');
   var menu = document.querySelector('.mobile-nav');
   if (!btn || !menu) return;
+  function setMenuOpen(open) {
+    menu.classList.toggle('hidden', !open);
+    btn.classList.toggle('open', open);
+    btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+  }
   btn.addEventListener('click', function(){
-    menu.classList.toggle('hidden');
-    btn.classList.toggle('open');
+    setMenuOpen(menu.classList.contains('hidden'));
+  });
+  document.addEventListener('keydown', function(e){
+    if (e.key === 'Escape' && !menu.classList.contains('hidden')) {
+      setMenuOpen(false);
+      btn.focus();
+    }
   });
   // Close dropdown on outside click (desktop)
   document.addEventListener('click', function(e){

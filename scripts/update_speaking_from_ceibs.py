@@ -310,7 +310,7 @@ def insert_entries(markdown: str, entries: list[RenderedEntry]) -> str:
 
     rendered = "\n\n".join(render_entry(entry) for entry in entries)
     pattern = re.compile(
-        rf"({re.escape(BEGIN_MARKER)}\n)(?P<body>.*?)(\n{re.escape(END_MARKER)})",
+        rf"(?P<begin>{re.escape(BEGIN_MARKER)})\r?\n(?P<body>.*?)(?P<end>{re.escape(END_MARKER)})",
         flags=re.S,
     )
     match = pattern.search(markdown)
@@ -319,7 +319,8 @@ def insert_entries(markdown: str, entries: list[RenderedEntry]) -> str:
 
     body = match.group("body").strip()
     new_body = rendered if not body else f"{rendered}\n\n{body}"
-    return pattern.sub(rf"\1{new_body}\3", markdown, count=1)
+    replacement = f"{BEGIN_MARKER}\n{new_body}\n{END_MARKER}"
+    return f"{markdown[:match.start()]}{replacement}{markdown[match.end():]}"
 
 
 def update_speaking_page(page_path: Path, dry_run: bool = False, backfill: bool = False) -> int:

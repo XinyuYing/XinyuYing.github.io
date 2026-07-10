@@ -2,7 +2,7 @@
 layout: archive
 title: ""
 permalink: /en/contact/
-author_profile: false
+author_profile: true
 lang: en
 lang_pair: /contact/
 ---
@@ -13,7 +13,7 @@ lang_pair: /contact/
     flex-wrap: wrap;
     gap: 50px;
     margin-top: 20px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    font-family: var(--site-font-family);
   }
   .contact-info {
     flex: 1;
@@ -52,20 +52,24 @@ lang_pair: /contact/
     transition: background 0.3s;
   }
   .submit-btn:hover { background-color: #c9302c; }
+  @media (max-width: 924px) {
+    .contact-container { gap: 32px; }
+    .contact-info, .contact-form { min-width: 0; flex-basis: 100%; }
+  }
 </style>
 
 <div class="contact-container">
 
   <div class="contact-info">
-    <h1>Get in Touch...</h1>
+    <h1>Get in Touch</h1>
 
     <p>For academic inquiries, please contact me directly.</p>
 
-    <p>✉️ <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
+    <p>Email: <a href="mailto:yrtan@ceibs.edu">yrtan@ceibs.edu</a></p>
 
     <p style="margin-top: 30px;">
       For other matters, please contact my research associate Ms. Zhang (Maggie).</p>
-    <p>✉️ <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a></p>
+    <p>Email: <a href="mailto:zmaggie2@ceibs.edu">zmaggie2@ceibs.edu</a></p>
 
     <div class="address-block">
       <strong>Prof. Yinliang (Ricky) Tan</strong><br>
@@ -80,23 +84,23 @@ lang_pair: /contact/
     <form action="https://formspree.io/f/xykgjwro" method="POST">
 
       <div class="form-group">
-        <label>Name <span class="required">(required)</span></label>
-        <input type="text" name="name" required placeholder="Your Name">
+        <label for="contact-name">Name <span class="required">(required)</span></label>
+        <input id="contact-name" type="text" name="name" required autocomplete="name" placeholder="Your Name">
       </div>
 
       <div class="form-group">
-        <label>Email <span class="required">(required)</span></label>
-        <input type="email" name="email" required placeholder="your.email@example.com">
+        <label for="contact-email">Email <span class="required">(required)</span></label>
+        <input id="contact-email" type="email" name="email" required autocomplete="email" placeholder="your.email@example.com">
       </div>
 
       <div class="form-group">
-        <label>Company <span class="required">(required)</span></label>
-        <input type="text" name="company">
+        <label for="contact-company">Company <span class="required">(required)</span></label>
+        <input id="contact-company" type="text" name="company" autocomplete="organization">
       </div>
 
       <div class="form-group">
-        <label>Message <span class="required">(required)</span></label>
-        <textarea name="message" required placeholder="How can I help you?"></textarea>
+        <label for="contact-message">Message <span class="required">(required)</span></label>
+        <textarea id="contact-message" name="message" required placeholder="How can I help you?"></textarea>
       </div>
 
       <button type="submit" class="submit-btn">Send Message</button>

@@ -51,7 +51,7 @@ lang_pair: /en/cases/
     font-size: 0.95rem;
     color: #666; /* 深灰色 */
     font-style: normal;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-family: var(--site-font-family);
     line-height: 1.4;
     display: block;
   }

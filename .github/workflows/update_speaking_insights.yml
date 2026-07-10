@@ -14,7 +14,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-and-deploy:
+  update:
     runs-on: ubuntu-latest
 
     steps:
@@ -48,27 +48,3 @@ jobs:
           git add _pages/speaking.md
           git commit -m "Update speaking insights from CEIBS"
           git push
-
-      - name: Setup Ruby
-        if: steps.changes.outputs.changed == 'true'
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.1"
-          bundler-cache: true
-
-      - name: Build Site
-        if: steps.changes.outputs.changed == 'true'
-        run: |
-          bundle install
-          bundle exec jekyll build
-
-      - name: Deploy to Server
-        if: steps.changes.outputs.changed == 'true'
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rltgoDzvO"
-          SOURCE: "_site/"
-          REMOTE_HOST: "47.99.57.64"
-          REMOTE_USER: "root"
-          TARGET: "/www/wwwroot/yrtan.com/"

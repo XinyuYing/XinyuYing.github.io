@@ -4,16 +4,19 @@
 /* ===== Site typography and reading layout ===== */
 
 :root {
-  --site-font-family: "Helvetica Neue", Arial, "Noto Sans CJK SC", "Noto Sans SC",
-    "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  --site-font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei",
+    "Hiragino Sans GB", Arial, sans-serif;
   --site-active-color: #d9534f;
   --site-sidebar-width: 260px;
   --site-avatar-width: 175px;
+  --content-start-gap: 0.75rem;
 }
 
 html {
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  scrollbar-gutter: stable;
+  overflow-y: scroll;
 }
 
 body,
@@ -26,12 +29,23 @@ textarea,
 #site-nav,
 .page,
 .page__content,
+.archive,
 .sidebar,
 .author__content,
-.author__urls-wrapper {
+.author__urls-wrapper,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section-title,
+.contact-container {
   font-family: var(--site-font-family) !important;
 }
 
+.page__content p,
+.archive p,
 .page__content .bio-text {
   text-align: justify !important;
   text-align-last: left;
@@ -234,8 +248,13 @@ textarea,
   }
 }
 
+/* The theme's `.masthead__menu ul` rule is more specific than `.desktop-nav`. */
+.masthead__menu ul.desktop-nav {
+  padding-right: calc(39px + 1.5rem);
+}
+
 @media (min-width: 1360px) {
-  .desktop-nav {
+  .masthead__menu ul.desktop-nav {
     padding-right: 0;
     overflow: visible;
   }
@@ -272,13 +291,27 @@ textarea,
     &:before { top: -7px; }
     &:after { top: 7px; }
   }
+
+  &.open .navicon {
+    background: transparent;
+
+    &:before {
+      top: 0;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      top: 0;
+      transform: rotate(-45deg);
+    }
+  }
 }
 
 /* Mobile nav */
 .mobile-nav {
   display: none !important;
   position: absolute;
-  top: 100%;
+  top: calc(100% + 0.5rem);
   right: 0;
   left: 0;
   background: #fff;
@@ -289,6 +322,9 @@ textarea,
   padding: 0;
   margin: 0;
   z-index: 50;
+  max-height: calc(100vh - 52px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
 
   li {
     border-bottom: 1px solid #f0f0f0;
@@ -326,32 +362,21 @@ textarea,
 
 /* ===== Content width, spacing, and alignment ===== */
 
-@media (min-width: 769px) {
+#main .page__content {
+  margin-top: var(--content-start-gap) !important;
+}
+
+.archive > style:first-child + h2,
+.archive > style:first-child + .section-title,
+.archive > style:first-child + .school-section,
+.archive > style:first-child + .service-section,
+.archive > style:first-child + .contact-container {
+  margin-top: var(--content-start-gap) !important;
+}
+
+@media (min-width: 925px) {
   #main .page {
     padding-right: 0 !important;
-  }
-
-  .archive > .page__title:empty {
-    display: none !important;
-    margin: 0 !important;
-  }
-
-  .archive > style:first-child + h2,
-  .archive > .page__title:empty + style + h2,
-  .archive > style:first-child + .section-title,
-  .archive > .page__title:empty + style + .section-title,
-  .archive > style:first-child + .school-section,
-  .archive > .page__title:empty + style + .school-section,
-  .archive > style:first-child + .contact-container,
-  .archive > .page__title:empty + style + .contact-container {
-    margin-top: 1rem !important;
-  }
-
-  .archive > style:first-child + .school-section,
-  .archive > .page__title:empty + style + .school-section,
-  .archive > style:first-child + .section-title,
-  .archive > .page__title:empty + style + .section-title {
-    margin-top: 0.75rem !important;
   }
 
   .sidebar .author__avatar,
@@ -376,7 +401,7 @@ textarea,
 }
 
 /* ===== Responsive: mobile ===== */
-@media (max-width: 768px) {
+@media (max-width: 924px) {
   .desktop-nav { display: none !important; }
   .mobile-nav-toggle,
   .mobile-nav-toggle.hidden {
@@ -384,10 +409,18 @@ textarea,
     visibility: visible !important;
   }
   #site-nav { position: relative; }
+
+  .site-title {
+    width: auto !important;
+    flex: 1 1 auto;
+    justify-content: flex-start !important;
+    padding-right: 0;
+    text-align: left;
+  }
 }
 
 /* ===== Responsive: desktop ===== */
-@media (min-width: 769px) {
+@media (min-width: 925px) {
   .mobile-nav { display: none !important; }
   .mobile-nav-toggle { display: none !important; }
 }
