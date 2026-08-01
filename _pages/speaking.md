@@ -77,6 +77,21 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/new-papers-columns/29496" target="_blank"
+       title="如今，AI正作为新一轮科技革命的新引擎，重塑着全球投资格局。在A股市场，地产、金融等传统板块热度消退，而AI引领的半导体、算力基建、高端制造等则在持续“吸金”，这其实是中国经济换引擎、国家战略调整、资本市场重定位的合力写照。 中欧国际工商学院决策科学与管理信息系统学教授谭寅亮认为，在未来较长一段时间，A股最值得关注的结构性机会，并非泛泛意义上的“科技股...">
+      “教授/研究” 中欧国际工商学院. 谭寅亮. 2026年7月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29450" target="_blank"
        title="当前，AI硬科技产业已形成一个高度专业化、深度全球化、彼此强依存的分工体系。不同经济体凭借各自的技术积累与产业禀赋，分别占据了产业链的关键环节，共同支撑起全球AI算力的庞大基座。中国在光模块、PCB等环节已具备全球竞争力和真实业绩支撑，这些环节既深度受益于全球AI产业的扩张，又不易被单一国家的政策所影响，构成了当前确定性最强的投资主线。同时，在高端芯片...">
       “上证观察家——人工智能浪潮下A股硬科技的重估逻辑” 上海证券报. 谭寅亮. 2026年7月.
