@@ -16,42 +16,36 @@ redirect_from:
 
 {% include base_path %}
 
-<style>
-  /* 1. 顶格修正：消除 Jekyll 模板默认的顶部间距 */
-  .page__content {
-    margin-top: 12px !important; /* 与其他栏目正文顶距保持一致 */
-  }
-  .page__inner-wrap header {
-    margin-bottom: 0 !important;
-  }
+<section class="home-hero" aria-labelledby="home-hero-title">
+  <p class="home-hero__eyebrow">AI · DIGITAL ECONOMY · BUSINESS TRANSFORMATION</p>
+  <h2 id="home-hero-title">用严谨研究，理解智能时代的商业变革</h2>
+  <p class="home-hero__lead">谭寅亮教授关注人工智能、数字经济与企业转型，连接国际学术研究与中国企业的一线实践。</p>
+  <div class="home-hero__actions">
+    <a class="site-button site-button--primary" href="/publications/">查看学术研究</a>
+    <a class="site-button site-button--secondary" href="/books/">浏览著作</a>
+  </div>
+</section>
 
-  /* 2. 标题样式 */
-  .section-title {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #24292e;
-    margin-top: 10px; /* 调小顶部间距配合顶格 */
-    margin-bottom: 20px;
-  }
+<section class="featured-book" aria-labelledby="featured-book-title">
+  <div class="featured-book__cover book-cover--ai">
+    <img src="/images/books/ai-transformation-in-china-cover.jpg" alt="《智能跃迁：中国企业的AI转型实践》书籍封面">
+  </div>
+  <div class="featured-book__content">
+    <p class="section-kicker">2026 新书</p>
+    <h2 id="featured-book-title">《智能跃迁：中国企业的AI转型实践》</h2>
+    <p class="featured-book__meta">谭寅亮、刘耿 著 · 清华大学出版社</p>
+    <p>从九家中国企业的真实决策现场出发，讨论企业如何把 AI 从单点工具转化为业务价值，并在战略、流程、组织、治理与商业伦理之间作出选择。</p>
+    <ul class="featured-book__topics" aria-label="本书涉及的行业与议题">
+      <li>零售与消费</li><li>医药与科技</li><li>教育与市场研究</li><li>平台与合规</li><li>组织与领导力</li>
+    </ul>
+    <a class="text-link" href="/books/#ai-transformation-in-china">了解本书与九个案例 <span aria-hidden="true">→</span></a>
+  </div>
+</section>
 
-  /* 3. 正文段落样式 */
-  .bio-text {
-    font-size: 1rem;
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-
-  /* 4. 视频容器样式 */
-  .video-box {
-    margin-top: 20px;
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #eee;
-  }
-</style>
+<div class="section-heading">
+  <p class="section-kicker">ABOUT</p>
+  <h2>个人介绍</h2>
+</div>
 
 <div class="bio-text">
   谭寅亮教授 (Prof. Yinliang (Ricky) Tan) 现任中欧国际工商学院 (CEIBS) 决策科学和管理信息系统学教授。他曾在斯坦福大学人工智能研究院和数字经济实验室担任访问学者。在加入中欧之前，他是美国休斯顿大学 C.T. Bauer (鲍尔商学院) 决策和信息科学终身教授、鲍尔讲席教授、DBA 项目主任，以及供应链管理方向系主任。他还担任了休斯顿大学人工智能研究中心副主任和慧与科技 (HPE) 数据科学研究中心资深研究员。在此之前，他在美国杜兰大学 Freeman School of Business (弗里曼商学院) 管理科学方向担任助理教授、副教授和戈德林国际教育中心行政主任，并获得终身教授与讲席教授职位。

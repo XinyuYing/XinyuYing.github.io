@@ -23,6 +23,9 @@ main_zh:
   - title: "观点"
     url: /speaking/
 
+  - title: "著作"
+    url: /books/
+
   - title: "联系方式"
     url: /contact/
 
@@ -51,6 +54,9 @@ main_en:
 
   - title: "Media"
     url: /en/speaking/
+
+  - title: "Books"
+    url: /en/books/
 
   - title: "Contact"
     url: /en/contact/

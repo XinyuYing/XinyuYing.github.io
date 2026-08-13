@@ -13,35 +13,36 @@ lang_pair: /
 
 {% include base_path %}
 
-<style>
-  .page__content {
-    margin-top: 12px !important;
-  }
-  .page__inner-wrap header {
-    margin-bottom: 0 !important;
-  }
-  .section-title {
-    font-size: 1.4rem;
-    font-weight: bold;
-    color: #24292e;
-    margin-top: 10px;
-    margin-bottom: 20px;
-  }
-  .bio-text {
-    font-size: 1rem;
-    line-height: 1.8;
-    color: #333;
-    margin-bottom: 20px;
-    text-align: justify;
-  }
-  .video-box {
-    margin-top: 20px;
-    background: #f9f9f9;
-    padding: 15px;
-    border-radius: 8px;
-    border: 1px solid #eee;
-  }
-</style>
+<section class="home-hero" aria-labelledby="home-hero-title">
+  <p class="home-hero__eyebrow">AI · DIGITAL ECONOMY · BUSINESS TRANSFORMATION</p>
+  <h2 id="home-hero-title">Rigorous research for business in the intelligent era</h2>
+  <p class="home-hero__lead">Professor Yinliang (Ricky) Tan connects international scholarship with first-hand evidence from companies navigating AI and digital transformation.</p>
+  <div class="home-hero__actions">
+    <a class="site-button site-button--primary" href="/en/publications/">Explore research</a>
+    <a class="site-button site-button--secondary" href="/en/books/">View books</a>
+  </div>
+</section>
+
+<section class="featured-book" aria-labelledby="featured-book-title">
+  <div class="featured-book__cover book-cover--ai">
+    <img src="/images/books/ai-transformation-in-china-cover.jpg" alt="Cover of AI Transformation in China">
+  </div>
+  <div class="featured-book__content">
+    <p class="section-kicker">NEW BOOK · 2026</p>
+    <h2 id="featured-book-title"><em>AI Transformation in China</em></h2>
+    <p class="featured-book__meta">Yinliang (Ricky) Tan and Luis (Geng) Liu · Tsinghua University Press · Chinese edition</p>
+    <p>Nine decision-focused cases show how Chinese companies turn AI from a stand-alone tool into business value while navigating strategy, process redesign, organization, governance, and ethics.</p>
+    <ul class="featured-book__topics" aria-label="Industries and themes covered by the book">
+      <li>Retail</li><li>Healthcare</li><li>Education</li><li>Platforms</li><li>AI governance</li>
+    </ul>
+    <a class="text-link" href="/en/books/#ai-transformation-in-china">Explore the book and its nine cases <span aria-hidden="true">→</span></a>
+  </div>
+</section>
+
+<div class="section-heading">
+  <p class="section-kicker">ABOUT</p>
+  <h2>Biography</h2>
+</div>
 
 <div class="bio-text">
   Prof. Yinliang (Ricky) Tan is a Professor of Decision Sciences and Management Information Systems at CEIBS (China Europe International Business School). He was a visiting scholar at the Stanford Institute for Human-Centered Artificial Intelligence and Digital Economy Lab. Prior to joining CEIBS, he was a tenured Professor, Bauer Endowed Chair Professor, DBA Program Director, and Area Chair of Supply Chain Management at the C.T. Bauer College of Business, University of Houston. He also served as Associate Director of the AI Research Center and Senior Fellow of the HPE Data Science Institute at the University of Houston. Before that, he held positions of Assistant Professor, Associate Professor, and Administrative Director of the Goldring Institute for International Education at Tulane University's A.B. Freeman School of Business, where he earned tenure and an endowed chair.
