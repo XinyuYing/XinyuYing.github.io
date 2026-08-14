@@ -492,6 +492,16 @@ h6,
   .sidebar .author__bio {
     text-align: center;
   }
+
+  .sidebar .author__bio {
+    width: calc(var(--site-avatar-width) + 2rem);
+    margin-left: -1rem;
+    line-height: 1.55;
+    text-wrap: balance;
+    word-break: keep-all;
+    overflow-wrap: normal;
+    hyphens: none;
+  }
 }
 
 @media (min-width: 1280px) and (max-width: 1359px) {
