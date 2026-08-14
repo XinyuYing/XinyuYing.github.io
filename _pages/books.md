@@ -1,0 +1,38 @@
+---
+layout: archive
+title: "著作"
+permalink: /books/
+author_profile: true
+lang: zh
+lang_pair: /en/
+description: "谭寅亮教授的著作与编译作品。"
+---
+
+<style>
+  .books-list { margin-top: 1.5rem; }
+  .book-entry { padding: 1.4rem 0; border-top: 1px solid #e5e5e5; }
+  .book-entry:first-child { padding-top: 0; border-top: 0; }
+  .book-entry h2 { margin: 0 0 0.4rem; font-size: 1.25rem; line-height: 1.45; }
+  .book-entry p { margin: 0.25rem 0; color: #555; text-align: left !important; }
+  .book-entry__role { color: #777 !important; font-size: 0.9rem; }
+  .book-entry__link { display: inline-block; margin-top: 0.45rem; text-decoration: none; }
+  .book-entry__link:hover { text-decoration: underline; }
+</style>
+
+<div class="books-list">
+  <article class="book-entry">
+    <p class="book-entry__role">著作</p>
+    <h2><a href="/books/ai-transformation/">《智能跃迁：中国企业的AI转型实践》</a></h2>
+    <p>谭寅亮、刘耿 著</p>
+    <p>清华大学出版社</p>
+    <a class="book-entry__link" href="/books/ai-transformation/">图书简介 →</a>
+  </article>
+
+  <article class="book-entry">
+    <p class="book-entry__role">编译作品</p>
+    <h2><a href="/books/smart-rivals/">《聪明的对手：如何打破科技巨头的游戏规则》</a></h2>
+    <p>朱峰、曹沂宁 著；谭寅亮 编译</p>
+    <p>电子工业出版社</p>
+    <a class="book-entry__link" href="/books/smart-rivals/">图书简介 →</a>
+  </article>
+</div>
