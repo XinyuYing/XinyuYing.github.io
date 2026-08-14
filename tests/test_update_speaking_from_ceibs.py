@@ -5,6 +5,7 @@ from scripts.update_speaking_from_ceibs import (
     BEGIN_MARKER,
     END_MARKER,
     RenderedEntry,
+    extract_detail_title,
     insert_entries,
 )
 
@@ -39,6 +40,41 @@ class InsertEntriesTest(unittest.TestCase):
         self.assertLess(updated.index("Latest insight"), updated.index("Existing insight"))
         self.assertEqual(updated.count(BEGIN_MARKER), 1)
         self.assertEqual(updated.count(END_MARKER), 1)
+
+
+class ExtractDetailTitleTest(unittest.TestCase):
+    def test_prefers_article_title_over_generic_section_heading(self):
+        detail_html = """
+        <html>
+          <head><title>投资A股时，怎么看硬科技公司？ | CEIBS</title></head>
+          <body>
+            <h1 class="item-title">教授/研究</h1>
+            <h2 class="title font-bold">投资A股时，怎么看硬科技公司？</h2>
+          </body>
+        </html>
+        """
+
+        title = extract_detail_title(detail_html, "fallback")
+
+        self.assertEqual(title, "投资A股时，怎么看硬科技公司？")
+
+    def test_uses_fallback_when_only_heading_is_generic(self):
+        detail_html = '<h1 class="item-title">教授/研究</h1>'
+
+        title = extract_detail_title(detail_html, "真实文章标题")
+
+        self.assertEqual(title, "真实文章标题")
+
+    def test_skips_generic_heading_before_specific_heading(self):
+        detail_html = """
+        <title>教授/研究 | CEIBS</title>
+        <h1 class="item-title">教授/研究</h1>
+        <h2 class="title font-bold">真实文章标题</h2>
+        """
+
+        title = extract_detail_title(detail_html, "fallback")
+
+        self.assertEqual(title, "真实文章标题")
 
 
 if __name__ == "__main__":

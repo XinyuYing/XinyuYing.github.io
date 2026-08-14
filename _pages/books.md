@@ -9,13 +9,18 @@ description: "谭寅亮教授的著作与编译作品。"
 ---
 
 <style>
-  .books-list { margin-top: 1.5rem; }
+  .books-list { margin-top: 0; }
   .book-entry { padding: 1.4rem 0; border-top: 1px solid #e5e5e5; }
   .book-entry:first-child { padding-top: 0; border-top: 0; }
-  .book-entry h2 { margin: 0 0 0.4rem; font-size: 1.25rem; line-height: 1.45; }
-  .book-entry p { margin: 0.25rem 0; color: #555; text-align: left !important; }
+  .book-entry h2 {
+    margin: 0 0 0.4rem;
+    font-family: var(--site-font-family);
+    font-size: 1.1rem;
+    line-height: 1.45;
+  }
+  .book-entry p { margin: 0.25rem 0; color: #555; font-size: 1rem; line-height: 1.6; text-align: left !important; }
   .book-entry__role { color: #777 !important; font-size: 0.9rem; }
-  .book-entry__link { display: inline-block; margin-top: 0.45rem; text-decoration: none; }
+  .book-entry__link { display: inline-block; margin-top: 0.45rem; font-size: 1rem; text-decoration: none; }
   .book-entry__link:hover { text-decoration: underline; }
 </style>
 

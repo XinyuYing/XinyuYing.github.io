@@ -28,6 +28,9 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Test speaking updater
+        run: python -m unittest discover -s tests -p "test_*.py"
+
       - name: Update speaking page from CEIBS
         run: python scripts/update_speaking_from_ceibs.py
 

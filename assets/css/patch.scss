@@ -10,6 +10,9 @@
   --site-sidebar-width: 260px;
   --site-avatar-width: 175px;
   --content-start-gap: 0.75rem;
+  --content-heading-size: 1.4rem;
+  --content-heading-line-height: 1.4;
+  --content-heading-bottom-gap: 25px;
   --language-slot-width: calc(39px + 1.5rem);
 }
 
@@ -373,6 +376,51 @@ h6,
 .archive > style:first-child + .service-section,
 .archive > style:first-child + .contact-container {
   margin-top: var(--content-start-gap) !important;
+}
+
+/* Keep the first visible heading on every archive page on one shared baseline. */
+.archive > .page__title {
+  margin-top: var(--content-start-gap) !important;
+  margin-bottom: var(--content-heading-bottom-gap) !important;
+}
+
+.archive > .page__title,
+.archive > style:first-child + h2,
+.archive > style:first-child + .section-title,
+.archive > style:first-child + .school-section > .school-name,
+.archive > style:first-child + .service-section > .section-title,
+.archive > style:first-child + .contact-container > .contact-info > h1 {
+  font-family: var(--site-font-family) !important;
+  font-size: var(--content-heading-size) !important;
+  font-weight: 700 !important;
+  line-height: var(--content-heading-line-height) !important;
+  color: #24292e !important;
+  margin-bottom: var(--content-heading-bottom-gap) !important;
+}
+
+.archive > style:first-child + .school-section > .school-name,
+.archive > style:first-child + .service-section > .section-title,
+.archive > style:first-child + .contact-container > .contact-info > h1 {
+  margin-top: 0 !important;
+}
+
+.book-detail {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.book-detail p {
+  margin: 0 0 0.75rem;
+  text-align: left !important;
+}
+
+.book-detail__heading {
+  margin: 1.5rem 0 0.75rem;
+  font-family: var(--site-font-family) !important;
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #24292e;
 }
 
 @media (min-width: 925px) {

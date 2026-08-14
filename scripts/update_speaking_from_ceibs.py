@@ -29,6 +29,7 @@ BEGIN_MARKER = "<!-- BEGIN CEIBS AUTO-UPDATED INSIGHTS -->"
 END_MARKER = "<!-- END CEIBS AUTO-UPDATED INSIGHTS -->"
 DEFAULT_SOURCE = "中欧国际工商学院"
 DEFAULT_AUTHOR = "谭寅亮"
+GENERIC_DETAIL_TITLES = {"教授/研究", "中欧国际工商学院", "CEIBS"}
 
 
 @dataclass(frozen=True)
@@ -206,17 +207,24 @@ def first_meta_description(detail_html: str) -> str:
 
 
 def extract_detail_title(detail_html: str, fallback: str) -> str:
-    heading = re.search(
+    # CEIBS article pages may place a generic section heading such as
+    # “教授/研究” before the real article heading. The document title is the
+    # most stable article-level signal and should therefore be checked first.
+    title = re.search(r"<title\b[^>]*>(?P<title>.*?)</title>", detail_html, flags=re.I | re.S)
+    if title:
+        cleaned_title = clean_title(title.group("title"))
+        if cleaned_title and cleaned_title not in GENERIC_DETAIL_TITLES:
+            return cleaned_title
+
+    headings = re.finditer(
         r"<h[12]\b[^>]*class=[\"'][^\"']*\btitle\b[^\"']*[\"'][^>]*>(?P<title>.*?)</h[12]>",
         detail_html,
         flags=re.I | re.S,
     )
-    if heading:
-        return clean_title(heading.group("title"))
-
-    title = re.search(r"<title\b[^>]*>(?P<title>.*?)</title>", detail_html, flags=re.I | re.S)
-    if title:
-        return clean_title(title.group("title"))
+    for heading in headings:
+        cleaned_heading = clean_title(heading.group("title"))
+        if cleaned_heading and cleaned_heading not in GENERIC_DETAIL_TITLES:
+            return cleaned_heading
 
     return fallback
 
