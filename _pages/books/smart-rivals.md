@@ -4,7 +4,7 @@ title: "聪明的对手：如何打破科技巨头的游戏规则"
 permalink: /books/smart-rivals/
 author_profile: true
 lang: zh
-lang_pair: /en/
+lang_pair: /en/books/smart-rivals/
 description: "朱峰、曹沂宁著，谭寅亮编译《聪明的对手：如何打破科技巨头的游戏规则》图书简介。"
 ---
 

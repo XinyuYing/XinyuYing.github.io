@@ -55,6 +55,9 @@ main_en:
   - title: "Media"
     url: /en/speaking/
 
+  - title: "Books"
+    url: /en/books/
+
   - title: "Contact"
     url: /en/contact/
 

@@ -4,7 +4,7 @@ title: "智能跃迁：中国企业的AI转型实践"
 permalink: /books/ai-transformation/
 author_profile: true
 lang: zh
-lang_pair: /en/
+lang_pair: /en/books/ai-transformation/
 description: "谭寅亮、刘耿著《智能跃迁：中国企业的AI转型实践》图书简介。"
 ---
 
