@@ -33,3 +33,12 @@ jobs:
           REMOTE_HOST: "47.99.57.64"     # 你的服务器 IP
           REMOTE_USER: "root"
           TARGET: "/www/wwwroot/yrtan.com/" # 宝塔建站目录
+          SCRIPT_AFTER_REQUIRED: "true"
+          SCRIPT_AFTER: |
+            rm -f /www/wwwroot/yrtan.com/books/index.html
+            rm -f /www/wwwroot/yrtan.com/en/books/index.html
+            rm -f /www/wwwroot/yrtan.com/images/books/ai-transformation-in-china-cover.jpg
+            rm -f /www/wwwroot/yrtan.com/images/books/smart-rivals-cn.png
+            rmdir /www/wwwroot/yrtan.com/books 2>/dev/null || true
+            rmdir /www/wwwroot/yrtan.com/en/books 2>/dev/null || true
+            rmdir /www/wwwroot/yrtan.com/images/books 2>/dev/null || true
