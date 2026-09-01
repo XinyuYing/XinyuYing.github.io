@@ -77,6 +77,21 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29709" target="_blank"
+       title="为什么要把今天与铁路相比？因为在资本开支强度和建设机制上，互联网并不是最接近的历史样本。2000年前后，美国广义信息与通信技术投资曾达到国内生产总值的约4.5%，但其中包括千千万万家企业购买计算机、软件和通信设备，是技术向全社会的分散扩散。若只看互联网底层的电信网络，美国上市电信运营商2000年的资本开支约1210亿美元，仅相当于当年国内生产总值的1....">
+      “从铁路狂热到人工智能狂热：技术革命如何穿越资本泡沫” 36氪. 谭寅亮. 2026年9月.
+    </a>
+  </div>
+
+</div>
+
+<div style="display:none;">
+  Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/new-papers-columns/29496" target="_blank"
        title="如今，AI正作为新一轮科技革命的新引擎，重塑着全球投资格局。在A股市场，地产、金融等传统板块热度消退，而AI引领的半导体、算力基建、高端制造等则在持续“吸金”，这其实是中国经济换引擎、国家战略调整、资本市场重定位的合力写照。 中欧国际工商学院决策科学与管理信息系统学教授谭寅亮认为，在未来较长一段时间，A股最值得关注的结构性机会，并非泛泛意义上的“科技股...">
       “投资A股时，怎么看硬科技公司？” 中欧国际工商学院. 谭寅亮. 2026年7月.
