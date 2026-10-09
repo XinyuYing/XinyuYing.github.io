@@ -404,6 +404,93 @@ h6,
   margin-top: 0 !important;
 }
 
+/* ===== Case materials downloads ===== */
+
+.case-item--downloads {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.case-item--downloads .case-title-cn,
+.case-item--downloads .case-title {
+  padding-top: 0.35rem;
+  margin-bottom: 0;
+}
+
+.case-downloads {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.25rem;
+}
+
+.case-downloads__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}
+
+.case-download {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.4rem;
+  box-sizing: border-box;
+  min-height: 2.4rem;
+  padding: 0.35rem 0.7rem;
+  border: 1px solid #d8dde3;
+  border-radius: 4px;
+  background: #fff;
+  color: #555;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none !important;
+  white-space: nowrap;
+  transition: border-color 0.15s, background-color 0.15s, color 0.15s;
+}
+
+.case-download:hover,
+.case-download:focus-visible {
+  border-color: var(--site-active-color);
+  background: #fff7f6;
+  color: var(--site-active-color);
+}
+
+.case-download:focus-visible {
+  outline: 2px solid var(--site-active-color);
+  outline-offset: 3px;
+}
+
+.case-downloads__note {
+  color: #666;
+  font-size: 0.7rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .case-item--downloads {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .case-item--downloads .case-title-cn,
+  .case-item--downloads .case-title {
+    padding-top: 0;
+  }
+
+  .case-downloads {
+    align-items: flex-start;
+  }
+
+  .case-downloads__links {
+    justify-content: flex-start;
+  }
+}
+
 .books-list {
   margin-top: 0;
 }
