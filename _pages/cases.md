@@ -73,6 +73,7 @@ lang_pair: /en/cases/
       <div class="case-downloads__links" role="group" aria-label="Future Tech 资料下载">
         <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech_PreClass.docx' | relative_url }}" download="FutureTech_PreClass.docx">下载课前资料 · Word</a>
         <a class="case-download" href="{{ '/files/cases/future-tech/产品网站AI制作包.zip' | relative_url | uri_escape }}" download="产品网站AI制作包.zip">下载产品网站AI制作包 · ZIP</a>
+        <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech案例B操作指南.MOV' | relative_url | uri_escape }}" download="FutureTech案例B操作指南.MOV">下载操作指南视频 · MOV</a>
       </div>
     </div>
   </li>

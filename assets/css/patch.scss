@@ -415,8 +415,10 @@ h6,
 
 .case-item--downloads .case-title-cn,
 .case-item--downloads .case-title {
+  flex-shrink: 0;
   padding-top: 0.35rem;
   margin-bottom: 0;
+  white-space: nowrap;
 }
 
 .case-downloads {
@@ -424,6 +426,7 @@ h6,
   flex-direction: column;
   align-items: flex-end;
   gap: 0.25rem;
+  min-width: 0;
 }
 
 .case-downloads__links {

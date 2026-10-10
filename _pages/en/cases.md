@@ -60,6 +60,7 @@ lang_pair: /cases/
       <div class="case-downloads__links" role="group" aria-label="Download Future Tech materials">
         <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech_PreClass.docx' | relative_url }}" download="FutureTech_PreClass.docx">Download Pre-class Materials · Word</a>
         <a class="case-download" href="{{ '/files/cases/future-tech/产品网站AI制作包.zip' | relative_url | uri_escape }}" download="产品网站AI制作包.zip">Download Website Creation Kit · ZIP</a>
+        <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech案例B操作指南.MOV' | relative_url | uri_escape }}" download="FutureTech案例B操作指南.MOV">Download Video Guide · MOV</a>
       </div>
       <span class="case-downloads__note">Materials in Chinese</span>
     </div>
