@@ -67,10 +67,17 @@ lang_pair: /en/cases/
 
 <ul class="case-list">
 
+  <li class="case-item">
+    <span class="case-title-cn">FutureTech（A）：用 AI 辅助设计一场产品发布会</span>
+    <span class="case-title-en">FutureTech (A): Using AI to Help Design a Product Launch</span>
+  </li>
+
   <li class="case-item case-item--downloads">
-    <span class="case-title-cn">Future Tech</span>
+    <span class="case-title-cn">FutureTech（B）：授权 AI 设计一场产品发布会</span>
+    <span class="case-title-en">FutureTech (B): Delegating the Design of a Product Launch to AI</span>
     <div class="case-downloads">
-      <div class="case-downloads__links" role="group" aria-label="Future Tech 资料下载">
+      <span class="case-downloads__note">案例 B 配套资料（课前 Word 含 A/B 准备说明）</span>
+      <div class="case-downloads__links" role="group" aria-label="FutureTech 案例 B 配套资料下载">
         <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech_PreClass.docx' | relative_url }}" download="FutureTech_PreClass.docx">下载课前资料 · Word</a>
         <a class="case-download" href="{{ '/files/cases/future-tech/产品网站AI制作包.zip' | relative_url | uri_escape }}" download="产品网站AI制作包.zip">下载产品网站AI制作包 · ZIP</a>
         <a class="case-download" href="{{ '/files/cases/future-tech/FutureTech案例B操作指南.MOV' | relative_url | uri_escape }}" download="FutureTech案例B操作指南.MOV">下载操作指南视频 · MOV</a>

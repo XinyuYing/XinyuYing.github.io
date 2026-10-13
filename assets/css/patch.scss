@@ -407,32 +407,22 @@ h6,
 /* ===== Case materials downloads ===== */
 
 .case-item--downloads {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
-  gap: 1rem;
-}
-
-.case-item--downloads .case-title-cn,
-.case-item--downloads .case-title {
-  flex-shrink: 0;
-  padding-top: 0.35rem;
-  margin-bottom: 0;
-  white-space: nowrap;
+  display: block;
 }
 
 .case-downloads {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  gap: 0.25rem;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
   min-width: 0;
 }
 
 .case-downloads__links {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -472,26 +462,6 @@ h6,
   color: #666;
   font-size: 0.7rem;
   line-height: 1.5;
-}
-
-@media (max-width: 767px) {
-  .case-item--downloads {
-    flex-direction: column;
-    gap: 0.75rem;
-  }
-
-  .case-item--downloads .case-title-cn,
-  .case-item--downloads .case-title {
-    padding-top: 0;
-  }
-
-  .case-downloads {
-    align-items: flex-start;
-  }
-
-  .case-downloads__links {
-    justify-content: flex-start;
-  }
 }
 
 .books-list {
