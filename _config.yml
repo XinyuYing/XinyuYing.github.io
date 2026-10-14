@@ -117,6 +117,8 @@ include:
   - _pages
   - files
 exclude:
+  - _demo_src
+  - tools/build-futuretech-demo.mjs
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

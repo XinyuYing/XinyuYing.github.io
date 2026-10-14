@@ -73,7 +73,7 @@ lang_pair: /en/cases/
   </li>
 
   <li class="case-item case-item--downloads">
-    <span class="case-title-cn">FutureTech（B）：授权 AI 设计一场产品发布会</span>
+    <span class="case-title-cn">FutureTech（B）：授权 AI 设计一场产品发布会 <a class="case-download case-demo" href="{{ '/cases/FutureTech/demo/' | relative_url }}" aria-label="查看 SmartHome Max 示例网站">Demo →</a></span>
     <span class="case-title-en">FutureTech (B): Delegating the Design of a Product Launch to AI</span>
     <div class="case-downloads">
       <span class="case-downloads__note">案例 B 配套资料（课前 Word 含 A/B 准备说明）</span>

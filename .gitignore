@@ -25,3 +25,7 @@ __pycache__/
 
 # Ignore files created by MacOS
 .DS_Store
+
+# FutureTech demo build inputs and local output.
+!/_demo_src/smarthome-max/package-lock.json
+/_demo_src/smarthome-max/dist/

@@ -1,0 +1,83 @@
+{
+  "homepage_film": {
+    "source": "SmartHomeMax_45s_480p_v8_r5_music.mp4",
+    "output": "public/media/smarthome-max-full.mp4",
+    "duration_seconds": 39.833333,
+    "operation": "Remove the opening sigh, replace the late exhale transition with a 1-second smile freeze, then retain the entire brand closing.",
+    "removed_range_seconds": [
+      0,
+      4
+    ],
+    "retained_source_ranges_seconds": [
+      [
+        4,
+        39.208333
+      ],
+      [
+        41.375,
+        45
+      ]
+    ],
+    "ending_edit": {
+      "input_timeline": "Previously published 41-second version",
+      "replaced_range_seconds": [
+        35.208333,
+        37.375
+      ],
+      "smile_frame_seconds": 36.75,
+      "freeze_duration_seconds": 1,
+      "brand_preserved_range_seconds": [
+        37.375,
+        41
+      ],
+      "audio_bridge": "Use music/ambience from 33.5–34.458333, then preserve brand audio from 37.125 onward, including a 250ms lead before the brand shot.",
+      "brand_audio_preserved_range_seconds": [
+        37.125,
+        41
+      ]
+    }
+  },
+  "retrimmed_scenes": [
+    {
+      "id": "arrival",
+      "source": "SmartHomeMax_45s_优化版.mp4",
+      "start_seconds": 11.125,
+      "end_seconds": 14.875,
+      "duration_seconds": 3.75,
+      "output": "public/media/scene-arrival.mp4"
+    },
+    {
+      "id": "training",
+      "source": "SmartHomeMax_30秒_低沉声音版.mp4",
+      "start_seconds": 4.75,
+      "end_seconds": 11.25,
+      "duration_seconds": 6.5,
+      "output": "public/media/scene-training.mp4"
+    },
+    {
+      "id": "party",
+      "source": "SmartHomeMax_30秒_低沉声音版.mp4",
+      "start_seconds": 13.75,
+      "end_seconds": 18.25,
+      "duration_seconds": 4.5,
+      "output": "public/media/scene-party.mp4"
+    }
+  ],
+  "unchanged_scene_clips": [
+    "dance",
+    "party-cooking",
+    "terrace"
+  ],
+  "future_optional_shots": [
+    "人数转换：同机位展示少量座位到多人用餐的完整扩展过程。",
+    "场景转换：餐车从室内转向并驶到露台餐桌。"
+  ],
+  "pricing": {
+    "basis": "Fictional classroom case; annual software plan",
+    "home": 4999,
+    "space": 9999,
+    "complete": 19999,
+    "currency": "CNY",
+    "hardware_and_installation": "excluded"
+  }
+}

@@ -611,3 +611,9 @@ html { color-scheme: light; }
     display: none !important;
   }
 }
+
+/* Product demo beside the FutureTech case heading. */
+.case-title-cn .case-demo, .case-title .case-demo {
+  margin-left: 12px; padding: 6px 12px; min-height: 0;
+  font-size: .78rem; font-weight: 600; vertical-align: middle; white-space: nowrap;
+}

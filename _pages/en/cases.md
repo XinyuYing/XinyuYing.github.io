@@ -59,7 +59,7 @@ lang_pair: /cases/
   </li>
 
   <li class="case-item case-item--downloads">
-    <span class="case-title">FutureTech (B): Delegating the Design of a Product Launch to AI</span>
+    <span class="case-title">FutureTech (B): Delegating the Design of a Product Launch to AI <a class="case-download case-demo" href="{{ '/cases/FutureTech/demo/' | relative_url }}" aria-label="View the SmartHome Max demo website">Demo →</a></span>
     <div class="case-downloads">
       <span class="case-downloads__note">Case B materials · Chinese originals. The pre-class Word document includes preparation for both A and B.</span>
       <div class="case-downloads__links" role="group" aria-label="Download FutureTech Case B supporting materials">
