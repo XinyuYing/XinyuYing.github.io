@@ -2,6 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
+redirect_to: /files/CV_Yinliang_Ricky_Tan_Original_Style_2026-10-14.pdf
 author_profile: true
 redirect_from:
   - /resume
