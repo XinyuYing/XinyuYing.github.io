@@ -66,6 +66,89 @@ lang_pair: /speaking/
 
 <div class="section-title">Latest Insights</div>
 
+<p>English titles are translations; links lead to Chinese-language CEIBS pages. Dates follow the linked CEIBS postings.</p>
+
+<!-- BEGIN CEIBS AUTO-UPDATED INSIGHTS -->
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/30235" target="_blank"
+       title="As AI takes over routine tasks, employers need to preserve practical learning, mentoring, and opportunities for new employees to take responsibility.">
+      “AI Takes Over Entry-Level Work: Where Can Young People Begin?” 36Kr. Yinliang Tan. November 2026.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/30042" target="_blank"
+       title="Huaqin illustrates how reusable engineering knowledge and integration across R&amp;D, supply chains, and manufacturing can turn AI into an organizational capability.">
+      “Huaqin Technology: Becoming the Global Leader in a Fiercely Competitive ODM Market” Business School Magazine. Yinliang Tan. September 2026.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29845" target="_blank"
+       title="User feedback can improve AI services, but firms must weigh learning benefits against service costs and paid-tier substitution; neither profit nor user welfare gains are automatic.">
+      “How Does Free AI Make Money?” Caixin. Yinliang Tan and Michelle Y. Lu. September 2026.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29709" target="_blank"
+       title="The railway analogy separates technological progress from investment returns and highlights demand, utilization, cash flow, and financing risks in AI infrastructure.">
+      “From Railway Mania to AI Mania: How Technology Revolutions Survive Capital Bubbles” 36Kr. Yinliang Tan. September 2026.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/new-papers-columns/29740" target="_blank"
+       title="Commercialization depends on psychological acceptance as well as functionality; household and industrial applications may call for different robot designs.">
+      “Humanoid Robots: Why Does a More Human Appearance Make Users More Reluctant to Buy?” CEIBS (reprinted from 36Kr). Yinliang Tan. August 2026.
+    </a>
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank" style="font-size: 0.9rem;">Earlier commentary (9 February 2026): From the Uncanny Valley to the Trust Valley: The Hidden Costs of Humanoid Robot Commercialization</a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29450" target="_blank"
+       title="The commentary examines AI infrastructure and China’s hard-tech supply chain while emphasizing valuation, industry cycles, and demonstrated business performance.">
+      “Revaluing Hard-Tech Stocks in China’s A-Share Market Amid the AI Wave” Shanghai Securities News. Yinliang Tan. July 2026.
+    </a>
+    <a href="https://cn.ceibs.edu/new-papers-columns/29496" target="_blank" style="font-size: 0.9rem;">CEIBS edited version (7 July 2026): How Should Investors Assess Hard-Tech Companies in China’s A-Share Market?</a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29438" target="_blank"
+       title="Demand for forward-deployed engineers reflects a shift toward integrating AI into enterprise workflows and demonstrating measurable business results.">
+      “Silicon Valley’s Hottest New Role: Why Are Tech Giants Hiring Forward-Deployed Engineers?” Yicai. Yinliang Tan. June 2026.
+    </a>
+  </div>
+
+</div>
+<!-- END CEIBS AUTO-UPDATED INSIGHTS -->
+
 <div class="speech-list">
 
   <div class="speech-item">
@@ -111,20 +194,6 @@ lang_pair: /speaking/
   Topics: AI Anxiety, Society, Employment
 </div>
 
-<div class="speech-list">
-
-  <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
-       title="Core insight: The main barrier to humanoid robots entering homes is not technology but the 'uncanny valley' effect — an instinctive human aversion to entities that look human but are not.">
-      "From the Uncanny Valley to the Trust Valley: The Hidden Costs of Humanoid Robot Commercialization" 36Kr. Yinliang Tan. February 2026.
-    </a>
-  </div>
-
-</div>
-
-<div style="display:none;">
-  Topics: Humanoid Robots, Uncanny Valley, Commercialization
-</div>
 
 <div class="speech-list">
 
@@ -494,6 +563,7 @@ lang_pair: /speaking/
        title="Baidu's Robotaxi 'Apollo Go': Sprint or Pace?">
       "Baidu's Robotaxi 'Apollo Go': Sprint or Pace?" TMTPost. Yinliang Tan. August 2024.
     </a>
+    <a href="https://cn.ceibs.edu/new-papers-columns/25516" target="_blank" style="font-size: 0.9rem;">CEIBS republication (23 August 2024): “Apollo Go”: Sprint or Pace?</a>
   </div>
 
 </div>
@@ -535,7 +605,7 @@ lang_pair: /speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25319" target="_blank"
+    <a href="https://cn.ceibs.edu/video/faculty/25319" target="_blank"
        title="Industry Disruption Underway: Should Enterprises Embrace AI Transformation?">
       "Industry Disruption Underway: Should Enterprises Embrace AI Transformation?" Yicai. Yinliang Tan. July 2024.
     </a>
@@ -550,9 +620,9 @@ lang_pair: /speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25233" target="_blank"
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25223" target="_blank"
        title="Breakthrough and Transformation: China's LLM Development in Full Swing">
-      "Breakthrough and Transformation: China's LLM Development in Full Swing" The Legal Person Magazine. Yinliang Tan. June 2024.
+      "Breakthrough and Transformation: China's LLM Development in Full Swing" The Legal Person Magazine. Li Liao; featuring Yinliang Tan. June 2024.
     </a>
   </div>
 
@@ -562,12 +632,22 @@ lang_pair: /speaking/
   Topics:
 </div>
 
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/video/faculty/25151" target="_blank"
+       title="Yicai video coverage of the first CEIBS AI and Future Leadership Forum.">
+      “CEIBS Holds Its First AI and Future Leadership Forum: AI as a New Engine for Business” Yicai. Featuring Frank Bournois and Yinliang Tan. June 2024.
+    </a>
+  </div>
+
+</div>
+
 <div class="disclaimer-box">
   <p>
     <strong>Statement:</strong> All my academic articles, media commentaries, opinion pieces, and interviews are listed on the personal website above and on official platforms or channels of CEIBS. These lists are updated in real time. Apart from the content listed, I have never published any other articles or given any interviews to media outlets.
   </p>
 </div>
-
 
 
 <script type="application/ld+json">

@@ -12,7 +12,9 @@ description: "An overview of the Chinese edition of Smart Rivals, translated and
 <p><strong>Authors:</strong> Feng Zhu and Bonnie Yining Cao</p>
 <p><strong>Chinese edition:</strong> Translated and adapted by Yinliang (Ricky) Tan</p>
 <p><strong>Publisher:</strong> Publishing House of Electronics Industry</p>
+<p><strong>Publication:</strong> January 2026 (Chinese edition)</p>
 <p><strong>ISBN:</strong> 978-7-121-51721-1</p>
+<p><a href="https://cn.ceibs.edu/teacher/25029" target="_blank" rel="noopener">CEIBS publication listing (Chinese) ↗</a></p>
 
 <h2 class="book-detail__heading">Overview</h2>
 

@@ -72,6 +72,7 @@ lang_pair: /cases/
 
   <li class="case-item">
     <span class="case-title">POOK Technology: How AI Drives Business Value and Enhances Productivity</span>
+    <p>Co-authored by Yinliang (Ricky) Tan and Geng Liu. Named among the <em>Financial Times</em>’ top 15 bestselling new business school cases worldwide in October 2026. <a href="https://www.ceibs.edu/teacher/25029" target="_blank" rel="noopener">CEIBS profile ↗</a></p>
   </li>
 
   <li class="case-item">

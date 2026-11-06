@@ -73,65 +73,86 @@ lang_pair: /en/speaking/
 
 <div class="section-title">Latest Insights</div>
 
+<p>日期按所链接的中欧官网页面标注；同篇文章的编辑版与早期文章合并列示。</p>
+
 <!-- BEGIN CEIBS AUTO-UPDATED INSIGHTS -->
 <div class="speech-list">
 
   <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/30235" target="_blank"
+       title="AI接手基础任务后，企业仍需保留新人接触真实业务、获得导师指导并逐步承担责任的机会。">
+      “AI接手入门工作 年轻人从哪里起步” 36氪. 谭寅亮. 2026年11月.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/30042" target="_blank"
+       title="华勤技术的竞争力来自研发、供应链和制造知识的积累与复用；AI的价值取决于它能否进入核心业务流程。">
+      “华勤技术：在ODM红海中拼杀出的全球第一” 商学院杂志. 谭寅亮. 2026年9月.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29845" target="_blank"
+       title="免费用户的反馈可能改善AI产品，但企业还要权衡推理成本与付费替代；免费模式的盈利和用户福利效果取决于具体条件。">
+      “免费AI到底在赚什么” 财新网. 谭寅亮、鲁薏. 2026年9月.
+    </a>
+  </div>
+
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29709" target="_blank"
-       title="为什么要把今天与铁路相比？因为在资本开支强度和建设机制上，互联网并不是最接近的历史样本。2000年前后，美国广义信息与通信技术投资曾达到国内生产总值的约4.5%，但其中包括千千万万家企业购买计算机、软件和通信设备，是技术向全社会的分散扩散。若只看互联网底层的电信网络，美国上市电信运营商2000年的资本开支约1210亿美元，仅相当于当年国内生产总值的1....">
+       title="铁路建设史提示，技术进步与资本回报需要分别判断；AI投资应关注真实需求、资产利用率、现金流和融资结构。">
       “从铁路狂热到人工智能狂热：技术革命如何穿越资本泡沫” 36氪. 谭寅亮. 2026年9月.
     </a>
   </div>
 
 </div>
 
-<div style="display:none;">
-  Topics:
-</div>
-
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/new-papers-columns/29496" target="_blank"
-       title="如今，AI正作为新一轮科技革命的新引擎，重塑着全球投资格局。在A股市场，地产、金融等传统板块热度消退，而AI引领的半导体、算力基建、高端制造等则在持续“吸金”，这其实是中国经济换引擎、国家战略调整、资本市场重定位的合力写照。 中欧国际工商学院决策科学与管理信息系统学教授谭寅亮认为，在未来较长一段时间，A股最值得关注的结构性机会，并非泛泛意义上的“科技股...">
-      “投资A股时，怎么看硬科技公司？” 中欧国际工商学院. 谭寅亮. 2026年7月.
+    <a href="https://cn.ceibs.edu/new-papers-columns/29740" target="_blank"
+       title="人形机器人的商业化需要兼顾功能、使用场景和心理接受度，家庭服务与工业应用可能需要不同的设计。">
+      “人形机器人，为何做得越像人，用户越不敢买？” 中欧国际工商学院（转载自36氪）. 谭寅亮. 2026年8月.
     </a>
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank" style="font-size: 0.9rem;">早期文章（2026年2月9日）：从恐怖谷到信任谷：人形机器人商业化的隐形成本</a>
   </div>
 
-</div>
-
-<div style="display:none;">
-  Topics:
 </div>
 
 <div class="speech-list">
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29450" target="_blank"
-       title="当前，AI硬科技产业已形成一个高度专业化、深度全球化、彼此强依存的分工体系。不同经济体凭借各自的技术积累与产业禀赋，分别占据了产业链的关键环节，共同支撑起全球AI算力的庞大基座。中国在光模块、PCB等环节已具备全球竞争力和真实业绩支撑，这些环节既深度受益于全球AI产业的扩张，又不易被单一国家的政策所影响，构成了当前确定性最强的投资主线。同时，在高端芯片...">
+       title="讨论AI基础设施需求如何影响A股硬科技产业链，并强调产业趋势仍需经受估值、周期和业绩检验。">
       “上证观察家——人工智能浪潮下A股硬科技的重估逻辑” 上海证券报. 谭寅亮. 2026年7月.
     </a>
+    <a href="https://cn.ceibs.edu/new-papers-columns/29496" target="_blank" style="font-size: 0.9rem;">中欧编辑版（2026年7月7日）：投资A股时，怎么看硬科技公司？</a>
   </div>
 
-</div>
-
-<div style="display:none;">
-  Topics:
 </div>
 
 <div class="speech-list">
 
   <div class="speech-item">
     <a href="https://cn.ceibs.edu/media/press-clippings/faculty/29438" target="_blank"
-       title="上个月，OpenAI成立了OpenAI部署公司，初始投资超40亿美元，派遣FDE深入企业提供定制化AI构建服务，同时还通过收购AI咨询公司Tomoro，为新公司带来约150名的FDE。Anthropic则联手黑石、高盛等，成立了估值15亿美元的企业服务合资公司，同样采用FDE驻场模式推动Claude模型的深度部署。 该岗位的薪水待遇也很丰厚。Persp...">
+       title="FDE岗位的兴起反映AI商业化更加重视把模型能力嵌入企业流程，并验证实际业务成果。">
       “硅谷最热门工种来了！大厂为何集体招聘“前端部署工程师”？” 第一财经. 谭寅亮. 2026年6月.
     </a>
   </div>
 
-</div>
-
-<div style="display:none;">
-  Topics:
 </div>
 <!-- END CEIBS AUTO-UPDATED INSIGHTS -->
 
@@ -180,20 +201,6 @@ lang_pair: /en/speaking/
   Topics:
 </div>
 
-<div class="speech-list">
-
-  <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/28534" target="_blank"
-       title="人形机器人进入家庭的主要障碍不是技术，而是恐怖谷效应，家庭服务机器人应走非人化设计路线。">
-      "从恐怖谷到信任谷：人形机器人商业化的隐形成本" 36氪. 谭寅亮. 2026年2月.
-    </a>
-  </div>
-
-</div>
-
-<div style="display:none;">
-  Topics:
-</div>
 
 <div class="speech-list">
 
@@ -305,7 +312,7 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25424" target="_blank"
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27496" target="_blank"
        title="AI营销时代：GEO智能体重构内容基建">
       “AI营销时代：GEO智能体重构内容基建” 商学院杂志. 谭寅亮. 2025年9月.
     </a>
@@ -561,10 +568,11 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/27496" target="_blank"
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25424" target="_blank"
        title="“萝卜”，该快跑还是慢跑？| 数智前沿">
       ““萝卜”，该快跑还是慢跑？” 钛媒体. 谭寅亮. 2024年8月.
     </a>
+    <a href="https://cn.ceibs.edu/new-papers-columns/25516" target="_blank" style="font-size: 0.9rem;">中欧再版（2024年8月23日）：“萝卜”，该快跑还是慢跑？| 数智前沿</a>
   </div>
 
 </div>
@@ -606,7 +614,7 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25319" target="_blank"
+    <a href="https://cn.ceibs.edu/video/faculty/25319" target="_blank"
        title="行业“爆改”进行时，企业该不该“听劝”让自己AI化？">
       “行业“爆改”进行时，企业该不该“听劝”让自己AI化？” 第一财经. 谭寅亮. 2024年7月.
     </a>
@@ -621,9 +629,9 @@ lang_pair: /en/speaking/
 <div class="speech-list">
 
   <div class="speech-item">
-    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25233" target="_blank"
+    <a href="https://cn.ceibs.edu/media/press-clippings/faculty/25223" target="_blank"
        title="突围与蝶变——​中国大模型发展方兴未艾">
-      “突围与蝶变——​中国大模型发展方兴未艾” 《法人》杂志. 谭寅亮. 2024年6月.
+      “突围与蝶变——​中国大模型发展方兴未艾” 《法人》杂志. 李辽（采访谭寅亮）. 2024年6月.
     </a>
   </div>
 
@@ -631,6 +639,17 @@ lang_pair: /en/speaking/
 
 <div style="display:none;">
   Topics:
+</div>
+
+<div class="speech-list">
+
+  <div class="speech-item">
+    <a href="https://cn.ceibs.edu/video/faculty/25151" target="_blank"
+       title="第一财经关于中欧首届人工智能未来领导力论坛的视频报道。">
+      “2024年中欧首届人工智能未来领导力论坛举行 AI启未来：商业世界新引擎” 第一财经. 濮方可、谭寅亮（受访）. 2024年6月.
+    </a>
+  </div>
+
 </div>
 
 <div class="disclaimer-box">
@@ -641,7 +660,6 @@ lang_pair: /en/speaking/
     <strong>Statement:</strong> All my academic articles, media commentaries, opinion pieces, and interviews are listed on the personal website above and on official platforms or channels of CEIBS. These lists are updated in real time. Apart from the content listed, I have never published any other articles or given any interviews to media outlets.
   </p>
 </div>
-
 
 
 <script type="application/ld+json">

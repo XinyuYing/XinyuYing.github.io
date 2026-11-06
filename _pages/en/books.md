@@ -12,8 +12,8 @@ description: "Books authored, translated, and adapted by Professor Yinliang (Ric
   <article class="book-entry">
     <p class="book-entry__role">Book</p>
     <h2><a href="/en/books/ai-transformation/">AI Transformation in China: How Companies Are Rewiring Business for the Intelligent Era</a></h2>
-    <p>Yinliang (Ricky) Tan and Luis Liu</p>
-    <p>Tsinghua University Press</p>
+    <p>Yinliang (Ricky) Tan and Geng Liu</p>
+    <p>Tsinghua University Press · Chinese edition, July 2026</p>
     <a class="book-entry__link" href="/en/books/ai-transformation/">Book overview →</a>
   </article>
 
@@ -21,7 +21,7 @@ description: "Books authored, translated, and adapted by Professor Yinliang (Ric
     <p class="book-entry__role">Chinese Edition</p>
     <h2><a href="/en/books/smart-rivals/">Smart Rivals: How Innovative Companies Play Games That Tech Giants Can't Win</a></h2>
     <p>Feng Zhu and Bonnie Yining Cao; Chinese edition translated and adapted by Yinliang (Ricky) Tan</p>
-    <p>Publishing House of Electronics Industry</p>
+    <p>Publishing House of Electronics Industry · Chinese edition, January 2026</p>
     <a class="book-entry__link" href="/en/books/smart-rivals/">Book overview →</a>
   </article>
 </div>

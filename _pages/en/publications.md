@@ -59,6 +59,8 @@ lang_pair: /publications/
   .bibtex-code {
     display: block; 
     margin-top: 8px; padding: 10px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 0.85em; font-family: monospace;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
   }
 
   /* Hide AI keywords */
@@ -66,7 +68,150 @@ lang_pair: /publications/
 </style>
 
 
+<h2 id="forthcoming">Forthcoming</h2>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Shichen Zhang, Liang Peng, <b>Yinliang (Ricky) Tan</b>,
+    "AI Error or AI Creativity? Attributional Ambiguity in AI-Generated Expectation-Violating Pre-Rolls",
+    <i>Information &amp; Management</i>, Forthcoming.
+    <span class="pub-links">
+      <a href="https://www.ceibs.edu/node/30156" target="_blank" rel="noopener">[Official record]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{zhangforthcomingaierror,
+  title={AI Error or AI Creativity? Attributional Ambiguity in AI-Generated Expectation-Violating Pre-Rolls},
+  author={Zhang, Shichen and Peng, Liang and Tan, Yinliang},
+  journal={Information \&amp; Management},
+  note={Forthcoming},
+  url={https://www.ceibs.edu/node/30156}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Edward Anderson, Nitin Joglekar, Sunil Mithas, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>,
+    "Digital Platforms, Innovation, and Transformation in the Age of Artificial Intelligence",
+    <i>Production and Operations Management</i>, Forthcoming.
+    <span class="pub-links">
+      <a href="/files/Digital Platforms.pdf" target="_blank" rel="noopener">[Earlier abstract]</a> | <a href="https://www.ceibs.edu/teacher/25029" target="_blank" rel="noopener">[Official record]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{andersonforthcomingdigital,
+  title={Digital Platforms, Innovation, and Transformation in the Age of Artificial Intelligence},
+  author={Anderson, Edward and Joglekar, Nitin and Mithas, Sunil and Parker, Geoffrey and Tan, Yinliang},
+  journal={Production and Operations Management},
+  note={Forthcoming},
+  url={https://www.ceibs.edu/teacher/25029}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+</div>
+
+<hr>
+
 ## 2026
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang (Ricky) Tan</b>, Ling Zhong, Michelle Y. Lu, Jiajia Nie,
+    "Unlocking Profits in Generative AI: The Impact of AI Adaptive Learning on Freemium Strategy",
+    <i>Information Systems Research</i>, Articles in Advance.
+    <br><small>Published online: 2026-11-02</small>
+    <span class="pub-links">
+      <a href="https://pubsonline.informs.org/doi/10.1287/isre.2025.2140" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{tan2026unlocking,
+  title={Unlocking Profits in Generative AI: The Impact of AI Adaptive Learning on Freemium Strategy},
+  author={Tan, Yinliang and Zhong, Ling and Lu, Michelle Y. and Nie, Jiajia},
+  journal={Information Systems Research},
+  year={2026},
+  doi={10.1287/isre.2025.2140},
+  url={https://pubsonline.informs.org/doi/10.1287/isre.2025.2140}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>Core Insight</summary>
+    <div class="insight-content">An analytical model shows that effective adaptive learning can make a free AI version so attractive that it cannibalizes paid demand and lowers profit. Narrowing the initial capability gap between versions can improve profitability, and offering a free version need not increase consumer surplus.</div>
+  </details>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Xu Guan, Yaxu Guo, Yuan Jiang, Guangrui Ma, <b>Yinliang (Ricky) Tan</b>,
+    "Quality Verification in the Presence of Review Bias",
+    <i>Production and Operations Management</i>, 35(7), 2871–2889, 2026-07.
+    <br><small>Online-first version: 2026-04-08</small>
+    <span class="pub-links">
+      <a href="https://journals.sagepub.com/doi/10.1177/10591478261433279" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{guan2026quality,
+  title={Quality Verification in the Presence of Review Bias},
+  author={Guan, Xu and Guo, Yaxu and Jiang, Yuan and Ma, Guangrui and Tan, Yinliang},
+  journal={Production and Operations Management},
+  volume={35},
+  number={7},
+  pages={2871--2889},
+  year={2026},
+  doi={10.1177/10591478261433279},
+  url={https://journals.sagepub.com/doi/10.1177/10591478261433279}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>Core Insight</summary>
+    <div class="insight-content">The model compares quality verification before reviews appear with verification after reviews are observed. Early verification shapes beliefs but incurs upfront costs; responsive verification can selectively counter negatively biased reviews and may be more profitable when review volatility is high. The best approach depends on verification costs and review bias.</div>
+  </details>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang (Ricky) Tan</b>,
+    "The Hidden Impact of Prosumers and Its Fair Mitigation",
+    <i>Production and Operations Management</i>, 35(5), 1945–1963, 2026-05.
+    <br><small>Online-first version: 2025-11-24</small>
+    <span class="pub-links">
+      <a href="/files/2026 POMS Prosumer.pdf" target="_blank" rel="noopener">[PDF]</a> | <a href="https://journals.sagepub.com/doi/10.1177/10591478251394133" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{lee2026hidden,
+  title={The Hidden Impact of Prosumers and Its Fair Mitigation},
+  author={Lee, Junghee and Wei, Lai and Hu, Ming and Tan, Yinliang},
+  journal={Production and Operations Management},
+  volume={35},
+  number={5},
+  pages={1945--1963},
+  year={2026},
+  doi={10.1177/10591478251394133},
+  url={https://journals.sagepub.com/doi/10.1177/10591478251394133}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>Core Insight</summary>
+    <div class="insight-content">Intermittent prosumer generation can raise electricity prices for regular consumers. The model finds that conventional linear subsidies may widen disparity; a reverse-linear subsidy can achieve the same adoption level with less funding and lower disparity.</div>
+  </details>
+</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -114,7 +259,8 @@ This study reveals that while consumers' pursuit of social status enhances the p
   <div class="pub-citation">
     Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang (Ricky) Tan</b>
     "Quality management in supply chain: Strategic implications and the paradox of AI inspection", 
-    <i>Decision Sciences</i>, Mar 2025.
+    <i>Decision Sciences</i>, 56(5), 509–526, Oct 2025.
+    <br><small>Published online: 2025-03-07</small>
     
     <span class="pub-links">
       <a href="/files/2025 DSJ AI.pdf" target="_blank">[PDF]</a> | 
@@ -126,7 +272,11 @@ This study reveals that while consumers' pursuit of social status enhances the p
   title={Quality management in supply chain: Strategic implications and the paradox of AI inspection},
   author={Pei, Jun and Wang, Ruiqi and Yan, Ping and Tan, Yinliang},
   journal={Decision Sciences},
+  volume={56},
+  number={5},
+  pages={509--526},
   year={2025},
+  doi={10.1111/deci.70003},
   publisher={Wiley Online Library}
 }
         </div>
@@ -221,49 +371,45 @@ This study reveals that while consumers' pursuit of social status enhances the p
   </div>
 </div>
 
-<div class="pub-item">
-  <div class="pub-citation">
-    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang (Ricky) Tan</b>, 
-    "The Hidden Impact of Prosumers and Its Fair Mitigation", 
-    <i>Production and Operations Management</i>, Jul 2025.
-    
-    <span class="pub-links">
-      <a href="/files/2026 POMS Prosumer.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/full/10.1177/10591478251394133" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{lee2025hidden,
-  title={The Hidden Impact of Prosumers and Its Fair Mitigation},
-  author={Lee, Junghee and Wei, Lai and Hu, Ming and Tan, Yinliang},
-  journal={Production and Operations Management},
-  pages={10591478251394133},
-  year={2025},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
-}
 
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>Core Insight</summary>
-    <div class="insight-content">
-      This study reveals the 'hidden unfairness' that while prosumers are environmentally beneficial, they increase grid uncertainty leading to higher electricity bills for regular consumers. It proposes a 'fairness-aware fixed fee' mechanism to eliminate this cross-subsidy, achieving a win-win for environmental benefits and social equity.
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Prosumer, Electricity Price, Unfairness, Intervention
-  </div>
-</div>
 
 
 
 <hr>
 
 ## 2024
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Feiqiong Wei, <b>Yinliang (Ricky) Tan</b>, Haibing Gao, Huazhong Zhao,
+    "When investors meet consumers: The roles and interactions of different backers in the crowdfunding market",
+    <i>Decision Sciences</i>, 55(5), 474–490, 2024-10.
+    <br><small>Published online: 2023-08-04</small>
+    <span class="pub-links">
+      <a href="/files/2023 DSJ Crowdfunding.pdf" target="_blank" rel="noopener">[PDF]</a> | <a href="https://onlinelibrary.wiley.com/doi/10.1111/deci.12612" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{wei2024investors,
+  title={When investors meet consumers: The roles and interactions of different backers in the crowdfunding market},
+  author={Wei, Feiqiong and Tan, Yinliang and Gao, Haibing and Zhao, Huazhong},
+  journal={Decision Sciences},
+  volume={55},
+  number={5},
+  pages={474--490},
+  year={2024},
+  doi={10.1111/deci.12612},
+  url={https://onlinelibrary.wiley.com/doi/10.1111/deci.12612}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>Core Insight</summary>
+    <div class="insight-content">Using crowdfunding data, this empirical study finds that early investor contributions are positively associated with campaign success, with interactions between investors and consumers mediating this relationship.</div>
+  </details>
+</div>
 <div class="pub-item">
   <div class="pub-citation">
    Geng Sun, Yeongin Kim, <b>Yinliang (Ricky) Tan</b>, Geoffrey G. Parker
@@ -542,27 +688,35 @@ This study reveals that while consumers' pursuit of social status enhances the p
   </div>
 </div>
 
+
+
+
+<hr>
+
+## 2022
+
 <div class="pub-item">
   <div class="pub-citation">
-    Feiqiong Wei, <b>Yinliang (Ricky) Tan</b>, Haibing Gao, Huazhong Zhao
-    "When investors meet consumers: The roles and interactions of different backers in the crowdfunding market",    
-    <i>Decision Sciences</i>, Aug 2023. 
-    
+   Shuhua Sun, Michael Burke, Huaizhong Chen,<b>Yinliang (Ricky) Tan</b>, Jiantong Zhang, Lili Hou
+    "Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill",
+    <i>Human Relations</i>, 75(1), 87–112, Jan 2022.
+    <br><small>Published online: 2021-01-20</small>
+
     <span class="pub-links">
-      <a href="/files/2023 DSJ Crowdfunding.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/deci.12612" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2022 Human Resource.pdf" target="_blank">[PDF]</a> |
+      <a href="https://journals.sagepub.com/doi/abs/10.1177/0018726721992849" target="_blank">[Google Scholar]</a> |
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{wei2024investors,
-  title={When investors meet consumers: The roles and interactions of different backers in the crowdfunding market},
-  author={Wei, Feiqiong and Tan, Yinliang and Gao, Haibing and Zhao, Huazhong},
-  journal={Decision Sciences},
-  volume={55},
-  number={5},
-  pages={474--490},
-  year={2024},
-  publisher={Wiley Online Library}
+@article{sun2022mitigating,
+  title={Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill},
+  author={Sun, Shuhua and Burke, Michael and Chen, Huaizhong and Tan, Yinliang and Zhang, Jiantong and Hou, Lili},
+  journal={Human relations},
+  volume={75},
+  number={1},
+  pages={87--112},
+  year={2022},
+  publisher={Sage Publications Sage UK: London, England}
 }
         </div>
       </details>
@@ -572,19 +726,14 @@ This study reveals that while consumers' pursuit of social status enhances the p
   <details class="core-insight">
     <summary>Core Insight</summary>
     <div class="insight-content">
-    This study reveals significant and asymmetric interaction effects between consumers and investors in crowdfunding markets—consumers' early purchases serve as strong signals of market potential, effectively attracting investors. Entrepreneurs must strike a delicate balance between equity dividends and product pricing to achieve symbiosis between these two heterogeneous backer types and maximize project value.
+    This three-wave field study examines the relationship between supervisor undermining, employee voice, and political skill. It finds that political skill shapes how voice relates to the psychological effects of supervisor undermining.
     </div>
   </details>
 
   <div class="ai-only">
-    Keywords: backers' interaction, crowdfunding, investment-based, platform design, reward-based
+    Keywords: political skill, psychological empowerment, supervisor undermining, voice
   </div>
 </div>
-
-
-<hr>
-
-## 2022
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -629,44 +778,7 @@ This study reveals that while consumers' pursuit of social status enhances the p
 
 ## 2021
 
-<div class="pub-item">
-  <div class="pub-citation">
-   Shuhua Sun, Michael Burke, Huaizhong Chen,<b>Yinliang (Ricky) Tan</b>, Jiantong Zhang, Lili Hou
-    "Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill",    
-    <i>Human relations</i>, Jan 2021. 
-    
-    <span class="pub-links">
-      <a href="/files/2022 Human Resource.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1177/0018726721992849" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{sun2022mitigating,
-  title={Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill},
-  author={Sun, Shuhua and Burke, Michael and Chen, Huaizhong and Tan, Yinliang and Zhang, Jiantong and Hou, Lili},
-  journal={Human relations},
-  volume={75},
-  number={1},
-  pages={87--112},
-  year={2022},
-  publisher={Sage Publications Sage UK: London, England}
-}
-        </div>
-      </details>
-    </span>
-  </div>
 
-  <details class="core-insight">
-    <summary>Core Insight</summary>
-    <div class="insight-content">
-    Through a three-wave longitudinal survey of healthcare workers, this study finds that in response to supervisor undermining, employees' proactive voice is not always a remedy—only when employees possess high 'political skill' does voice serve as a psychological shield, effectively alleviating the distress of being undermined and suppressing turnover intentions.
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: political skill, psychological empowerment, supervisor undermining, voice
-  </div>
-</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -878,7 +990,7 @@ This study reveals that while consumers' pursuit of social status enhances the p
     <i>Production and Operations Management</i>, Mar 2019.
     
     <span class="pub-links">
-      <a href="/files/.pdf" target="_blank">[PDF]</a> | 
+      <a href="/files/2019%20POMS%20Dual%20Sourcing.pdf" target="_blank">[PDF]</a> |
       <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.12938" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>

@@ -11,6 +11,7 @@ fresh items automatically.
 from __future__ import annotations
 
 import argparse
+import gzip
 import html
 import re
 import sys
@@ -64,7 +65,12 @@ def fetch_text(url: str, retries: int = 3) -> str:
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 charset = response.headers.get_content_charset() or "utf-8"
-                return response.read().decode(charset, errors="replace")
+                payload = response.read()
+                # CEIBS can send gzip even without an Accept-Encoding request.
+                # urllib leaves compressed response bodies undecoded.
+                if response.headers.get("Content-Encoding", "").lower() == "gzip" or payload.startswith(b"\x1f\x8b"):
+                    payload = gzip.decompress(payload)
+                return payload.decode(charset, errors="replace")
         except (urllib.error.URLError, TimeoutError) as exc:
             last_error = exc
             if attempt < retries:

@@ -12,7 +12,9 @@ description: "朱峰、曹沂宁著，谭寅亮编译《聪明的对手：如何
 <p><strong>作者：</strong>朱峰、曹沂宁</p>
 <p><strong>中文版编译：</strong>谭寅亮</p>
 <p><strong>出版社：</strong>电子工业出版社</p>
+<p><strong>出版时间：</strong>2026 年 1 月（中文版）</p>
 <p><strong>ISBN：</strong>978-7-121-51721-1</p>
+<p><a href="https://cn.ceibs.edu/teacher/25029" target="_blank" rel="noopener">中欧官方著作信息 ↗</a></p>
 
 <h2 class="book-detail__heading">内容简介</h2>
 

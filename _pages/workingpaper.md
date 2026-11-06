@@ -18,15 +18,8 @@ lang_pair: /en/workingpaper/
   }
 </style>
 
-## Selected Working Papers
+## 论文状态更新
 
-1. **Digital Platforms, Innovation, and Transformations in the Age of Artificial Intelligence**
-   <br> Edward Anderson, Nitin Joglekar, Sunil Mithas, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>
-   <br>
-   [[PDF (Abstract Only)]](/files/Digital Platforms.pdf) 
-   <br>
-   <small style="color: gray;">
-   This is for editorial review of the Special Issue of Production and Operations Management “New Business Models and Operations Innovations”.
-   </small>
+此前在本页列示的 **Digital Platforms, Innovation, and Transformation in the Age of Artificial Intelligence** 已获 <em>Production and Operations Management</em> 录用，现列于[学术研究页的已录用论文](/publications/#forthcoming)。
 
----
+[中欧官方信息](https://www.ceibs.edu/teacher/25029) · [早期摘要（PDF）](/files/Digital%20Platforms.pdf)

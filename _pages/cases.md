@@ -88,6 +88,7 @@ lang_pair: /en/cases/
   <li class="case-item">
     <span class="case-title-cn">璞康科技：AI如何驱动商业价值与生产力提升</span>
     <span class="case-title-en">POOK Technology: How AI Drives Business Value and Enhances Productivity</span>
+    <span class="case-title-en">谭寅亮、刘耿共同开发；2026 年 10 月入选英国《金融时报》全球畅销新案例前 15 名。<a href="https://www.ceibs.edu/teacher/25029" target="_blank" rel="noopener">中欧官方介绍 ↗</a></span>
   </li>
 
   <li class="case-item">

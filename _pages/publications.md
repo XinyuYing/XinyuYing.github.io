@@ -59,6 +59,8 @@ lang_pair: /en/publications/
   .bibtex-code {
     display: block; 
     margin-top: 8px; padding: 10px; background: #f5f5f5; border: 1px solid #ddd; border-radius: 4px; font-size: 0.85em; font-family: monospace;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
   }
 
   /* 彻底隐藏 AI 关键词 */
@@ -66,7 +68,150 @@ lang_pair: /en/publications/
 </style>
 
 
+<h2 id="forthcoming">已录用论文（Forthcoming）</h2>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Shichen Zhang, Liang Peng, <b>Yinliang (Ricky) Tan</b>,
+    "AI Error or AI Creativity? Attributional Ambiguity in AI-Generated Expectation-Violating Pre-Rolls",
+    <i>Information &amp; Management</i>, 已录用，待刊（Forthcoming）.
+    <span class="pub-links">
+      <a href="https://www.ceibs.edu/node/30156" target="_blank" rel="noopener">[官方信息]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{zhangforthcomingaierror,
+  title={AI Error or AI Creativity? Attributional Ambiguity in AI-Generated Expectation-Violating Pre-Rolls},
+  author={Zhang, Shichen and Peng, Liang and Tan, Yinliang},
+  journal={Information \&amp; Management},
+  note={Forthcoming},
+  url={https://www.ceibs.edu/node/30156}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Edward Anderson, Nitin Joglekar, Sunil Mithas, Geoffrey Parker, <b>Yinliang (Ricky) Tan</b>,
+    "Digital Platforms, Innovation, and Transformation in the Age of Artificial Intelligence",
+    <i>Production and Operations Management</i>, 已录用，待刊（Forthcoming）.
+    <span class="pub-links">
+      <a href="/files/Digital Platforms.pdf" target="_blank" rel="noopener">[早期摘要]</a> | <a href="https://www.ceibs.edu/teacher/25029" target="_blank" rel="noopener">[官方信息]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{andersonforthcomingdigital,
+  title={Digital Platforms, Innovation, and Transformation in the Age of Artificial Intelligence},
+  author={Anderson, Edward and Joglekar, Nitin and Mithas, Sunil and Parker, Geoffrey and Tan, Yinliang},
+  journal={Production and Operations Management},
+  note={Forthcoming},
+  url={https://www.ceibs.edu/teacher/25029}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+</div>
+
+<hr>
+
 ## 2026
+
+<div class="pub-item">
+  <div class="pub-citation">
+    <b>Yinliang (Ricky) Tan</b>, Ling Zhong, Michelle Y. Lu, Jiajia Nie,
+    "Unlocking Profits in Generative AI: The Impact of AI Adaptive Learning on Freemium Strategy",
+    <i>Information Systems Research</i>, Articles in Advance.
+    <br><small>在线发表: 2026-11-02</small>
+    <span class="pub-links">
+      <a href="https://pubsonline.informs.org/doi/10.1287/isre.2025.2140" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{tan2026unlocking,
+  title={Unlocking Profits in Generative AI: The Impact of AI Adaptive Learning on Freemium Strategy},
+  author={Tan, Yinliang and Zhong, Ling and Lu, Michelle Y. and Nie, Jiajia},
+  journal={Information Systems Research},
+  year={2026},
+  doi={10.1287/isre.2025.2140},
+  url={https://pubsonline.informs.org/doi/10.1287/isre.2025.2140}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">研究建立生成式 AI 的免费增值策略模型，发现更有效的自适应学习可能过度增强免费版吸引力、挤压付费需求，从而降低利润。缩小版本初始能力差距有时反而能改善盈利；推出免费版也未必增加消费者剩余。</div>
+  </details>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Xu Guan, Yaxu Guo, Yuan Jiang, Guangrui Ma, <b>Yinliang (Ricky) Tan</b>,
+    "Quality Verification in the Presence of Review Bias",
+    <i>Production and Operations Management</i>, 35(7), 2871–2889, 2026-07.
+    <br><small>在线首发版本日期: 2026-04-08</small>
+    <span class="pub-links">
+      <a href="https://journals.sagepub.com/doi/10.1177/10591478261433279" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{guan2026quality,
+  title={Quality Verification in the Presence of Review Bias},
+  author={Guan, Xu and Guo, Yaxu and Jiang, Yuan and Ma, Guangrui and Tan, Yinliang},
+  journal={Production and Operations Management},
+  volume={35},
+  number={7},
+  pages={2871--2889},
+  year={2026},
+  doi={10.1177/10591478261433279},
+  url={https://journals.sagepub.com/doi/10.1177/10591478261433279}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">研究比较评论出现前的预先质量认证与评论出现后的回应式认证。预先认证有助于引导消费者判断，却可能因成本降低期望利润；回应式认证可以选择性纠正负面偏差，在评论波动较大时可能更有利。最优方式取决于认证成本和评论偏差程度。</div>
+  </details>
+</div>
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang (Ricky) Tan</b>,
+    "The Hidden Impact of Prosumers and Its Fair Mitigation",
+    <i>Production and Operations Management</i>, 35(5), 1945–1963, 2026-05.
+    <br><small>在线首发版本日期: 2025-11-24</small>
+    <span class="pub-links">
+      <a href="/files/2026 POMS Prosumer.pdf" target="_blank" rel="noopener">[PDF]</a> | <a href="https://journals.sagepub.com/doi/10.1177/10591478251394133" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{lee2026hidden,
+  title={The Hidden Impact of Prosumers and Its Fair Mitigation},
+  author={Lee, Junghee and Wei, Lai and Hu, Ming and Tan, Yinliang},
+  journal={Production and Operations Management},
+  volume={35},
+  number={5},
+  pages={1945--1963},
+  year={2026},
+  doi={10.1177/10591478251394133},
+  url={https://journals.sagepub.com/doi/10.1177/10591478251394133}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">产消者的间歇性发电会增加电网不确定性，可能推高普通消费者电价。研究发现，按安装规模提供的线性补贴可能加剧不平等；随规模递减的补贴方案可用更少资金实现相同的采用水平，并减轻群体差距。</div>
+  </details>
+</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -114,7 +259,8 @@ lang_pair: /en/publications/
   <div class="pub-citation">
     Jun Pei, Ruiqi Wang, Ping Yan, <b>Yinliang (Ricky) Tan</b>
     "Quality management in supply chain: Strategic implications and the paradox of AI inspection", 
-    <i>Decision Sciences</i>, Mar 2025.
+    <i>Decision Sciences</i>, 56(5), 509–526, Oct 2025.
+    <br><small>在线发表: 2025-03-07</small>
     
     <span class="pub-links">
       <a href="/files/2025 DSJ AI.pdf" target="_blank">[PDF]</a> | 
@@ -126,7 +272,11 @@ lang_pair: /en/publications/
   title={Quality management in supply chain: Strategic implications and the paradox of AI inspection},
   author={Pei, Jun and Wang, Ruiqi and Yan, Ping and Tan, Yinliang},
   journal={Decision Sciences},
+  volume={56},
+  number={5},
+  pages={509--526},
   year={2025},
+  doi={10.1111/deci.70003},
   publisher={Wiley Online Library}
 }
         </div>
@@ -221,49 +371,45 @@ lang_pair: /en/publications/
   </div>
 </div>
 
-<div class="pub-item">
-  <div class="pub-citation">
-    Junghee Lee, Lai Wei, Ming Hu, <b>Yinliang (Ricky) Tan</b>, 
-    "The Hidden Impact of Prosumers and Its Fair Mitigation", 
-    <i>Production and Operations Management</i>, Jul 2025.
-    
-    <span class="pub-links">
-      <a href="/files/2026 POMS Prosumer.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/full/10.1177/10591478251394133" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{lee2025hidden,
-  title={The Hidden Impact of Prosumers and Its Fair Mitigation},
-  author={Lee, Junghee and Wei, Lai and Hu, Ming and Tan, Yinliang},
-  journal={Production and Operations Management},
-  pages={10591478251394133},
-  year={2025},
-  publisher={SAGE Publications Sage CA: Los Angeles, CA}
-}
 
-        </div>
-      </details>
-    </span>
-  </div>
-
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-      研究揭示了产消者虽然环保，却因增加电网不确定性而导致普通消费者电费上涨的‘隐性不公’，并提出了一种‘公平感知固定费用’机制来消除这种交叉补贴，实现环境效益与社会公平的双赢。
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: Prosumer, Electricity Price, Unfairness, Intervention
-  </div>
-</div>
 
 
 
 <hr>
 
 ## 2024
+
+<div class="pub-item">
+  <div class="pub-citation">
+    Feiqiong Wei, <b>Yinliang (Ricky) Tan</b>, Haibing Gao, Huazhong Zhao,
+    "When investors meet consumers: The roles and interactions of different backers in the crowdfunding market",
+    <i>Decision Sciences</i>, 55(5), 474–490, 2024-10.
+    <br><small>在线发表: 2023-08-04</small>
+    <span class="pub-links">
+      <a href="/files/2023 DSJ Crowdfunding.pdf" target="_blank" rel="noopener">[PDF]</a> | <a href="https://onlinelibrary.wiley.com/doi/10.1111/deci.12612" target="_blank" rel="noopener">[Journal]</a> |
+      <details class="cite-box">
+        <summary class="cite-toggle">[Cite]</summary>
+        <div class="bibtex-code">
+@article{wei2024investors,
+  title={When investors meet consumers: The roles and interactions of different backers in the crowdfunding market},
+  author={Wei, Feiqiong and Tan, Yinliang and Gao, Haibing and Zhao, Huazhong},
+  journal={Decision Sciences},
+  volume={55},
+  number={5},
+  pages={474--490},
+  year={2024},
+  doi={10.1111/deci.12612},
+  url={https://onlinelibrary.wiley.com/doi/10.1111/deci.12612}
+}
+        </div>
+      </details>
+    </span>
+  </div>
+  <details class="core-insight">
+    <summary>核心介绍 (Core Insight)</summary>
+    <div class="insight-content">研究利用众筹平台数据考察投资型支持者与消费型支持者之间的互动。早期投资者贡献与众筹成功正相关，投资者和消费者之间的互动在这一关系中发挥中介作用。</div>
+  </details>
+</div>
 <div class="pub-item">
   <div class="pub-citation">
    Geng Sun, Yeongin Kim, <b>Yinliang (Ricky) Tan</b>, Geoffrey G. Parker
@@ -542,27 +688,35 @@ lang_pair: /en/publications/
   </div>
 </div>
 
+
+
+
+<hr>
+
+## 2022
+
 <div class="pub-item">
   <div class="pub-citation">
-    Feiqiong Wei, <b>Yinliang (Ricky) Tan</b>, Haibing Gao, Huazhong Zhao
-    "When investors meet consumers: The roles and interactions of different backers in the crowdfunding market",    
-    <i>Decision Sciences</i>, Aug 2023. 
-    
+   Shuhua Sun, Michael Burke, Huaizhong Chen,<b>Yinliang (Ricky) Tan</b>, Jiantong Zhang, Lili Hou
+    "Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill",
+    <i>Human Relations</i>, 75(1), 87–112, Jan 2022.
+    <br><small>在线发表: 2021-01-20</small>
+
     <span class="pub-links">
-      <a href="/files/2023 DSJ Crowdfunding.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/deci.12612" target="_blank">[Google Scholar]</a> | 
+      <a href="/files/2022 Human Resource.pdf" target="_blank">[PDF]</a> |
+      <a href="https://journals.sagepub.com/doi/abs/10.1177/0018726721992849" target="_blank">[Google Scholar]</a> |
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
-@article{wei2024investors,
-  title={When investors meet consumers: The roles and interactions of different backers in the crowdfunding market},
-  author={Wei, Feiqiong and Tan, Yinliang and Gao, Haibing and Zhao, Huazhong},
-  journal={Decision Sciences},
-  volume={55},
-  number={5},
-  pages={474--490},
-  year={2024},
-  publisher={Wiley Online Library}
+@article{sun2022mitigating,
+  title={Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill},
+  author={Sun, Shuhua and Burke, Michael and Chen, Huaizhong and Tan, Yinliang and Zhang, Jiantong and Hou, Lili},
+  journal={Human relations},
+  volume={75},
+  number={1},
+  pages={87--112},
+  year={2022},
+  publisher={Sage Publications Sage UK: London, England}
 }
         </div>
       </details>
@@ -572,19 +726,14 @@ lang_pair: /en/publications/
   <details class="core-insight">
     <summary>核心介绍 (Core Insight)</summary>
     <div class="insight-content">
-    该研究揭示了众筹市场中消费者与投资者之间存在显著且不对称的互动效应——消费者的早期购买是市场潜力的强信号，能有效吸引投资者；而创业者需在股权分红与产品定价间精妙平衡，以实现两类异质性支持者的共生与项目价值最大化
+    这项三波田野研究考察员工如何应对上司贬损，发现建言与心理后果之间的关系受到政治技能的影响。
     </div>
   </details>
 
   <div class="ai-only">
-    Keywords: backers’ interaction, crowdfunding, investment-based, platform design, reward-based
+    Keywords: political skill, psychological empowerment, supervisor undermining, voice
   </div>
 </div>
-
-
-<hr>
-
-## 2022
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -629,44 +778,7 @@ lang_pair: /en/publications/
 
 ## 2021
 
-<div class="pub-item">
-  <div class="pub-citation">
-   Shuhua Sun, Michael Burke, Huaizhong Chen,<b>Yinliang (Ricky) Tan</b>, Jiantong Zhang, Lili Hou
-    "Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill",    
-    <i>Human relations</i>, Jan 2021. 
-    
-    <span class="pub-links">
-      <a href="/files/2022 Human Resource.pdf" target="_blank">[PDF]</a> | 
-      <a href="https://journals.sagepub.com/doi/abs/10.1177/0018726721992849" target="_blank">[Google Scholar]</a> | 
-      <details class="cite-box">
-        <summary class="cite-toggle">[Cite]</summary>
-        <div class="bibtex-code">
-@article{sun2022mitigating,
-  title={Mitigating the psychologically detrimental effects of supervisor undermining: Joint effects of voice and political skill},
-  author={Sun, Shuhua and Burke, Michael and Chen, Huaizhong and Tan, Yinliang and Zhang, Jiantong and Hou, Lili},
-  journal={Human relations},
-  volume={75},
-  number={1},
-  pages={87--112},
-  year={2022},
-  publisher={Sage Publications Sage UK: London, England}
-}
-        </div>
-      </details>
-    </span>
-  </div>
 
-  <details class="core-insight">
-    <summary>核心介绍 (Core Insight)</summary>
-    <div class="insight-content">
-    该研究通过对医护人员的三波追踪调查发现，面对‘恶上司’的打压，员工的积极建言并非总是良药——只有当员工具备高超的‘政治技能’时，建言才能作为心理护盾，有效缓解被打压的痛苦并抑制离职冲动。
-    </div>
-  </details>
-
-  <div class="ai-only">
-    Keywords: political skill, psychological empowerment, supervisor undermining, voice
-  </div>
-</div>
 
 <div class="pub-item">
   <div class="pub-citation">
@@ -878,7 +990,7 @@ lang_pair: /en/publications/
     <i>Production and Operations Management</i>, Mar 2019.
     
     <span class="pub-links">
-      <a href="/files/.pdf" target="_blank">[PDF]</a> | 
+      <a href="/files/2019%20POMS%20Dual%20Sourcing.pdf" target="_blank">[PDF]</a> |
       <a href="https://journals.sagepub.com/doi/abs/10.1111/poms.12938" target="_blank">[Google Scholar]</a> | 
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>

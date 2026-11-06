@@ -11,7 +11,9 @@ description: "谭寅亮、刘耿著《智能跃迁：中国企业的AI转型实�
 <div class="book-detail" markdown="1">
 <p><strong>作者：</strong>谭寅亮、刘耿</p>
 <p><strong>出版社：</strong>清华大学出版社</p>
+<p><strong>出版时间：</strong>2026 年 7 月（中文版）</p>
 <p><strong>ISBN：</strong>978-7-302-72442-1</p>
+<p><a href="https://cn.ceibs.edu/teacher/25029" target="_blank" rel="noopener">中欧官方著作信息 ↗</a></p>
 
 <h2 class="book-detail__heading">内容简介</h2>
 
