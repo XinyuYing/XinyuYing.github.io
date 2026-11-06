@@ -1,9 +1,9 @@
 name: Update Speaking Insights
 
 on:
-  schedule:
-    # 11:20 Asia/Shanghai on the first day of every month.
-    - cron: "20 3 1 * *"
+  # Codex automation "yrtan.com 月末内容更新" handles bilingual content updates
+  # at 20:00 Asia/Shanghai on the last day of each month.
+  # Keep this CEIBS-only updater available for manual runs.
   workflow_dispatch:
 
 permissions:
