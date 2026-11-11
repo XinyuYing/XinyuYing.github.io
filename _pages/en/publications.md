@@ -76,7 +76,7 @@ lang_pair: /publications/
     "AI Error or AI Creativity? Attributional Ambiguity in AI-Generated Expectation-Violating Pre-Rolls",
     <i>Information &amp; Management</i>, Forthcoming.
     <span class="pub-links">
-      <a href="https://www.ceibs.edu/node/30156" target="_blank" rel="noopener">[Official record]</a> |
+      <a href="/files/2026-IM-AI-Prerolls.pdf" target="_blank" rel="noopener" download>[PDF]</a> | <a href="https://www.ceibs.edu/node/30156" target="_blank" rel="noopener">[Official record]</a> |
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
@@ -127,7 +127,7 @@ lang_pair: /publications/
     <i>Information Systems Research</i>, Articles in Advance.
     <br><small>Published online: 2026-11-02</small>
     <span class="pub-links">
-      <a href="https://pubsonline.informs.org/doi/10.1287/isre.2025.2140" target="_blank" rel="noopener">[Journal]</a> |
+      <a href="/files/2026-ISR-AI-Learning.pdf" target="_blank" rel="noopener" download>[PDF]</a> | <a href="https://pubsonline.informs.org/doi/10.1287/isre.2025.2140" target="_blank" rel="noopener">[Journal]</a> |
       <details class="cite-box">
         <summary class="cite-toggle">[Cite]</summary>
         <div class="bibtex-code">
