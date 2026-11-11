@@ -571,8 +571,34 @@ h6,
   }
 }
 
+/* Reserve room for complete desktop menus in smaller computer windows. */
+@media (min-width: 925px) and (max-width: 1279.98px) {
+  .site-title {
+    width: var(--site-avatar-width) !important;
+    flex-basis: var(--site-avatar-width);
+    padding-right: 0;
+  }
+
+  .desktop-nav .has-dropdown .dropdown-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+
+    i {
+      position: static;
+      transform: none;
+    }
+  }
+
+  .desktop-nav .has-dropdown:hover .dropdown-toggle i,
+  .desktop-nav .has-dropdown.open .dropdown-toggle i {
+    transform: rotate(180deg);
+  }
+}
+
+/* Match the content layout's $large (925px) breakpoint. */
 /* ===== Responsive: mobile ===== */
-@media (max-width: 1279px) {
+@media not all and (min-width: 925px) {
   .desktop-nav { display: none !important; }
   .mobile-nav-toggle,
   .mobile-nav-toggle.hidden {
@@ -591,7 +617,7 @@ h6,
 }
 
 /* ===== Responsive: desktop ===== */
-@media (min-width: 1280px) {
+@media (min-width: 925px) {
   .mobile-nav { display: none !important; }
   .mobile-nav-toggle { display: none !important; }
 }
